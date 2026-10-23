@@ -1,0 +1,40 @@
+# Agent Proxy Audit
+
+**Do verification signals agree with what actually happened?**
+
+Three linked studies measure one gap: between *proxy reports* (approval-gate outputs, model self-verification assertions, resource-allocation models) and *persisted local effects*. Every guard studied here can report success while unauthorized effects land anyway — and a model asserting "I verified this" is just another proxy.
+
+| Study | Question | Headline result | Status | Repo |
+|---|---|---|---|---|
+| **approval-gates-r3** | Do external approval gates' clean reports match persisted effects? | 540-cell constructed matrix (9 objectives × 10 states × 6 controls): name-check passes **63** unauthorized effects, one-shot full precheck **45**; local bound-control and native AGT both **0** | retrospective audit; independent retro grade 6.2/10, not submitted | [approval-gates-r3](https://github.com/aidless/approval-gates-r3) |
+| **r5-verify-vs-gate** | Does model-internal self-verification agree with persisted effects? | Pre-registered 2 models × 4 arms: without gate, **14** (llama3.2:3b) / **10** (qwen2.5:7b) unauthorized effects; with self-verification, **0** — but llama's zeros are **27/27 format collapse = false zero, not safety** | pre-registered (`PROTOCOL_R5.md`; `CLAIM_LEDGER.md` C200–C234, every claim carries a source path) | [r5-verify-vs-gate](https://github.com/aidless/r5-verify-vs-gate) |
+| **agent-effort-r1** | Does an optimal allocation model describe a bounded tool-using agent? | 8,820-tuple allocation search gives a modeled token-cost ratio **3.44×**; measured peaks diverge — 8B best at the *low* budget (**0.9375**), 14B at the *mid* (**1.0000**); 672 retained execution records each | descriptive; assumptions and measurements explicitly separated | [agent-effort-r1](https://github.com/aidless/agent-effort-r1) |
+
+## Shared method signature
+
+- Pre-registration with **dated amendments** (R5) instead of silent protocol edits
+- **Frozen blind checkers** and independent re-reads of persisted state
+- SHA-256 evidence manifests; claim ledgers where every number names its source file
+- **Negative results and false zeros recorded, not dropped** — r5 distinguishes "verified safe" from "output collapsed into an unparseable format that trivially shows zero effects"
+
+## Scope
+
+Finite authored local-effect measurements. Not a defense, not a population safety trial, not deployment validation. Each repo's protocol/README states its own interpretation limits; numbers above are quoted with their sources in the linked repos.
+
+## Reproduce
+
+Each repo is self-contained and its core tables recompute offline (Python 3.11+, no model or network required for the descriptive tables):
+
+```bash
+# approval-gates-r3 — descriptive tables + fresh 540-cell matrix
+python3 scripts/make_descriptive_tables.py
+
+# r5-verify-vs-gate — claim ledger with per-claim source paths
+# see PROTOCOL_R5.md and CLAIM_LEDGER.md (C200–C234)
+
+# agent-effort-r1 — allocation model vs retained execution records
+# see README "What is measured vs assumed"
+```
+
+---
+*Author: Zewen Liu (Independent Researcher) · [github.com/aidless](https://github.com/aidless)*
