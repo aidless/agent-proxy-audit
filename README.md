@@ -21,6 +21,21 @@ Three linked studies measure one gap: between *proxy reports* (approval-gate out
 
 Finite authored local-effect measurements. Not a defense, not a population safety trial, not deployment validation. Each repo's protocol/README states its own interpretation limits; numbers above are quoted with their sources in the linked repos.
 
+## Pilot replications of 2026 work (Oct 2026)
+
+Two recent papers measure adjacent gaps — a harness deciding success when state
+cannot be re-observed (arXiv:2610.26632), and deletion leaving residue in an
+agent's derived memory (arXiv:2610.31366). [`replications/2026-10-harness-and-deletion/`](replications/2026-10-harness-and-deletion/)
+contains close readings of those two plus two related papers, and pilot
+replications on local Qwen2.5-7B with the scripts and raw records.
+
+Headline pilot results: truncating a window cost success **0/6** when the fact
+was not recoverable and **6/6** when it was; deleting a source record still left
+the secret recoverable **20/20**, against **0/20** in a matched never-exposed
+world and **0/20** after provenance closure. These are pilot-scale replications,
+not the published protocols — the folder states what does and does not
+replicate.
+
 ## Reproduce
 
 Each repo is self-contained and its core tables recompute offline (Python 3.11+, no model or network required for the descriptive tables):

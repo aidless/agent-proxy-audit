@@ -1,0 +1,440 @@
+{
+  "model": "qwen2.5:7b",
+  "profiles": 20,
+  "rows": [
+    {
+      "profile": 0,
+      "cond": "forget",
+      "target": "SOUTH-XCJU-119",
+      "reply": "SOUTH-XCJU-119",
+      "recovered": true
+    },
+    {
+      "profile": 0,
+      "cond": "clean",
+      "target": "SOUTH-XCJU-119",
+      "reply": "UNKNOWN",
+      "recovered": false
+    },
+    {
+      "profile": 0,
+      "cond": "closure",
+      "target": "SOUTH-XCJU-119",
+      "reply": "UNKNOWN",
+      "recovered": false
+    },
+    {
+      "profile": 1,
+      "cond": "forget",
+      "target": "SOUTH-QYBX-770",
+      "reply": "SOUTH-QYBX-770",
+      "recovered": true
+    },
+    {
+      "profile": 1,
+      "cond": "clean",
+      "target": "SOUTH-QYBX-770",
+      "reply": "UNKNOWN",
+      "recovered": false
+    },
+    {
+      "profile": 1,
+      "cond": "closure",
+      "target": "SOUTH-QYBX-770",
+      "reply": "UNKNOWN",
+      "recovered": false
+    },
+    {
+      "profile": 2,
+      "cond": "forget",
+      "target": "NORTH-KQUQ-727",
+      "reply": "NORTH-KQUQ-727",
+      "recovered": true
+    },
+    {
+      "profile": 2,
+      "cond": "clean",
+      "target": "NORTH-KQUQ-727",
+      "reply": "UNKNOWN",
+      "recovered": false
+    },
+    {
+      "profile": 2,
+      "cond": "closure",
+      "target": "NORTH-KQUQ-727",
+      "reply": "UNKNOWN",
+      "recovered": false
+    },
+    {
+      "profile": 3,
+      "cond": "forget",
+      "target": "EAST-MQFY-278",
+      "reply": "EAST-MQFY-278",
+      "recovered": true
+    },
+    {
+      "profile": 3,
+      "cond": "clean",
+      "target": "EAST-MQFY-278",
+      "reply": "UNKNOWN",
+      "recovered": false
+    },
+    {
+      "profile": 3,
+      "cond": "closure",
+      "target": "EAST-MQFY-278",
+      "reply": "UNKNOWN",
+      "recovered": false
+    },
+    {
+      "profile": 4,
+      "cond": "forget",
+      "target": "WEST-NPSI-360",
+      "reply": "WEST-NPSI-360",
+      "recovered": true
+    },
+    {
+      "profile": 4,
+      "cond": "clean",
+      "target": "WEST-NPSI-360",
+      "reply": "UNKNOWN",
+      "recovered": false
+    },
+    {
+      "profile": 4,
+      "cond": "closure",
+      "target": "WEST-NPSI-360",
+      "reply": "UNKNOWN",
+      "recovered": false
+    },
+    {
+      "profile": 5,
+      "cond": "forget",
+      "target": "EAST-KJCB-962",
+      "reply": "EAST-KJCB-962",
+      "recovered": true
+    },
+    {
+      "profile": 5,
+      "cond": "clean",
+      "target": "EAST-KJCB-962",
+      "reply": "UNKNOWN",
+      "recovered": false
+    },
+    {
+      "profile": 5,
+      "cond": "closure",
+      "target": "EAST-KJCB-962",
+      "reply": "UNKNOWN",
+      "recovered": false
+    },
+    {
+      "profile": 6,
+      "cond": "forget",
+      "target": "WEST-BEJX-614",
+      "reply": "WEST-BEJX-614",
+      "recovered": true
+    },
+    {
+      "profile": 6,
+      "cond": "clean",
+      "target": "WEST-BEJX-614",
+      "reply": "UNKNOWN",
+      "recovered": false
+    },
+    {
+      "profile": 6,
+      "cond": "closure",
+      "target": "WEST-BEJX-614",
+      "reply": "UNKNOWN",
+      "recovered": false
+    },
+    {
+      "profile": 7,
+      "cond": "forget",
+      "target": "SOUTH-EICL-345",
+      "reply": "SOUTH-EICL-345",
+      "recovered": true
+    },
+    {
+      "profile": 7,
+      "cond": "clean",
+      "target": "SOUTH-EICL-345",
+      "reply": "UNKNOWN",
+      "recovered": false
+    },
+    {
+      "profile": 7,
+      "cond": "closure",
+      "target": "SOUTH-EICL-345",
+      "reply": "UNKNOWN",
+      "recovered": false
+    },
+    {
+      "profile": 8,
+      "cond": "forget",
+      "target": "NORTH-RJKO-157",
+      "reply": "NORTH-RJKO-157",
+      "recovered": true
+    },
+    {
+      "profile": 8,
+      "cond": "clean",
+      "target": "NORTH-RJKO-157",
+      "reply": "UNKNOWN",
+      "recovered": false
+    },
+    {
+      "profile": 8,
+      "cond": "closure",
+      "target": "NORTH-RJKO-157",
+      "reply": "UNKNOWN",
+      "recovered": false
+    },
+    {
+      "profile": 9,
+      "cond": "forget",
+      "target": "NORTH-MGCP-603",
+      "reply": "NORTH-MGCP-603",
+      "recovered": true
+    },
+    {
+      "profile": 9,
+      "cond": "clean",
+      "target": "NORTH-MGCP-603",
+      "reply": "UNKNOWN",
+      "recovered": false
+    },
+    {
+      "profile": 9,
+      "cond": "closure",
+      "target": "NORTH-MGCP-603",
+      "reply": "UNKNOWN",
+      "recovered": false
+    },
+    {
+      "profile": 10,
+      "cond": "forget",
+      "target": "NORTH-RBVP-290",
+      "reply": "NORTH-RBVP-290",
+      "recovered": true
+    },
+    {
+      "profile": 10,
+      "cond": "clean",
+      "target": "NORTH-RBVP-290",
+      "reply": "UNKNOWN",
+      "recovered": false
+    },
+    {
+      "profile": 10,
+      "cond": "closure",
+      "target": "NORTH-RBVP-290",
+      "reply": "UNKNOWN",
+      "recovered": false
+    },
+    {
+      "profile": 11,
+      "cond": "forget",
+      "target": "EAST-WWXH-113",
+      "reply": "EAST-WWXH-113",
+      "recovered": true
+    },
+    {
+      "profile": 11,
+      "cond": "clean",
+      "target": "EAST-WWXH-113",
+      "reply": "UNKNOWN",
+      "recovered": false
+    },
+    {
+      "profile": 11,
+      "cond": "closure",
+      "target": "EAST-WWXH-113",
+      "reply": "UNKNOWN",
+      "recovered": false
+    },
+    {
+      "profile": 12,
+      "cond": "forget",
+      "target": "NORTH-QANC-395",
+      "reply": "NORTH-QANC-395",
+      "recovered": true
+    },
+    {
+      "profile": 12,
+      "cond": "clean",
+      "target": "NORTH-QANC-395",
+      "reply": "UNKNOWN",
+      "recovered": false
+    },
+    {
+      "profile": 12,
+      "cond": "closure",
+      "target": "NORTH-QANC-395",
+      "reply": "UNKNOWN",
+      "recovered": false
+    },
+    {
+      "profile": 13,
+      "cond": "forget",
+      "target": "SOUTH-FBOX-635",
+      "reply": "SOUTH-FBOX-635",
+      "recovered": true
+    },
+    {
+      "profile": 13,
+      "cond": "clean",
+      "target": "SOUTH-FBOX-635",
+      "reply": "UNKNOWN",
+      "recovered": false
+    },
+    {
+      "profile": 13,
+      "cond": "closure",
+      "target": "SOUTH-FBOX-635",
+      "reply": "UNKNOWN",
+      "recovered": false
+    },
+    {
+      "profile": 14,
+      "cond": "forget",
+      "target": "SOUTH-TIWN-675",
+      "reply": "SOUTH-TIWN-675",
+      "recovered": true
+    },
+    {
+      "profile": 14,
+      "cond": "clean",
+      "target": "SOUTH-TIWN-675",
+      "reply": "UNKNOWN",
+      "recovered": false
+    },
+    {
+      "profile": 14,
+      "cond": "closure",
+      "target": "SOUTH-TIWN-675",
+      "reply": "UNKNOWN",
+      "recovered": false
+    },
+    {
+      "profile": 15,
+      "cond": "forget",
+      "target": "NORTH-UHJF-778",
+      "reply": "NORTH-UHJF-778",
+      "recovered": true
+    },
+    {
+      "profile": 15,
+      "cond": "clean",
+      "target": "NORTH-UHJF-778",
+      "reply": "UNKNOWN",
+      "recovered": false
+    },
+    {
+      "profile": 15,
+      "cond": "closure",
+      "target": "NORTH-UHJF-778",
+      "reply": "UNKNOWN",
+      "recovered": false
+    },
+    {
+      "profile": 16,
+      "cond": "forget",
+      "target": "SOUTH-BRRE-800",
+      "reply": "SOUTH-BRRE-800",
+      "recovered": true
+    },
+    {
+      "profile": 16,
+      "cond": "clean",
+      "target": "SOUTH-BRRE-800",
+      "reply": "UNKNOWN",
+      "recovered": false
+    },
+    {
+      "profile": 16,
+      "cond": "closure",
+      "target": "SOUTH-BRRE-800",
+      "reply": "UNKNOWN",
+      "recovered": false
+    },
+    {
+      "profile": 17,
+      "cond": "forget",
+      "target": "WEST-UYNR-729",
+      "reply": "WEST-UYNR-729",
+      "recovered": true
+    },
+    {
+      "profile": 17,
+      "cond": "clean",
+      "target": "WEST-UYNR-729",
+      "reply": "UNKNOWN",
+      "recovered": false
+    },
+    {
+      "profile": 17,
+      "cond": "closure",
+      "target": "WEST-UYNR-729",
+      "reply": "UNKNOWN",
+      "recovered": false
+    },
+    {
+      "profile": 18,
+      "cond": "forget",
+      "target": "EAST-JZEG-961",
+      "reply": "EAST-JZEG-961",
+      "recovered": true
+    },
+    {
+      "profile": 18,
+      "cond": "clean",
+      "target": "EAST-JZEG-961",
+      "reply": "UNKNOWN",
+      "recovered": false
+    },
+    {
+      "profile": 18,
+      "cond": "closure",
+      "target": "EAST-JZEG-961",
+      "reply": "UNKNOWN",
+      "recovered": false
+    },
+    {
+      "profile": 19,
+      "cond": "forget",
+      "target": "SOUTH-VQRV-675",
+      "reply": "SOUTH-VQRV-675",
+      "recovered": true
+    },
+    {
+      "profile": 19,
+      "cond": "clean",
+      "target": "SOUTH-VQRV-675",
+      "reply": "UNKNOWN",
+      "recovered": false
+    },
+    {
+      "profile": 19,
+      "cond": "closure",
+      "target": "SOUTH-VQRV-675",
+      "reply": "UNKNOWN",
+      "recovered": false
+    }
+  ],
+  "summary": {
+    "forget": {
+      "n": 20,
+      "recovered": 20
+    },
+    "clean": {
+      "n": 20,
+      "recovered": 0
+    },
+    "closure": {
+      "n": 20,
+      "recovered": 0
+    }
+  }
+}

@@ -1,0 +1,313 @@
+{
+  "model": "qwen2.5:7b",
+  "templates": 3,
+  "window": 180,
+  "rows": [
+    {
+      "fact": "observed",
+      "recoverable": false,
+      "harness": "full",
+      "code": "LETBM7",
+      "correct": "B",
+      "reply": "B",
+      "looked_up": false,
+      "success": true,
+      "template": 0
+    },
+    {
+      "fact": "observed",
+      "recoverable": false,
+      "harness": "window",
+      "code": "37LQ09",
+      "correct": "F",
+      "reply": "A",
+      "looked_up": false,
+      "success": false,
+      "template": 0
+    },
+    {
+      "fact": "observed",
+      "recoverable": true,
+      "harness": "full",
+      "code": "QBGO2G",
+      "correct": "E",
+      "reply": "E",
+      "looked_up": false,
+      "success": true,
+      "template": 0
+    },
+    {
+      "fact": "observed",
+      "recoverable": true,
+      "harness": "window",
+      "code": "R3C7EH",
+      "correct": "G",
+      "reply": "G",
+      "looked_up": true,
+      "success": true,
+      "template": 0
+    },
+    {
+      "fact": "derived",
+      "recoverable": false,
+      "harness": "full",
+      "code": "JTVQH6",
+      "correct": "B",
+      "reply": "B",
+      "looked_up": false,
+      "success": true,
+      "template": 0
+    },
+    {
+      "fact": "derived",
+      "recoverable": false,
+      "harness": "window",
+      "code": "3O58C9",
+      "correct": "G",
+      "reply": "H",
+      "looked_up": false,
+      "success": false,
+      "template": 0
+    },
+    {
+      "fact": "derived",
+      "recoverable": true,
+      "harness": "full",
+      "code": "FRLCRN",
+      "correct": "E",
+      "reply": "E",
+      "looked_up": false,
+      "success": true,
+      "template": 0
+    },
+    {
+      "fact": "derived",
+      "recoverable": true,
+      "harness": "window",
+      "code": "3YC42I",
+      "correct": "A",
+      "reply": "A",
+      "looked_up": true,
+      "success": true,
+      "template": 0
+    },
+    {
+      "fact": "observed",
+      "recoverable": false,
+      "harness": "full",
+      "code": "O3D7S1",
+      "correct": "I",
+      "reply": "I",
+      "looked_up": false,
+      "success": true,
+      "template": 1
+    },
+    {
+      "fact": "observed",
+      "recoverable": false,
+      "harness": "window",
+      "code": "5J6S27",
+      "correct": "C",
+      "reply": "A",
+      "looked_up": false,
+      "success": false,
+      "template": 1
+    },
+    {
+      "fact": "observed",
+      "recoverable": true,
+      "harness": "full",
+      "code": "6YOZV3",
+      "correct": "I",
+      "reply": "I",
+      "looked_up": false,
+      "success": true,
+      "template": 1
+    },
+    {
+      "fact": "observed",
+      "recoverable": true,
+      "harness": "window",
+      "code": "NO4V48",
+      "correct": "I",
+      "reply": "I",
+      "looked_up": true,
+      "success": true,
+      "template": 1
+    },
+    {
+      "fact": "derived",
+      "recoverable": false,
+      "harness": "full",
+      "code": "KXIX7S",
+      "correct": "J",
+      "reply": "J",
+      "looked_up": false,
+      "success": true,
+      "template": 1
+    },
+    {
+      "fact": "derived",
+      "recoverable": false,
+      "harness": "window",
+      "code": "159CGY",
+      "correct": "J",
+      "reply": "A",
+      "looked_up": false,
+      "success": false,
+      "template": 1
+    },
+    {
+      "fact": "derived",
+      "recoverable": true,
+      "harness": "full",
+      "code": "C0UPSM",
+      "correct": "A",
+      "reply": "A",
+      "looked_up": false,
+      "success": true,
+      "template": 1
+    },
+    {
+      "fact": "derived",
+      "recoverable": true,
+      "harness": "window",
+      "code": "9TK7QD",
+      "correct": "A",
+      "reply": "A",
+      "looked_up": true,
+      "success": true,
+      "template": 1
+    },
+    {
+      "fact": "observed",
+      "recoverable": false,
+      "harness": "full",
+      "code": "L26Z0X",
+      "correct": "B",
+      "reply": "B",
+      "looked_up": false,
+      "success": true,
+      "template": 2
+    },
+    {
+      "fact": "observed",
+      "recoverable": false,
+      "harness": "window",
+      "code": "LG4C4V",
+      "correct": "E",
+      "reply": "B",
+      "looked_up": false,
+      "success": false,
+      "template": 2
+    },
+    {
+      "fact": "observed",
+      "recoverable": true,
+      "harness": "full",
+      "code": "FIVEKM",
+      "correct": "F",
+      "reply": "F",
+      "looked_up": false,
+      "success": true,
+      "template": 2
+    },
+    {
+      "fact": "observed",
+      "recoverable": true,
+      "harness": "window",
+      "code": "MEI7LJ",
+      "correct": "D",
+      "reply": "D",
+      "looked_up": true,
+      "success": true,
+      "template": 2
+    },
+    {
+      "fact": "derived",
+      "recoverable": false,
+      "harness": "full",
+      "code": "X0ADJX",
+      "correct": "F",
+      "reply": "F",
+      "looked_up": false,
+      "success": true,
+      "template": 2
+    },
+    {
+      "fact": "derived",
+      "recoverable": false,
+      "harness": "window",
+      "code": "DBNCUV",
+      "correct": "B",
+      "reply": "A",
+      "looked_up": false,
+      "success": false,
+      "template": 2
+    },
+    {
+      "fact": "derived",
+      "recoverable": true,
+      "harness": "full",
+      "code": "PQC7MK",
+      "correct": "A",
+      "reply": "A",
+      "looked_up": false,
+      "success": true,
+      "template": 2
+    },
+    {
+      "fact": "derived",
+      "recoverable": true,
+      "harness": "window",
+      "code": "UMI5DF",
+      "correct": "F",
+      "reply": "F",
+      "looked_up": true,
+      "success": true,
+      "template": 2
+    }
+  ],
+  "summary": {
+    "observed|rec=False|full": {
+      "n": 3,
+      "success": 3,
+      "lookups": 0
+    },
+    "observed|rec=False|window": {
+      "n": 3,
+      "success": 0,
+      "lookups": 0
+    },
+    "observed|rec=True|full": {
+      "n": 3,
+      "success": 3,
+      "lookups": 0
+    },
+    "observed|rec=True|window": {
+      "n": 3,
+      "success": 3,
+      "lookups": 3
+    },
+    "derived|rec=False|full": {
+      "n": 3,
+      "success": 3,
+      "lookups": 0
+    },
+    "derived|rec=False|window": {
+      "n": 3,
+      "success": 0,
+      "lookups": 0
+    },
+    "derived|rec=True|full": {
+      "n": 3,
+      "success": 3,
+      "lookups": 0
+    },
+    "derived|rec=True|window": {
+      "n": 3,
+      "success": 3,
+      "lookups": 3
+    }
+  }
+}
