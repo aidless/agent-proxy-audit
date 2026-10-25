@@ -36,6 +36,15 @@ world and **0/20** after provenance closure. These are pilot-scale replications,
 not the published protocols — the folder states what does and does not
 replicate.
 
+A second set of pilots tests memory mechanisms from `ai-memory` and `Hy-Memory`:
+access-weighted decay extends retention only from 81 to 119 days (and does
+nothing at the eviction margin under a 180-day half-life); the conservative
+supersede rule merged 0/12 parallel tasks but missed 2/8 continuations; an
+extractive summary preserved a deleted secret 10/10 while a model-written
+summary happened to drop it 10/10. See
+[`replications/2026-10-memory-pilots/`](replications/2026-10-memory-pilots/) and
+the comparison in [`docs/related-systems-2026-10.md`](docs/related-systems-2026-10.md).
+
 ## Reproduce
 
 Each repo is self-contained and its core tables recompute offline (Python 3.11+, no model or network required for the descriptive tables):

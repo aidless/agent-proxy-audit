@@ -1,0 +1,92 @@
+{
+  "formula": "salience*exp(-lambda*age)+sigma*ln(1+access)*exp(-mu*days_since_access)",
+  "parameters": {
+    "salience": 1.0,
+    "sigma": 0.6,
+    "mu": 0.04,
+    "threshold": 0.2
+  },
+  "threshold_days": [
+    {
+      "lambda": "default_35d",
+      "lambda_value": 0.02,
+      "access_count": 0,
+      "last_access_day": null,
+      "retention_days": 81
+    },
+    {
+      "lambda": "default_35d",
+      "lambda_value": 0.02,
+      "access_count": 1,
+      "last_access_day": 0.0,
+      "retention_days": 85
+    },
+    {
+      "lambda": "default_35d",
+      "lambda_value": 0.02,
+      "access_count": 5,
+      "last_access_day": 0.0,
+      "retention_days": 89
+    },
+    {
+      "lambda": "default_35d",
+      "lambda_value": 0.02,
+      "access_count": 20,
+      "last_access_day": 0.0,
+      "retention_days": 93
+    },
+    {
+      "lambda": "default_35d",
+      "lambda_value": 0.02,
+      "access_count": 5,
+      "last_access_day": 60.0,
+      "retention_days": 119
+    },
+    {
+      "lambda": "episodic_180d",
+      "lambda_value": 0.003851,
+      "access_count": 0,
+      "last_access_day": null,
+      "retention_days": 418
+    },
+    {
+      "lambda": "episodic_180d",
+      "lambda_value": 0.003851,
+      "access_count": 1,
+      "last_access_day": 0.0,
+      "retention_days": 418
+    },
+    {
+      "lambda": "episodic_180d",
+      "lambda_value": 0.003851,
+      "access_count": 5,
+      "last_access_day": 0.0,
+      "retention_days": 418
+    },
+    {
+      "lambda": "episodic_180d",
+      "lambda_value": 0.003851,
+      "access_count": 20,
+      "last_access_day": 0.0,
+      "retention_days": 418
+    },
+    {
+      "lambda": "episodic_180d",
+      "lambda_value": 0.003851,
+      "access_count": 5,
+      "last_access_day": 60.0,
+      "retention_days": 418
+    }
+  ],
+  "pure_age_vs_access_weighted": {
+    "pure_age_days": 81,
+    "access_weighted_days": 119,
+    "ratio": 1.47,
+    "note": "page with 5 accesses, last access 60 days before update"
+  },
+  "comparison_at_fixed_age": {
+    "old_but_used_120d_3access_30d_ago": 0.3412,
+    "new_but_unused_10d": 0.8187,
+    "old_and_unused_180d": 0.0273
+  }
+}

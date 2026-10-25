@@ -1,0 +1,340 @@
+{
+  "model": "qwen2.5:7b",
+  "pairs": 20,
+  "rows": [
+    {
+      "rule": "conservative",
+      "pair": 0,
+      "expected": "SUPERSEDE",
+      "got": "SUPERSEDE",
+      "correct": true,
+      "reply": "{\"decision\":\"SUPERSEDE\"}"
+    },
+    {
+      "rule": "conservative",
+      "pair": 1,
+      "expected": "SUPERSEDE",
+      "got": "SUPERSEDE",
+      "correct": true,
+      "reply": "{\"decision\":\"SUPERSEDE\"}"
+    },
+    {
+      "rule": "conservative",
+      "pair": 2,
+      "expected": "SUPERSEDE",
+      "got": "INSERT",
+      "correct": false,
+      "reply": "{\"decision\":\"INSERT\"}"
+    },
+    {
+      "rule": "conservative",
+      "pair": 3,
+      "expected": "SUPERSEDE",
+      "got": "SUPERSEDE",
+      "correct": true,
+      "reply": "{\"decision\":\"SUPERSEDE\"}"
+    },
+    {
+      "rule": "conservative",
+      "pair": 4,
+      "expected": "SUPERSEDE",
+      "got": "INSERT",
+      "correct": false,
+      "reply": "{\"decision\":\"INSERT\"}"
+    },
+    {
+      "rule": "conservative",
+      "pair": 5,
+      "expected": "SUPERSEDE",
+      "got": "SUPERSEDE",
+      "correct": true,
+      "reply": "{\"decision\":\"SUPERSEDE\"}"
+    },
+    {
+      "rule": "conservative",
+      "pair": 6,
+      "expected": "SUPERSEDE",
+      "got": "SUPERSEDE",
+      "correct": true,
+      "reply": "{\"decision\":\"SUPERSEDE\"}"
+    },
+    {
+      "rule": "conservative",
+      "pair": 7,
+      "expected": "SUPERSEDE",
+      "got": "SUPERSEDE",
+      "correct": true,
+      "reply": "{\"decision\":\"SUPERSEDE\"}"
+    },
+    {
+      "rule": "conservative",
+      "pair": 8,
+      "expected": "INSERT",
+      "got": "INSERT",
+      "correct": true,
+      "reply": "{\"decision\":\"INSERT\"}"
+    },
+    {
+      "rule": "conservative",
+      "pair": 9,
+      "expected": "INSERT",
+      "got": "INSERT",
+      "correct": true,
+      "reply": "{\"decision\":\"INSERT\"}"
+    },
+    {
+      "rule": "conservative",
+      "pair": 10,
+      "expected": "INSERT",
+      "got": "INSERT",
+      "correct": true,
+      "reply": "{\"decision\":\"INSERT\"}"
+    },
+    {
+      "rule": "conservative",
+      "pair": 11,
+      "expected": "INSERT",
+      "got": "INSERT",
+      "correct": true,
+      "reply": "{\"decision\":\"INSERT\"}"
+    },
+    {
+      "rule": "conservative",
+      "pair": 12,
+      "expected": "INSERT",
+      "got": "INSERT",
+      "correct": true,
+      "reply": "{\"decision\":\"INSERT\"}"
+    },
+    {
+      "rule": "conservative",
+      "pair": 13,
+      "expected": "INSERT",
+      "got": "INSERT",
+      "correct": true,
+      "reply": "{\"decision\":\"INSERT\"}"
+    },
+    {
+      "rule": "conservative",
+      "pair": 14,
+      "expected": "INSERT",
+      "got": "INSERT",
+      "correct": true,
+      "reply": "{\"decision\":\"INSERT\"}"
+    },
+    {
+      "rule": "conservative",
+      "pair": 15,
+      "expected": "INSERT",
+      "got": "INSERT",
+      "correct": true,
+      "reply": "{\"decision\":\"INSERT\"}"
+    },
+    {
+      "rule": "conservative",
+      "pair": 16,
+      "expected": "INSERT",
+      "got": "INSERT",
+      "correct": true,
+      "reply": "{\"decision\":\"INSERT\"}"
+    },
+    {
+      "rule": "conservative",
+      "pair": 17,
+      "expected": "INSERT",
+      "got": "INSERT",
+      "correct": true,
+      "reply": "{\"decision\":\"INSERT\"}"
+    },
+    {
+      "rule": "conservative",
+      "pair": 18,
+      "expected": "INSERT",
+      "got": "INSERT",
+      "correct": true,
+      "reply": "{\"decision\":\"INSERT\"}"
+    },
+    {
+      "rule": "conservative",
+      "pair": 19,
+      "expected": "INSERT",
+      "got": "INSERT",
+      "correct": true,
+      "reply": "{\"decision\":\"INSERT\"}"
+    },
+    {
+      "rule": "permissive",
+      "pair": 0,
+      "expected": "SUPERSEDE",
+      "got": "SUPERSEDE",
+      "correct": true,
+      "reply": "{\"decision\":\"SUPERSEDE\"}"
+    },
+    {
+      "rule": "permissive",
+      "pair": 1,
+      "expected": "SUPERSEDE",
+      "got": "SUPERSEDE",
+      "correct": true,
+      "reply": "{\"decision\":\"SUPERSEDE\"}"
+    },
+    {
+      "rule": "permissive",
+      "pair": 2,
+      "expected": "SUPERSEDE",
+      "got": "SUPERSEDE",
+      "correct": true,
+      "reply": "{\"decision\":\"SUPERSEDE\"}"
+    },
+    {
+      "rule": "permissive",
+      "pair": 3,
+      "expected": "SUPERSEDE",
+      "got": "SUPERSEDE",
+      "correct": true,
+      "reply": "{\"decision\":\"SUPERSEDE\"}"
+    },
+    {
+      "rule": "permissive",
+      "pair": 4,
+      "expected": "SUPERSEDE",
+      "got": "SUPERSEDE",
+      "correct": true,
+      "reply": "{\"decision\":\"SUPERSEDE\"}"
+    },
+    {
+      "rule": "permissive",
+      "pair": 5,
+      "expected": "SUPERSEDE",
+      "got": "SUPERSEDE",
+      "correct": true,
+      "reply": "{\"decision\":\"SUPERSEDE\"}"
+    },
+    {
+      "rule": "permissive",
+      "pair": 6,
+      "expected": "SUPERSEDE",
+      "got": "SUPERSEDE",
+      "correct": true,
+      "reply": "{\"decision\":\"SUPERSEDE\"}"
+    },
+    {
+      "rule": "permissive",
+      "pair": 7,
+      "expected": "SUPERSEDE",
+      "got": "SUPERSEDE",
+      "correct": true,
+      "reply": "{\"decision\":\"SUPERSEDE\"}"
+    },
+    {
+      "rule": "permissive",
+      "pair": 8,
+      "expected": "INSERT",
+      "got": "INSERT",
+      "correct": true,
+      "reply": "{\"decision\":\"INSERT\"}"
+    },
+    {
+      "rule": "permissive",
+      "pair": 9,
+      "expected": "INSERT",
+      "got": "INSERT",
+      "correct": true,
+      "reply": "{\"decision\":\"INSERT\"}"
+    },
+    {
+      "rule": "permissive",
+      "pair": 10,
+      "expected": "INSERT",
+      "got": "SUPERSEDE",
+      "correct": false,
+      "reply": "{\"decision\":\"SUPERSEDE\"}"
+    },
+    {
+      "rule": "permissive",
+      "pair": 11,
+      "expected": "INSERT",
+      "got": "INSERT",
+      "correct": true,
+      "reply": "{\"decision\":\"INSERT\"}"
+    },
+    {
+      "rule": "permissive",
+      "pair": 12,
+      "expected": "INSERT",
+      "got": "INSERT",
+      "correct": true,
+      "reply": "{\"decision\":\"INSERT\"}"
+    },
+    {
+      "rule": "permissive",
+      "pair": 13,
+      "expected": "INSERT",
+      "got": "INSERT",
+      "correct": true,
+      "reply": "{\"decision\":\"INSERT\"}"
+    },
+    {
+      "rule": "permissive",
+      "pair": 14,
+      "expected": "INSERT",
+      "got": "SUPERSEDE",
+      "correct": false,
+      "reply": "{\"decision\":\"SUPERSEDE\"}"
+    },
+    {
+      "rule": "permissive",
+      "pair": 15,
+      "expected": "INSERT",
+      "got": "INSERT",
+      "correct": true,
+      "reply": "{\"decision\":\"INSERT\"}"
+    },
+    {
+      "rule": "permissive",
+      "pair": 16,
+      "expected": "INSERT",
+      "got": "INSERT",
+      "correct": true,
+      "reply": "{\"decision\":\"INSERT\"}"
+    },
+    {
+      "rule": "permissive",
+      "pair": 17,
+      "expected": "INSERT",
+      "got": "SUPERSEDE",
+      "correct": false,
+      "reply": "{\"decision\":\"SUPERSEDE\"}"
+    },
+    {
+      "rule": "permissive",
+      "pair": 18,
+      "expected": "INSERT",
+      "got": "INSERT",
+      "correct": true,
+      "reply": "{\"decision\":\"INSERT\"}"
+    },
+    {
+      "rule": "permissive",
+      "pair": 19,
+      "expected": "INSERT",
+      "got": "SUPERSEDE",
+      "correct": false,
+      "reply": "{\"decision\":\"SUPERSEDE\"}"
+    }
+  ],
+  "summary": {
+    "conservative": {
+      "n": 20,
+      "true_supersede": "6/8",
+      "false_supersede": "0/12",
+      "accuracy": "18/20"
+    },
+    "permissive": {
+      "n": 20,
+      "true_supersede": "8/8",
+      "false_supersede": "4/12",
+      "accuracy": "16/20"
+    }
+  }
+}
