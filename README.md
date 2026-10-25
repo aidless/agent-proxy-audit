@@ -47,6 +47,10 @@ summary retained it only **2/50** and recovered **1/50**. See
 [`replications/2026-10-memory-pilots/`](replications/2026-10-memory-pilots/) and
 the comparison in [`docs/related-systems-2026-10.md`](docs/related-systems-2026-10.md).
 
+**Write-up:** [Same conservative prompt, three operating points](docs/blog/2026-10-conservative-prompt-operating-points.md).
+Datasets (CC BY 4.0): [conflict pairs](replications/2026-10-memory-pilots/data/conflict_pairs_50.json) ·
+[deletion profiles](replications/2026-10-memory-pilots/data/deletion_profiles_50.json).
+
 ## Reproduce
 
 Each repo is self-contained and its core tables recompute offline (Python 3.11+, no model or network required for the descriptive tables):
@@ -61,6 +65,10 @@ python3 scripts/make_descriptive_tables.py
 # agent-effort-r1 — allocation model vs retained execution records
 # see README "What is measured vs assumed"
 ```
+
+## License
+
+Code: MIT ([`LICENSE`](LICENSE)). Synthetic data and write-ups: CC BY 4.0 ([`DATA_LICENSE.md`](DATA_LICENSE.md)).
 
 ---
 *Author: Zewen Liu (Independent Researcher) · [github.com/aidless](https://github.com/aidless)*

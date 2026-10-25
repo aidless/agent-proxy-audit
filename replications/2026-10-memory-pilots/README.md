@@ -10,6 +10,12 @@ Two scales are reported where they exist: an initial pilot (20 conflict pairs,
 deletion profiles). The scaled run is the headline; the initial run is kept
 because it shows how much a small sample can move a rate.
 
+Frozen datasets: [`data/conflict_pairs_50.json`](data/conflict_pairs_50.json) and
+[`data/deletion_profiles_50.json`](data/deletion_profiles_50.json) (CC BY 4.0).
+Public write-up:
+[`docs/blog/2026-10-conservative-prompt-operating-points.md`](../../docs/blog/2026-10-conservative-prompt-operating-points.md).
+
+
 ## 1. Retention decay (`decay_sim.py`, no LLM)
 
 Implements `ai-memory`'s formula exactly

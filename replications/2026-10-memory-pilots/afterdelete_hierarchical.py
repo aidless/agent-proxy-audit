@@ -60,6 +60,25 @@ def score(reply: str, target: str) -> bool:
     return target.lower() in reply.lower()
 
 
+def build_profile(rng: random.Random, i: int) -> tuple[str, list[str], list[str]]:
+    """Deterministic profile: target, background records, distractors."""
+    target = secret(rng)
+    background = [
+        f"My name is User{i:02d}.",
+        "My preferred meeting time is 09:00.",
+        "The lab is in Building 4.",
+        "I use a standing desk.",
+        "My timezone is UTC+8.",
+        "The project codename is Bluebird.",
+    ]
+    distractors = [
+        f"The vendor reference is VEND-{rng.randint(1000,9999)}.",
+        f"The backup slot is {rng.randint(1,5)} AM.",
+        f"The ticket number is T-{rng.randint(100,999)}.",
+    ]
+    return target, background, distractors
+
+
 def main() -> None:
     ap = argparse.ArgumentParser()
     ap.add_argument("--model", default="qwen2.5:7b")
@@ -70,20 +89,7 @@ def main() -> None:
     rng = random.Random(20261024)
     rows = []
     for i in range(args.profiles):
-        target = secret(rng)
-        background = [
-            f"My name is User{i:02d}.",
-            "My preferred meeting time is 09:00.",
-            "The lab is in Building 4.",
-            "I use a standing desk.",
-            "My timezone is UTC+8.",
-            "The project codename is Bluebird.",
-        ]
-        distractors = [
-            f"The vendor reference is VEND-{rng.randint(1000,9999)}.",
-            f"The backup slot is {rng.randint(1,5)} AM.",
-            f"The ticket number is T-{rng.randint(100,999)}.",
-        ]
+        target, background, distractors = build_profile(rng, i)
         exposed = f"My access code is {target}."
         neutral = "My access code has not been set."
         for cond in ("forget", "clean"):

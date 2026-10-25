@@ -1,0 +1,358 @@
+{
+  "name": "memory-conflict-pairs",
+  "version": 1,
+  "license": "CC BY 4.0",
+  "description": "Synthetic fact pairs for supersede-vs-insert judging: 20 continuations, 30 negatives.",
+  "pairs": [
+    {
+      "id": "P01",
+      "old": "The CI fix in auth/session.py is in progress; retry the test job.",
+      "new": "The retry failed on the same test; add a fixture and rerun.",
+      "expected": "SUPERSEDE",
+      "category": "continuation"
+    },
+    {
+      "id": "P02",
+      "old": "Deploying billing-api v2 to staging; waiting on the migration.",
+      "new": "Migration finished; canary deploy to staging next.",
+      "expected": "SUPERSEDE",
+      "category": "continuation"
+    },
+    {
+      "id": "P03",
+      "old": "User prefers pytest for Python tests.",
+      "new": "User now prefers pytest with uv; keep the old preference superseded.",
+      "expected": "SUPERSEDE",
+      "category": "preference_update"
+    },
+    {
+      "id": "P04",
+      "old": "Investigating a flaky test in orders_test.py; suspect the clock.",
+      "new": "Found the clock seed issue; fix it and verify the test.",
+      "expected": "SUPERSEDE",
+      "category": "diagnosis_to_fix"
+    },
+    {
+      "id": "P05",
+      "old": "Refactor parse_config to remove globals; step 1 done.",
+      "new": "Step 2: move defaults into a dataclass.",
+      "expected": "SUPERSEDE",
+      "category": "extension"
+    },
+    {
+      "id": "P06",
+      "old": "Rerunning experiment E7 after fixing the data split.",
+      "new": "E7 rerun finished with the same split; analysis pending.",
+      "expected": "SUPERSEDE",
+      "category": "continuation"
+    },
+    {
+      "id": "P07",
+      "old": "Drafting the related-work section for paper X.",
+      "new": "Revised the related-work section after a reviewer comment.",
+      "expected": "SUPERSEDE",
+      "category": "revision"
+    },
+    {
+      "id": "P08",
+      "old": "Debugging OOM in the training job on A100.",
+      "new": "OOM traced to batch size; retry with gradient accumulation.",
+      "expected": "SUPERSEDE",
+      "category": "retry"
+    },
+    {
+      "id": "P09",
+      "old": "Fixing the login redirect bug in auth/session.py.",
+      "new": "Redirect fix works locally; add a regression test.",
+      "expected": "SUPERSEDE",
+      "category": "verify"
+    },
+    {
+      "id": "P10",
+      "old": "Deploy billing-api v2 to staging; waiting on the migration.",
+      "new": "Staging deploy failed on the migration; retry after rollback.",
+      "expected": "SUPERSEDE",
+      "category": "retry"
+    },
+    {
+      "id": "P11",
+      "old": "User prefers morning meetings.",
+      "new": "User now prefers afternoon meetings.",
+      "expected": "SUPERSEDE",
+      "category": "preference_update"
+    },
+    {
+      "id": "P12",
+      "old": "Investigating a slow query in the orders API.",
+      "new": "Slow query traced to a missing index; add it.",
+      "expected": "SUPERSEDE",
+      "category": "diagnosis_to_fix"
+    },
+    {
+      "id": "P13",
+      "old": "Drafting the abstract for paper X.",
+      "new": "Revised the abstract after feedback.",
+      "expected": "SUPERSEDE",
+      "category": "revision"
+    },
+    {
+      "id": "P14",
+      "old": "Training run E12 stopped at epoch 3.",
+      "new": "Resumed E12 from the checkpoint and finished.",
+      "expected": "SUPERSEDE",
+      "category": "continuation"
+    },
+    {
+      "id": "P15",
+      "old": "Refactor the config parser; step 1 removes globals.",
+      "new": "Step 2 removes the hidden defaults.",
+      "expected": "SUPERSEDE",
+      "category": "extension"
+    },
+    {
+      "id": "P16",
+      "old": "Writing tests for the payment module.",
+      "new": "Payment tests pass; add edge cases for refunds.",
+      "expected": "SUPERSEDE",
+      "category": "extension"
+    },
+    {
+      "id": "P17",
+      "old": "User's timezone is UTC+8.",
+      "new": "User moved to UTC+9; update the timezone.",
+      "expected": "SUPERSEDE",
+      "category": "update"
+    },
+    {
+      "id": "P18",
+      "old": "Debugging a Docker build failure.",
+      "new": "Docker build fixed by pinning the base image.",
+      "expected": "SUPERSEDE",
+      "category": "finish"
+    },
+    {
+      "id": "P19",
+      "old": "Planning the migration to Postgres.",
+      "new": "Migration plan approved; start the schema copy.",
+      "expected": "SUPERSEDE",
+      "category": "continuation"
+    },
+    {
+      "id": "P20",
+      "old": "Drafting related work for paper X.",
+      "new": "Related work revised after a reviewer comment.",
+      "expected": "SUPERSEDE",
+      "category": "revision"
+    },
+    {
+      "id": "N01",
+      "old": "Fixing CI in auth/session.py.",
+      "new": "Adding docstrings to auth/session.py.",
+      "expected": "INSERT",
+      "category": "same_file_different_goal"
+    },
+    {
+      "id": "N02",
+      "old": "Optimizing performance in orders.py.",
+      "new": "Improving error handling in orders.py.",
+      "expected": "INSERT",
+      "category": "same_file_different_goal"
+    },
+    {
+      "id": "N03",
+      "old": "Updating the README install section.",
+      "new": "Updating the README license section.",
+      "expected": "INSERT",
+      "category": "same_file_different_goal"
+    },
+    {
+      "id": "N04",
+      "old": "Refactor billing/models.py.",
+      "new": "Refactor billing/views.py.",
+      "expected": "INSERT",
+      "category": "different_files"
+    },
+    {
+      "id": "N05",
+      "old": "Refactor auth/session.py.",
+      "new": "Refactor auth/tokens.py.",
+      "expected": "INSERT",
+      "category": "different_files"
+    },
+    {
+      "id": "N06",
+      "old": "Writing tests/test_api.py.",
+      "new": "Writing tests/test_db.py.",
+      "expected": "INSERT",
+      "category": "different_files"
+    },
+    {
+      "id": "N07",
+      "old": "Alice prefers dark mode.",
+      "new": "Bob prefers dark mode.",
+      "expected": "INSERT",
+      "category": "different_people"
+    },
+    {
+      "id": "N08",
+      "old": "Alice prefers pytest.",
+      "new": "Bob prefers pytest.",
+      "expected": "INSERT",
+      "category": "different_people"
+    },
+    {
+      "id": "N09",
+      "old": "Team A uses Postgres.",
+      "new": "Team B uses Postgres.",
+      "expected": "INSERT",
+      "category": "different_people"
+    },
+    {
+      "id": "N10",
+      "old": "Use pytest in project A.",
+      "new": "Use pytest in project B.",
+      "expected": "INSERT",
+      "category": "different_projects"
+    },
+    {
+      "id": "N11",
+      "old": "Use Docker for local dev in project X.",
+      "new": "Use Docker for local dev in project Y.",
+      "expected": "INSERT",
+      "category": "different_projects"
+    },
+    {
+      "id": "N12",
+      "old": "Use uv in repo A.",
+      "new": "Use uv in repo B.",
+      "expected": "INSERT",
+      "category": "different_projects"
+    },
+    {
+      "id": "N13",
+      "old": "Use the retry helper from the CI fix.",
+      "new": "Write docs for the release process.",
+      "expected": "INSERT",
+      "category": "context_only"
+    },
+    {
+      "id": "N14",
+      "old": "Use the schema from the migration plan.",
+      "new": "Write onboarding docs.",
+      "expected": "INSERT",
+      "category": "context_only"
+    },
+    {
+      "id": "N15",
+      "old": "Reuse the fixture from the payment tests.",
+      "new": "Update the changelog.",
+      "expected": "INSERT",
+      "category": "context_only"
+    },
+    {
+      "id": "N16",
+      "old": "OOM in job 42 due to batch size.",
+      "new": "OOM in job 77 due to a memory leak.",
+      "expected": "INSERT",
+      "category": "different_cause"
+    },
+    {
+      "id": "N17",
+      "old": "500 error in checkout due to a null field.",
+      "new": "500 error in checkout due to a timeout.",
+      "expected": "INSERT",
+      "category": "different_cause"
+    },
+    {
+      "id": "N18",
+      "old": "Flaky test due to the clock.",
+      "new": "Flaky test due to the network.",
+      "expected": "INSERT",
+      "category": "different_cause"
+    },
+    {
+      "id": "N19",
+      "old": "Add a login page to repo X.",
+      "new": "Add a billing page to repo X.",
+      "expected": "INSERT",
+      "category": "unrelated_feature"
+    },
+    {
+      "id": "N20",
+      "old": "Add dark mode to repo X.",
+      "new": "Add CSV export to repo X.",
+      "expected": "INSERT",
+      "category": "unrelated_feature"
+    },
+    {
+      "id": "N21",
+      "old": "Build the search API for repo X.",
+      "new": "Build the audit log for repo X.",
+      "expected": "INSERT",
+      "category": "unrelated_feature"
+    },
+    {
+      "id": "N22",
+      "old": "User prefers dark mode.",
+      "new": "User prefers tabs over spaces.",
+      "expected": "INSERT",
+      "category": "different_preference_domain"
+    },
+    {
+      "id": "N23",
+      "old": "User prefers morning meetings.",
+      "new": "User prefers four-space indentation.",
+      "expected": "INSERT",
+      "category": "different_preference_domain"
+    },
+    {
+      "id": "N24",
+      "old": "Meeting decided to use Postgres.",
+      "new": "Meeting decided to delay the launch.",
+      "expected": "INSERT",
+      "category": "different_decisions"
+    },
+    {
+      "id": "N25",
+      "old": "Meeting decided to hire two engineers.",
+      "new": "Meeting decided to freeze hiring.",
+      "expected": "INSERT",
+      "category": "different_decisions"
+    },
+    {
+      "id": "N26",
+      "old": "Maybe switch to Rust for the parser.",
+      "new": "Consider using Go for the parser.",
+      "expected": "INSERT",
+      "category": "uncertain"
+    },
+    {
+      "id": "N27",
+      "old": "Consider adding caching.",
+      "new": "Consider adding batching.",
+      "expected": "INSERT",
+      "category": "uncertain"
+    },
+    {
+      "id": "N28",
+      "old": "Q1 report used 2025 data.",
+      "new": "Q2 report uses 2026 data.",
+      "expected": "INSERT",
+      "category": "different_period"
+    },
+    {
+      "id": "N29",
+      "old": "The 2024 migration plan targeted MySQL.",
+      "new": "The 2026 migration plan targets Postgres.",
+      "expected": "INSERT",
+      "category": "different_period"
+    },
+    {
+      "id": "N30",
+      "old": "Use Docker for local development.",
+      "new": "Use Docker for production deployment.",
+      "expected": "INSERT",
+      "category": "different_goal"
+    }
+  ]
+}
