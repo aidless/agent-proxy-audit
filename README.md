@@ -38,10 +38,12 @@ replicate.
 
 A second set of pilots tests memory mechanisms from `ai-memory` and `Hy-Memory`:
 access-weighted decay extends retention only from 81 to 119 days (and does
-nothing at the eviction margin under a 180-day half-life); the conservative
-supersede rule merged 0/12 parallel tasks but missed 2/8 continuations; an
-extractive summary preserved a deleted secret 10/10 while a model-written
-summary happened to drop it 10/10. See
+nothing at the eviction margin under a 180-day half-life); a 50-pair × 3-model
+conflict test found the conservative rule rejected **1/90** parallel pairs but
+missed **16/60** true continuations, while the permissive rule caught
+**58/60** and merged **29/90**; and a 50-profile deletion test found an
+extractive summary preserved the deleted secret **50/50**, while a model-written
+summary retained it only **2/50** and recovered **1/50**. See
 [`replications/2026-10-memory-pilots/`](replications/2026-10-memory-pilots/) and
 the comparison in [`docs/related-systems-2026-10.md`](docs/related-systems-2026-10.md).
 

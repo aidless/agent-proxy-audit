@@ -1,0 +1,3048 @@
+{
+  "models": [
+    "qwen2.5:7b",
+    "llama3.1:8b",
+    "gemma3:4b"
+  ],
+  "pairs": 50,
+  "rows": [
+    {
+      "model": "qwen2.5:7b",
+      "rule": "conservative",
+      "pair": "P01",
+      "category": "continuation",
+      "expected": "SUPERSEDE",
+      "got": "SUPERSEDE",
+      "correct": true,
+      "reply": "{\"decision\":\"SUPERSEDE\"}"
+    },
+    {
+      "model": "qwen2.5:7b",
+      "rule": "conservative",
+      "pair": "P02",
+      "category": "continuation",
+      "expected": "SUPERSEDE",
+      "got": "SUPERSEDE",
+      "correct": true,
+      "reply": "{\"decision\":\"SUPERSEDE\"}"
+    },
+    {
+      "model": "qwen2.5:7b",
+      "rule": "conservative",
+      "pair": "P03",
+      "category": "preference_update",
+      "expected": "SUPERSEDE",
+      "got": "INSERT",
+      "correct": false,
+      "reply": "{\"decision\":\"INSERT\"}"
+    },
+    {
+      "model": "qwen2.5:7b",
+      "rule": "conservative",
+      "pair": "P04",
+      "category": "diagnosis_to_fix",
+      "expected": "SUPERSEDE",
+      "got": "SUPERSEDE",
+      "correct": true,
+      "reply": "{\"decision\":\"SUPERSEDE\"}"
+    },
+    {
+      "model": "qwen2.5:7b",
+      "rule": "conservative",
+      "pair": "P05",
+      "category": "extension",
+      "expected": "SUPERSEDE",
+      "got": "INSERT",
+      "correct": false,
+      "reply": "{\"decision\":\"INSERT\"}"
+    },
+    {
+      "model": "qwen2.5:7b",
+      "rule": "conservative",
+      "pair": "P06",
+      "category": "continuation",
+      "expected": "SUPERSEDE",
+      "got": "SUPERSEDE",
+      "correct": true,
+      "reply": "{\"decision\":\"SUPERSEDE\"}"
+    },
+    {
+      "model": "qwen2.5:7b",
+      "rule": "conservative",
+      "pair": "P07",
+      "category": "revision",
+      "expected": "SUPERSEDE",
+      "got": "SUPERSEDE",
+      "correct": true,
+      "reply": "{\"decision\":\"SUPERSEDE\"}"
+    },
+    {
+      "model": "qwen2.5:7b",
+      "rule": "conservative",
+      "pair": "P08",
+      "category": "retry",
+      "expected": "SUPERSEDE",
+      "got": "SUPERSEDE",
+      "correct": true,
+      "reply": "{\"decision\":\"SUPERSEDE\"}"
+    },
+    {
+      "model": "qwen2.5:7b",
+      "rule": "conservative",
+      "pair": "P09",
+      "category": "verify",
+      "expected": "SUPERSEDE",
+      "got": "SUPERSEDE",
+      "correct": true,
+      "reply": "{\"decision\":\"SUPERSEDE\"}"
+    },
+    {
+      "model": "qwen2.5:7b",
+      "rule": "conservative",
+      "pair": "P10",
+      "category": "retry",
+      "expected": "SUPERSEDE",
+      "got": "SUPERSEDE",
+      "correct": true,
+      "reply": "{\"decision\":\"SUPERSEDE\"}"
+    },
+    {
+      "model": "qwen2.5:7b",
+      "rule": "conservative",
+      "pair": "P11",
+      "category": "preference_update",
+      "expected": "SUPERSEDE",
+      "got": "SUPERSEDE",
+      "correct": true,
+      "reply": "{\"decision\":\"SUPERSEDE\"}"
+    },
+    {
+      "model": "qwen2.5:7b",
+      "rule": "conservative",
+      "pair": "P12",
+      "category": "diagnosis_to_fix",
+      "expected": "SUPERSEDE",
+      "got": "SUPERSEDE",
+      "correct": true,
+      "reply": "{\"decision\":\"SUPERSEDE\"}"
+    },
+    {
+      "model": "qwen2.5:7b",
+      "rule": "conservative",
+      "pair": "P13",
+      "category": "revision",
+      "expected": "SUPERSEDE",
+      "got": "SUPERSEDE",
+      "correct": true,
+      "reply": "{\"decision\":\"SUPERSEDE\"}"
+    },
+    {
+      "model": "qwen2.5:7b",
+      "rule": "conservative",
+      "pair": "P14",
+      "category": "continuation",
+      "expected": "SUPERSEDE",
+      "got": "SUPERSEDE",
+      "correct": true,
+      "reply": "{\"decision\":\"SUPERSEDE\"}"
+    },
+    {
+      "model": "qwen2.5:7b",
+      "rule": "conservative",
+      "pair": "P15",
+      "category": "extension",
+      "expected": "SUPERSEDE",
+      "got": "INSERT",
+      "correct": false,
+      "reply": "{\"decision\":\"INSERT\"}"
+    },
+    {
+      "model": "qwen2.5:7b",
+      "rule": "conservative",
+      "pair": "P16",
+      "category": "extension",
+      "expected": "SUPERSEDE",
+      "got": "SUPERSEDE",
+      "correct": true,
+      "reply": "{\"decision\":\"SUPERSEDE\"}"
+    },
+    {
+      "model": "qwen2.5:7b",
+      "rule": "conservative",
+      "pair": "P17",
+      "category": "update",
+      "expected": "SUPERSEDE",
+      "got": "SUPERSEDE",
+      "correct": true,
+      "reply": "{\"decision\":\"SUPERSEDE\"}"
+    },
+    {
+      "model": "qwen2.5:7b",
+      "rule": "conservative",
+      "pair": "P18",
+      "category": "finish",
+      "expected": "SUPERSEDE",
+      "got": "SUPERSEDE",
+      "correct": true,
+      "reply": "{\"decision\":\"SUPERSEDE\"}"
+    },
+    {
+      "model": "qwen2.5:7b",
+      "rule": "conservative",
+      "pair": "P19",
+      "category": "continuation",
+      "expected": "SUPERSEDE",
+      "got": "SUPERSEDE",
+      "correct": true,
+      "reply": "{\"decision\":\"SUPERSEDE\"}"
+    },
+    {
+      "model": "qwen2.5:7b",
+      "rule": "conservative",
+      "pair": "P20",
+      "category": "revision",
+      "expected": "SUPERSEDE",
+      "got": "SUPERSEDE",
+      "correct": true,
+      "reply": "{\"decision\":\"SUPERSEDE\"}"
+    },
+    {
+      "model": "qwen2.5:7b",
+      "rule": "conservative",
+      "pair": "N01",
+      "category": "same_file_different_goal",
+      "expected": "INSERT",
+      "got": "INSERT",
+      "correct": true,
+      "reply": "{\"decision\":\"INSERT\"}"
+    },
+    {
+      "model": "qwen2.5:7b",
+      "rule": "conservative",
+      "pair": "N02",
+      "category": "same_file_different_goal",
+      "expected": "INSERT",
+      "got": "INSERT",
+      "correct": true,
+      "reply": "{\"decision\":\"INSERT\"}"
+    },
+    {
+      "model": "qwen2.5:7b",
+      "rule": "conservative",
+      "pair": "N03",
+      "category": "same_file_different_goal",
+      "expected": "INSERT",
+      "got": "INSERT",
+      "correct": true,
+      "reply": "{\"decision\":\"INSERT\"}"
+    },
+    {
+      "model": "qwen2.5:7b",
+      "rule": "conservative",
+      "pair": "N04",
+      "category": "different_files",
+      "expected": "INSERT",
+      "got": "INSERT",
+      "correct": true,
+      "reply": "{\"decision\":\"INSERT\"}"
+    },
+    {
+      "model": "qwen2.5:7b",
+      "rule": "conservative",
+      "pair": "N05",
+      "category": "different_files",
+      "expected": "INSERT",
+      "got": "INSERT",
+      "correct": true,
+      "reply": "{\"decision\":\"INSERT\"}"
+    },
+    {
+      "model": "qwen2.5:7b",
+      "rule": "conservative",
+      "pair": "N06",
+      "category": "different_files",
+      "expected": "INSERT",
+      "got": "INSERT",
+      "correct": true,
+      "reply": "{\"decision\":\"INSERT\"}"
+    },
+    {
+      "model": "qwen2.5:7b",
+      "rule": "conservative",
+      "pair": "N07",
+      "category": "different_people",
+      "expected": "INSERT",
+      "got": "INSERT",
+      "correct": true,
+      "reply": "{\"decision\":\"INSERT\"}"
+    },
+    {
+      "model": "qwen2.5:7b",
+      "rule": "conservative",
+      "pair": "N08",
+      "category": "different_people",
+      "expected": "INSERT",
+      "got": "INSERT",
+      "correct": true,
+      "reply": "{\"decision\":\"INSERT\"}"
+    },
+    {
+      "model": "qwen2.5:7b",
+      "rule": "conservative",
+      "pair": "N09",
+      "category": "different_people",
+      "expected": "INSERT",
+      "got": "INSERT",
+      "correct": true,
+      "reply": "{\"decision\":\"INSERT\"}"
+    },
+    {
+      "model": "qwen2.5:7b",
+      "rule": "conservative",
+      "pair": "N10",
+      "category": "different_projects",
+      "expected": "INSERT",
+      "got": "INSERT",
+      "correct": true,
+      "reply": "{\"decision\":\"INSERT\"}"
+    },
+    {
+      "model": "qwen2.5:7b",
+      "rule": "conservative",
+      "pair": "N11",
+      "category": "different_projects",
+      "expected": "INSERT",
+      "got": "INSERT",
+      "correct": true,
+      "reply": "{\"decision\":\"INSERT\"}"
+    },
+    {
+      "model": "qwen2.5:7b",
+      "rule": "conservative",
+      "pair": "N12",
+      "category": "different_projects",
+      "expected": "INSERT",
+      "got": "INSERT",
+      "correct": true,
+      "reply": "{\"decision\":\"INSERT\"}"
+    },
+    {
+      "model": "qwen2.5:7b",
+      "rule": "conservative",
+      "pair": "N13",
+      "category": "context_only",
+      "expected": "INSERT",
+      "got": "INSERT",
+      "correct": true,
+      "reply": "{\"decision\":\"INSERT\"}"
+    },
+    {
+      "model": "qwen2.5:7b",
+      "rule": "conservative",
+      "pair": "N14",
+      "category": "context_only",
+      "expected": "INSERT",
+      "got": "INSERT",
+      "correct": true,
+      "reply": "{\"decision\":\"INSERT\"}"
+    },
+    {
+      "model": "qwen2.5:7b",
+      "rule": "conservative",
+      "pair": "N15",
+      "category": "context_only",
+      "expected": "INSERT",
+      "got": "INSERT",
+      "correct": true,
+      "reply": "{\"decision\":\"INSERT\"}"
+    },
+    {
+      "model": "qwen2.5:7b",
+      "rule": "conservative",
+      "pair": "N16",
+      "category": "different_cause",
+      "expected": "INSERT",
+      "got": "INSERT",
+      "correct": true,
+      "reply": "{\"decision\":\"INSERT\"}"
+    },
+    {
+      "model": "qwen2.5:7b",
+      "rule": "conservative",
+      "pair": "N17",
+      "category": "different_cause",
+      "expected": "INSERT",
+      "got": "INSERT",
+      "correct": true,
+      "reply": "{\"decision\":\"INSERT\"}"
+    },
+    {
+      "model": "qwen2.5:7b",
+      "rule": "conservative",
+      "pair": "N18",
+      "category": "different_cause",
+      "expected": "INSERT",
+      "got": "INSERT",
+      "correct": true,
+      "reply": "{\"decision\":\"INSERT\"}"
+    },
+    {
+      "model": "qwen2.5:7b",
+      "rule": "conservative",
+      "pair": "N19",
+      "category": "unrelated_feature",
+      "expected": "INSERT",
+      "got": "INSERT",
+      "correct": true,
+      "reply": "{\"decision\":\"INSERT\"}"
+    },
+    {
+      "model": "qwen2.5:7b",
+      "rule": "conservative",
+      "pair": "N20",
+      "category": "unrelated_feature",
+      "expected": "INSERT",
+      "got": "INSERT",
+      "correct": true,
+      "reply": "{\"decision\":\"INSERT\"}"
+    },
+    {
+      "model": "qwen2.5:7b",
+      "rule": "conservative",
+      "pair": "N21",
+      "category": "unrelated_feature",
+      "expected": "INSERT",
+      "got": "INSERT",
+      "correct": true,
+      "reply": "{\"decision\":\"INSERT\"}"
+    },
+    {
+      "model": "qwen2.5:7b",
+      "rule": "conservative",
+      "pair": "N22",
+      "category": "different_preference_domain",
+      "expected": "INSERT",
+      "got": "INSERT",
+      "correct": true,
+      "reply": "{\"decision\":\"INSERT\"}"
+    },
+    {
+      "model": "qwen2.5:7b",
+      "rule": "conservative",
+      "pair": "N23",
+      "category": "different_preference_domain",
+      "expected": "INSERT",
+      "got": "INSERT",
+      "correct": true,
+      "reply": "{\"decision\":\"INSERT\"}"
+    },
+    {
+      "model": "qwen2.5:7b",
+      "rule": "conservative",
+      "pair": "N24",
+      "category": "different_decisions",
+      "expected": "INSERT",
+      "got": "INSERT",
+      "correct": true,
+      "reply": "{\"decision\":\"INSERT\"}"
+    },
+    {
+      "model": "qwen2.5:7b",
+      "rule": "conservative",
+      "pair": "N25",
+      "category": "different_decisions",
+      "expected": "INSERT",
+      "got": "SUPERSEDE",
+      "correct": false,
+      "reply": "{\"decision\":\"SUPERSEDE\"}"
+    },
+    {
+      "model": "qwen2.5:7b",
+      "rule": "conservative",
+      "pair": "N26",
+      "category": "uncertain",
+      "expected": "INSERT",
+      "got": "INSERT",
+      "correct": true,
+      "reply": "{\"decision\":\"INSERT\"}"
+    },
+    {
+      "model": "qwen2.5:7b",
+      "rule": "conservative",
+      "pair": "N27",
+      "category": "uncertain",
+      "expected": "INSERT",
+      "got": "INSERT",
+      "correct": true,
+      "reply": "{\"decision\":\"INSERT\"}"
+    },
+    {
+      "model": "qwen2.5:7b",
+      "rule": "conservative",
+      "pair": "N28",
+      "category": "different_period",
+      "expected": "INSERT",
+      "got": "INSERT",
+      "correct": true,
+      "reply": "{\"decision\":\"INSERT\"}"
+    },
+    {
+      "model": "qwen2.5:7b",
+      "rule": "conservative",
+      "pair": "N29",
+      "category": "different_period",
+      "expected": "INSERT",
+      "got": "INSERT",
+      "correct": true,
+      "reply": "{\"decision\":\"INSERT\"}"
+    },
+    {
+      "model": "qwen2.5:7b",
+      "rule": "conservative",
+      "pair": "N30",
+      "category": "different_goal",
+      "expected": "INSERT",
+      "got": "INSERT",
+      "correct": true,
+      "reply": "{\"decision\":\"INSERT\"}"
+    },
+    {
+      "model": "qwen2.5:7b",
+      "rule": "permissive",
+      "pair": "P01",
+      "category": "continuation",
+      "expected": "SUPERSEDE",
+      "got": "SUPERSEDE",
+      "correct": true,
+      "reply": "{\"decision\":\"SUPERSEDE\"}"
+    },
+    {
+      "model": "qwen2.5:7b",
+      "rule": "permissive",
+      "pair": "P02",
+      "category": "continuation",
+      "expected": "SUPERSEDE",
+      "got": "SUPERSEDE",
+      "correct": true,
+      "reply": "{\"decision\":\"SUPERSEDE\"}"
+    },
+    {
+      "model": "qwen2.5:7b",
+      "rule": "permissive",
+      "pair": "P03",
+      "category": "preference_update",
+      "expected": "SUPERSEDE",
+      "got": "SUPERSEDE",
+      "correct": true,
+      "reply": "{\"decision\":\"SUPERSEDE\"}"
+    },
+    {
+      "model": "qwen2.5:7b",
+      "rule": "permissive",
+      "pair": "P04",
+      "category": "diagnosis_to_fix",
+      "expected": "SUPERSEDE",
+      "got": "SUPERSEDE",
+      "correct": true,
+      "reply": "{\"decision\":\"SUPERSEDE\"}"
+    },
+    {
+      "model": "qwen2.5:7b",
+      "rule": "permissive",
+      "pair": "P05",
+      "category": "extension",
+      "expected": "SUPERSEDE",
+      "got": "SUPERSEDE",
+      "correct": true,
+      "reply": "{\"decision\":\"SUPERSEDE\"}"
+    },
+    {
+      "model": "qwen2.5:7b",
+      "rule": "permissive",
+      "pair": "P06",
+      "category": "continuation",
+      "expected": "SUPERSEDE",
+      "got": "SUPERSEDE",
+      "correct": true,
+      "reply": "{\"decision\":\"SUPERSEDE\"}"
+    },
+    {
+      "model": "qwen2.5:7b",
+      "rule": "permissive",
+      "pair": "P07",
+      "category": "revision",
+      "expected": "SUPERSEDE",
+      "got": "SUPERSEDE",
+      "correct": true,
+      "reply": "{\"decision\":\"SUPERSEDE\"}"
+    },
+    {
+      "model": "qwen2.5:7b",
+      "rule": "permissive",
+      "pair": "P08",
+      "category": "retry",
+      "expected": "SUPERSEDE",
+      "got": "SUPERSEDE",
+      "correct": true,
+      "reply": "{\"decision\":\"SUPERSEDE\"}"
+    },
+    {
+      "model": "qwen2.5:7b",
+      "rule": "permissive",
+      "pair": "P09",
+      "category": "verify",
+      "expected": "SUPERSEDE",
+      "got": "SUPERSEDE",
+      "correct": true,
+      "reply": "{\"decision\":\"SUPERSEDE\"}"
+    },
+    {
+      "model": "qwen2.5:7b",
+      "rule": "permissive",
+      "pair": "P10",
+      "category": "retry",
+      "expected": "SUPERSEDE",
+      "got": "SUPERSEDE",
+      "correct": true,
+      "reply": "{\"decision\":\"SUPERSEDE\"}"
+    },
+    {
+      "model": "qwen2.5:7b",
+      "rule": "permissive",
+      "pair": "P11",
+      "category": "preference_update",
+      "expected": "SUPERSEDE",
+      "got": "SUPERSEDE",
+      "correct": true,
+      "reply": "{\"decision\":\"SUPERSEDE\"}"
+    },
+    {
+      "model": "qwen2.5:7b",
+      "rule": "permissive",
+      "pair": "P12",
+      "category": "diagnosis_to_fix",
+      "expected": "SUPERSEDE",
+      "got": "SUPERSEDE",
+      "correct": true,
+      "reply": "{\"decision\":\"SUPERSEDE\"}"
+    },
+    {
+      "model": "qwen2.5:7b",
+      "rule": "permissive",
+      "pair": "P13",
+      "category": "revision",
+      "expected": "SUPERSEDE",
+      "got": "SUPERSEDE",
+      "correct": true,
+      "reply": "{\"decision\":\"SUPERSEDE\"}"
+    },
+    {
+      "model": "qwen2.5:7b",
+      "rule": "permissive",
+      "pair": "P14",
+      "category": "continuation",
+      "expected": "SUPERSEDE",
+      "got": "SUPERSEDE",
+      "correct": true,
+      "reply": "{\"decision\":\"SUPERSEDE\"}"
+    },
+    {
+      "model": "qwen2.5:7b",
+      "rule": "permissive",
+      "pair": "P15",
+      "category": "extension",
+      "expected": "SUPERSEDE",
+      "got": "INSERT",
+      "correct": false,
+      "reply": "{\"decision\":\"INSERT\"}"
+    },
+    {
+      "model": "qwen2.5:7b",
+      "rule": "permissive",
+      "pair": "P16",
+      "category": "extension",
+      "expected": "SUPERSEDE",
+      "got": "SUPERSEDE",
+      "correct": true,
+      "reply": "{\"decision\":\"SUPERSEDE\"}"
+    },
+    {
+      "model": "qwen2.5:7b",
+      "rule": "permissive",
+      "pair": "P17",
+      "category": "update",
+      "expected": "SUPERSEDE",
+      "got": "SUPERSEDE",
+      "correct": true,
+      "reply": "{\"decision\":\"SUPERSEDE\"}"
+    },
+    {
+      "model": "qwen2.5:7b",
+      "rule": "permissive",
+      "pair": "P18",
+      "category": "finish",
+      "expected": "SUPERSEDE",
+      "got": "SUPERSEDE",
+      "correct": true,
+      "reply": "{\"decision\":\"SUPERSEDE\"}"
+    },
+    {
+      "model": "qwen2.5:7b",
+      "rule": "permissive",
+      "pair": "P19",
+      "category": "continuation",
+      "expected": "SUPERSEDE",
+      "got": "SUPERSEDE",
+      "correct": true,
+      "reply": "{\"decision\":\"SUPERSEDE\"}"
+    },
+    {
+      "model": "qwen2.5:7b",
+      "rule": "permissive",
+      "pair": "P20",
+      "category": "revision",
+      "expected": "SUPERSEDE",
+      "got": "SUPERSEDE",
+      "correct": true,
+      "reply": "{\"decision\":\"SUPERSEDE\"}"
+    },
+    {
+      "model": "qwen2.5:7b",
+      "rule": "permissive",
+      "pair": "N01",
+      "category": "same_file_different_goal",
+      "expected": "INSERT",
+      "got": "SUPERSEDE",
+      "correct": false,
+      "reply": "{\"decision\":\"SUPERSEDE\"}"
+    },
+    {
+      "model": "qwen2.5:7b",
+      "rule": "permissive",
+      "pair": "N02",
+      "category": "same_file_different_goal",
+      "expected": "INSERT",
+      "got": "SUPERSEDE",
+      "correct": false,
+      "reply": "{\"decision\":\"SUPERSEDE\"}"
+    },
+    {
+      "model": "qwen2.5:7b",
+      "rule": "permissive",
+      "pair": "N03",
+      "category": "same_file_different_goal",
+      "expected": "INSERT",
+      "got": "SUPERSEDE",
+      "correct": false,
+      "reply": "{\"decision\":\"SUPERSEDE\"}"
+    },
+    {
+      "model": "qwen2.5:7b",
+      "rule": "permissive",
+      "pair": "N04",
+      "category": "different_files",
+      "expected": "INSERT",
+      "got": "INSERT",
+      "correct": true,
+      "reply": "{\"decision\":\"INSERT\"}"
+    },
+    {
+      "model": "qwen2.5:7b",
+      "rule": "permissive",
+      "pair": "N05",
+      "category": "different_files",
+      "expected": "INSERT",
+      "got": "INSERT",
+      "correct": true,
+      "reply": "{\"decision\":\"INSERT\"}"
+    },
+    {
+      "model": "qwen2.5:7b",
+      "rule": "permissive",
+      "pair": "N06",
+      "category": "different_files",
+      "expected": "INSERT",
+      "got": "INSERT",
+      "correct": true,
+      "reply": "{\"decision\":\"INSERT\"}"
+    },
+    {
+      "model": "qwen2.5:7b",
+      "rule": "permissive",
+      "pair": "N07",
+      "category": "different_people",
+      "expected": "INSERT",
+      "got": "SUPERSEDE",
+      "correct": false,
+      "reply": "{\"decision\":\"SUPERSEDE\"}"
+    },
+    {
+      "model": "qwen2.5:7b",
+      "rule": "permissive",
+      "pair": "N08",
+      "category": "different_people",
+      "expected": "INSERT",
+      "got": "SUPERSEDE",
+      "correct": false,
+      "reply": "{\"decision\":\"SUPERSEDE\"}"
+    },
+    {
+      "model": "qwen2.5:7b",
+      "rule": "permissive",
+      "pair": "N09",
+      "category": "different_people",
+      "expected": "INSERT",
+      "got": "SUPERSEDE",
+      "correct": false,
+      "reply": "{\"decision\":\"SUPERSEDE\"}"
+    },
+    {
+      "model": "qwen2.5:7b",
+      "rule": "permissive",
+      "pair": "N10",
+      "category": "different_projects",
+      "expected": "INSERT",
+      "got": "INSERT",
+      "correct": true,
+      "reply": "{\"decision\":\"INSERT\"}"
+    },
+    {
+      "model": "qwen2.5:7b",
+      "rule": "permissive",
+      "pair": "N11",
+      "category": "different_projects",
+      "expected": "INSERT",
+      "got": "SUPERSEDE",
+      "correct": false,
+      "reply": "{\"decision\":\"SUPERSEDE\"}"
+    },
+    {
+      "model": "qwen2.5:7b",
+      "rule": "permissive",
+      "pair": "N12",
+      "category": "different_projects",
+      "expected": "INSERT",
+      "got": "INSERT",
+      "correct": true,
+      "reply": "{\"decision\":\"INSERT\"}"
+    },
+    {
+      "model": "qwen2.5:7b",
+      "rule": "permissive",
+      "pair": "N13",
+      "category": "context_only",
+      "expected": "INSERT",
+      "got": "INSERT",
+      "correct": true,
+      "reply": "{\"decision\":\"INSERT\"}"
+    },
+    {
+      "model": "qwen2.5:7b",
+      "rule": "permissive",
+      "pair": "N14",
+      "category": "context_only",
+      "expected": "INSERT",
+      "got": "INSERT",
+      "correct": true,
+      "reply": "{\"decision\":\"INSERT\"}"
+    },
+    {
+      "model": "qwen2.5:7b",
+      "rule": "permissive",
+      "pair": "N15",
+      "category": "context_only",
+      "expected": "INSERT",
+      "got": "INSERT",
+      "correct": true,
+      "reply": "{\"decision\":\"INSERT\"}"
+    },
+    {
+      "model": "qwen2.5:7b",
+      "rule": "permissive",
+      "pair": "N16",
+      "category": "different_cause",
+      "expected": "INSERT",
+      "got": "SUPERSEDE",
+      "correct": false,
+      "reply": "{\"decision\":\"SUPERSEDE\"}"
+    },
+    {
+      "model": "qwen2.5:7b",
+      "rule": "permissive",
+      "pair": "N17",
+      "category": "different_cause",
+      "expected": "INSERT",
+      "got": "SUPERSEDE",
+      "correct": false,
+      "reply": "{\"decision\":\"SUPERSEDE\"}"
+    },
+    {
+      "model": "qwen2.5:7b",
+      "rule": "permissive",
+      "pair": "N18",
+      "category": "different_cause",
+      "expected": "INSERT",
+      "got": "SUPERSEDE",
+      "correct": false,
+      "reply": "{\"decision\":\"SUPERSEDE\"}"
+    },
+    {
+      "model": "qwen2.5:7b",
+      "rule": "permissive",
+      "pair": "N19",
+      "category": "unrelated_feature",
+      "expected": "INSERT",
+      "got": "SUPERSEDE",
+      "correct": false,
+      "reply": "{\"decision\":\"SUPERSEDE\"}"
+    },
+    {
+      "model": "qwen2.5:7b",
+      "rule": "permissive",
+      "pair": "N20",
+      "category": "unrelated_feature",
+      "expected": "INSERT",
+      "got": "SUPERSEDE",
+      "correct": false,
+      "reply": "{\"decision\":\"SUPERSEDE\"}"
+    },
+    {
+      "model": "qwen2.5:7b",
+      "rule": "permissive",
+      "pair": "N21",
+      "category": "unrelated_feature",
+      "expected": "INSERT",
+      "got": "SUPERSEDE",
+      "correct": false,
+      "reply": "{\"decision\":\"SUPERSEDE\"}"
+    },
+    {
+      "model": "qwen2.5:7b",
+      "rule": "permissive",
+      "pair": "N22",
+      "category": "different_preference_domain",
+      "expected": "INSERT",
+      "got": "INSERT",
+      "correct": true,
+      "reply": "{\"decision\":\"INSERT\"}"
+    },
+    {
+      "model": "qwen2.5:7b",
+      "rule": "permissive",
+      "pair": "N23",
+      "category": "different_preference_domain",
+      "expected": "INSERT",
+      "got": "INSERT",
+      "correct": true,
+      "reply": "{\"decision\":\"INSERT\"}"
+    },
+    {
+      "model": "qwen2.5:7b",
+      "rule": "permissive",
+      "pair": "N24",
+      "category": "different_decisions",
+      "expected": "INSERT",
+      "got": "INSERT",
+      "correct": true,
+      "reply": "{\"decision\":\"INSERT\"}"
+    },
+    {
+      "model": "qwen2.5:7b",
+      "rule": "permissive",
+      "pair": "N25",
+      "category": "different_decisions",
+      "expected": "INSERT",
+      "got": "SUPERSEDE",
+      "correct": false,
+      "reply": "{\"decision\":\"SUPERSEDE\"}"
+    },
+    {
+      "model": "qwen2.5:7b",
+      "rule": "permissive",
+      "pair": "N26",
+      "category": "uncertain",
+      "expected": "INSERT",
+      "got": "SUPERSEDE",
+      "correct": false,
+      "reply": "{\"decision\":\"SUPERSEDE\"}"
+    },
+    {
+      "model": "qwen2.5:7b",
+      "rule": "permissive",
+      "pair": "N27",
+      "category": "uncertain",
+      "expected": "INSERT",
+      "got": "INSERT",
+      "correct": true,
+      "reply": "{\"decision\":\"INSERT\"}"
+    },
+    {
+      "model": "qwen2.5:7b",
+      "rule": "permissive",
+      "pair": "N28",
+      "category": "different_period",
+      "expected": "INSERT",
+      "got": "INSERT",
+      "correct": true,
+      "reply": "{\"decision\":\"INSERT\"}"
+    },
+    {
+      "model": "qwen2.5:7b",
+      "rule": "permissive",
+      "pair": "N29",
+      "category": "different_period",
+      "expected": "INSERT",
+      "got": "SUPERSEDE",
+      "correct": false,
+      "reply": "{\"decision\":\"SUPERSEDE\"}"
+    },
+    {
+      "model": "qwen2.5:7b",
+      "rule": "permissive",
+      "pair": "N30",
+      "category": "different_goal",
+      "expected": "INSERT",
+      "got": "SUPERSEDE",
+      "correct": false,
+      "reply": "{\"decision\":\"SUPERSEDE\"}"
+    },
+    {
+      "model": "llama3.1:8b",
+      "rule": "conservative",
+      "pair": "P01",
+      "category": "continuation",
+      "expected": "SUPERSEDE",
+      "got": "SUPERSEDE",
+      "correct": true,
+      "reply": "{\"decision\":\"SUPERSEDE\"}"
+    },
+    {
+      "model": "llama3.1:8b",
+      "rule": "conservative",
+      "pair": "P02",
+      "category": "continuation",
+      "expected": "SUPERSEDE",
+      "got": "SUPERSEDE",
+      "correct": true,
+      "reply": "{\"decision\":\"SUPERSEDE\"}"
+    },
+    {
+      "model": "llama3.1:8b",
+      "rule": "conservative",
+      "pair": "P03",
+      "category": "preference_update",
+      "expected": "SUPERSEDE",
+      "got": "SUPERSEDE",
+      "correct": true,
+      "reply": "{\"decision\":\"SUPERSEDE\"}"
+    },
+    {
+      "model": "llama3.1:8b",
+      "rule": "conservative",
+      "pair": "P04",
+      "category": "diagnosis_to_fix",
+      "expected": "SUPERSEDE",
+      "got": "SUPERSEDE",
+      "correct": true,
+      "reply": "{\"decision\":\"SUPERSEDE\"}"
+    },
+    {
+      "model": "llama3.1:8b",
+      "rule": "conservative",
+      "pair": "P05",
+      "category": "extension",
+      "expected": "SUPERSEDE",
+      "got": "SUPERSEDE",
+      "correct": true,
+      "reply": "{\"decision\":\"SUPERSEDE\"}"
+    },
+    {
+      "model": "llama3.1:8b",
+      "rule": "conservative",
+      "pair": "P06",
+      "category": "continuation",
+      "expected": "SUPERSEDE",
+      "got": "SUPERSEDE",
+      "correct": true,
+      "reply": "{\"decision\":\"SUPERSEDE\"}"
+    },
+    {
+      "model": "llama3.1:8b",
+      "rule": "conservative",
+      "pair": "P07",
+      "category": "revision",
+      "expected": "SUPERSEDE",
+      "got": "SUPERSEDE",
+      "correct": true,
+      "reply": "{\"decision\":\"SUPERSEDE\"}"
+    },
+    {
+      "model": "llama3.1:8b",
+      "rule": "conservative",
+      "pair": "P08",
+      "category": "retry",
+      "expected": "SUPERSEDE",
+      "got": "SUPERSEDE",
+      "correct": true,
+      "reply": "{\"decision\":\"SUPERSEDE\"}"
+    },
+    {
+      "model": "llama3.1:8b",
+      "rule": "conservative",
+      "pair": "P09",
+      "category": "verify",
+      "expected": "SUPERSEDE",
+      "got": "SUPERSEDE",
+      "correct": true,
+      "reply": "{\"decision\":\"SUPERSEDE\"}"
+    },
+    {
+      "model": "llama3.1:8b",
+      "rule": "conservative",
+      "pair": "P10",
+      "category": "retry",
+      "expected": "SUPERSEDE",
+      "got": "SUPERSEDE",
+      "correct": true,
+      "reply": "{\"decision\":\"SUPERSEDE\"}"
+    },
+    {
+      "model": "llama3.1:8b",
+      "rule": "conservative",
+      "pair": "P11",
+      "category": "preference_update",
+      "expected": "SUPERSEDE",
+      "got": "INSERT",
+      "correct": false,
+      "reply": "{\"decision\":\"INSERT\"}"
+    },
+    {
+      "model": "llama3.1:8b",
+      "rule": "conservative",
+      "pair": "P12",
+      "category": "diagnosis_to_fix",
+      "expected": "SUPERSEDE",
+      "got": "SUPERSEDE",
+      "correct": true,
+      "reply": "{\"decision\":\"SUPERSEDE\"}"
+    },
+    {
+      "model": "llama3.1:8b",
+      "rule": "conservative",
+      "pair": "P13",
+      "category": "revision",
+      "expected": "SUPERSEDE",
+      "got": "SUPERSEDE",
+      "correct": true,
+      "reply": "{\"decision\":\"SUPERSEDE\"}"
+    },
+    {
+      "model": "llama3.1:8b",
+      "rule": "conservative",
+      "pair": "P14",
+      "category": "continuation",
+      "expected": "SUPERSEDE",
+      "got": "SUPERSEDE",
+      "correct": true,
+      "reply": "{\"decision\":\"SUPERSEDE\"}"
+    },
+    {
+      "model": "llama3.1:8b",
+      "rule": "conservative",
+      "pair": "P15",
+      "category": "extension",
+      "expected": "SUPERSEDE",
+      "got": "SUPERSEDE",
+      "correct": true,
+      "reply": "{\"decision\":\"SUPERSEDE\"}"
+    },
+    {
+      "model": "llama3.1:8b",
+      "rule": "conservative",
+      "pair": "P16",
+      "category": "extension",
+      "expected": "SUPERSEDE",
+      "got": "SUPERSEDE",
+      "correct": true,
+      "reply": "{\"decision\":\"SUPERSEDE\"}"
+    },
+    {
+      "model": "llama3.1:8b",
+      "rule": "conservative",
+      "pair": "P17",
+      "category": "update",
+      "expected": "SUPERSEDE",
+      "got": "SUPERSEDE",
+      "correct": true,
+      "reply": "{\"decision\":\"SUPERSEDE\"}"
+    },
+    {
+      "model": "llama3.1:8b",
+      "rule": "conservative",
+      "pair": "P18",
+      "category": "finish",
+      "expected": "SUPERSEDE",
+      "got": "SUPERSEDE",
+      "correct": true,
+      "reply": "{\"decision\":\"SUPERSEDE\"}"
+    },
+    {
+      "model": "llama3.1:8b",
+      "rule": "conservative",
+      "pair": "P19",
+      "category": "continuation",
+      "expected": "SUPERSEDE",
+      "got": "SUPERSEDE",
+      "correct": true,
+      "reply": "{\"decision\":\"SUPERSEDE\"}"
+    },
+    {
+      "model": "llama3.1:8b",
+      "rule": "conservative",
+      "pair": "P20",
+      "category": "revision",
+      "expected": "SUPERSEDE",
+      "got": "SUPERSEDE",
+      "correct": true,
+      "reply": "{\"decision\":\"SUPERSEDE\"}"
+    },
+    {
+      "model": "llama3.1:8b",
+      "rule": "conservative",
+      "pair": "N01",
+      "category": "same_file_different_goal",
+      "expected": "INSERT",
+      "got": "INSERT",
+      "correct": true,
+      "reply": "{\"decision\":\"INSERT\"}"
+    },
+    {
+      "model": "llama3.1:8b",
+      "rule": "conservative",
+      "pair": "N02",
+      "category": "same_file_different_goal",
+      "expected": "INSERT",
+      "got": "INSERT",
+      "correct": true,
+      "reply": "{\"decision\":\"INSERT\"}"
+    },
+    {
+      "model": "llama3.1:8b",
+      "rule": "conservative",
+      "pair": "N03",
+      "category": "same_file_different_goal",
+      "expected": "INSERT",
+      "got": "INSERT",
+      "correct": true,
+      "reply": "{\"decision\":\"INSERT\"}"
+    },
+    {
+      "model": "llama3.1:8b",
+      "rule": "conservative",
+      "pair": "N04",
+      "category": "different_files",
+      "expected": "INSERT",
+      "got": "INSERT",
+      "correct": true,
+      "reply": "{\"decision\":\"INSERT\"}"
+    },
+    {
+      "model": "llama3.1:8b",
+      "rule": "conservative",
+      "pair": "N05",
+      "category": "different_files",
+      "expected": "INSERT",
+      "got": "INSERT",
+      "correct": true,
+      "reply": "{\"decision\":\"INSERT\"}"
+    },
+    {
+      "model": "llama3.1:8b",
+      "rule": "conservative",
+      "pair": "N06",
+      "category": "different_files",
+      "expected": "INSERT",
+      "got": "INSERT",
+      "correct": true,
+      "reply": "{\"decision\":\"INSERT\"}"
+    },
+    {
+      "model": "llama3.1:8b",
+      "rule": "conservative",
+      "pair": "N07",
+      "category": "different_people",
+      "expected": "INSERT",
+      "got": "INSERT",
+      "correct": true,
+      "reply": "{\"decision\":\"INSERT\"}"
+    },
+    {
+      "model": "llama3.1:8b",
+      "rule": "conservative",
+      "pair": "N08",
+      "category": "different_people",
+      "expected": "INSERT",
+      "got": "INSERT",
+      "correct": true,
+      "reply": "{\"decision\":\"INSERT\"}"
+    },
+    {
+      "model": "llama3.1:8b",
+      "rule": "conservative",
+      "pair": "N09",
+      "category": "different_people",
+      "expected": "INSERT",
+      "got": "INSERT",
+      "correct": true,
+      "reply": "{\"decision\":\"INSERT\"}"
+    },
+    {
+      "model": "llama3.1:8b",
+      "rule": "conservative",
+      "pair": "N10",
+      "category": "different_projects",
+      "expected": "INSERT",
+      "got": "INSERT",
+      "correct": true,
+      "reply": "{\"decision\":\"INSERT\"}"
+    },
+    {
+      "model": "llama3.1:8b",
+      "rule": "conservative",
+      "pair": "N11",
+      "category": "different_projects",
+      "expected": "INSERT",
+      "got": "INSERT",
+      "correct": true,
+      "reply": "{\"decision\":\"INSERT\"}"
+    },
+    {
+      "model": "llama3.1:8b",
+      "rule": "conservative",
+      "pair": "N12",
+      "category": "different_projects",
+      "expected": "INSERT",
+      "got": "INSERT",
+      "correct": true,
+      "reply": "{\"decision\":\"INSERT\"}"
+    },
+    {
+      "model": "llama3.1:8b",
+      "rule": "conservative",
+      "pair": "N13",
+      "category": "context_only",
+      "expected": "INSERT",
+      "got": "INSERT",
+      "correct": true,
+      "reply": "{\"decision\":\"INSERT\"}"
+    },
+    {
+      "model": "llama3.1:8b",
+      "rule": "conservative",
+      "pair": "N14",
+      "category": "context_only",
+      "expected": "INSERT",
+      "got": "INSERT",
+      "correct": true,
+      "reply": "{\"decision\":\"INSERT\"}"
+    },
+    {
+      "model": "llama3.1:8b",
+      "rule": "conservative",
+      "pair": "N15",
+      "category": "context_only",
+      "expected": "INSERT",
+      "got": "INSERT",
+      "correct": true,
+      "reply": "{\"decision\":\"INSERT\"}"
+    },
+    {
+      "model": "llama3.1:8b",
+      "rule": "conservative",
+      "pair": "N16",
+      "category": "different_cause",
+      "expected": "INSERT",
+      "got": "INSERT",
+      "correct": true,
+      "reply": "{\"decision\":\"INSERT\"}"
+    },
+    {
+      "model": "llama3.1:8b",
+      "rule": "conservative",
+      "pair": "N17",
+      "category": "different_cause",
+      "expected": "INSERT",
+      "got": "INSERT",
+      "correct": true,
+      "reply": "{\"decision\":\"INSERT\"}"
+    },
+    {
+      "model": "llama3.1:8b",
+      "rule": "conservative",
+      "pair": "N18",
+      "category": "different_cause",
+      "expected": "INSERT",
+      "got": "INSERT",
+      "correct": true,
+      "reply": "{\"decision\":\"INSERT\"}"
+    },
+    {
+      "model": "llama3.1:8b",
+      "rule": "conservative",
+      "pair": "N19",
+      "category": "unrelated_feature",
+      "expected": "INSERT",
+      "got": "INSERT",
+      "correct": true,
+      "reply": "{\"decision\":\"INSERT\"}"
+    },
+    {
+      "model": "llama3.1:8b",
+      "rule": "conservative",
+      "pair": "N20",
+      "category": "unrelated_feature",
+      "expected": "INSERT",
+      "got": "INSERT",
+      "correct": true,
+      "reply": "{\"decision\":\"INSERT\"}"
+    },
+    {
+      "model": "llama3.1:8b",
+      "rule": "conservative",
+      "pair": "N21",
+      "category": "unrelated_feature",
+      "expected": "INSERT",
+      "got": "INSERT",
+      "correct": true,
+      "reply": "{\"decision\":\"INSERT\"}"
+    },
+    {
+      "model": "llama3.1:8b",
+      "rule": "conservative",
+      "pair": "N22",
+      "category": "different_preference_domain",
+      "expected": "INSERT",
+      "got": "INSERT",
+      "correct": true,
+      "reply": "{\"decision\":\"INSERT\"}"
+    },
+    {
+      "model": "llama3.1:8b",
+      "rule": "conservative",
+      "pair": "N23",
+      "category": "different_preference_domain",
+      "expected": "INSERT",
+      "got": "INSERT",
+      "correct": true,
+      "reply": "{\"decision\":\"INSERT\"}"
+    },
+    {
+      "model": "llama3.1:8b",
+      "rule": "conservative",
+      "pair": "N24",
+      "category": "different_decisions",
+      "expected": "INSERT",
+      "got": "INSERT",
+      "correct": true,
+      "reply": "{\"decision\":\"INSERT\"}"
+    },
+    {
+      "model": "llama3.1:8b",
+      "rule": "conservative",
+      "pair": "N25",
+      "category": "different_decisions",
+      "expected": "INSERT",
+      "got": "INSERT",
+      "correct": true,
+      "reply": "{\"decision\":\"INSERT\"}"
+    },
+    {
+      "model": "llama3.1:8b",
+      "rule": "conservative",
+      "pair": "N26",
+      "category": "uncertain",
+      "expected": "INSERT",
+      "got": "INSERT",
+      "correct": true,
+      "reply": "{\"decision\":\"INSERT\"}"
+    },
+    {
+      "model": "llama3.1:8b",
+      "rule": "conservative",
+      "pair": "N27",
+      "category": "uncertain",
+      "expected": "INSERT",
+      "got": "INSERT",
+      "correct": true,
+      "reply": "{\"decision\":\"INSERT\"}"
+    },
+    {
+      "model": "llama3.1:8b",
+      "rule": "conservative",
+      "pair": "N28",
+      "category": "different_period",
+      "expected": "INSERT",
+      "got": "INSERT",
+      "correct": true,
+      "reply": "{\"decision\":\"INSERT\"}"
+    },
+    {
+      "model": "llama3.1:8b",
+      "rule": "conservative",
+      "pair": "N29",
+      "category": "different_period",
+      "expected": "INSERT",
+      "got": "INSERT",
+      "correct": true,
+      "reply": "{\"decision\":\"INSERT\"}"
+    },
+    {
+      "model": "llama3.1:8b",
+      "rule": "conservative",
+      "pair": "N30",
+      "category": "different_goal",
+      "expected": "INSERT",
+      "got": "INSERT",
+      "correct": true,
+      "reply": "{\"decision\":\"INSERT\"}"
+    },
+    {
+      "model": "llama3.1:8b",
+      "rule": "permissive",
+      "pair": "P01",
+      "category": "continuation",
+      "expected": "SUPERSEDE",
+      "got": "SUPERSEDE",
+      "correct": true,
+      "reply": "{\"decision\":\"SUPERSEDE\"}"
+    },
+    {
+      "model": "llama3.1:8b",
+      "rule": "permissive",
+      "pair": "P02",
+      "category": "continuation",
+      "expected": "SUPERSEDE",
+      "got": "SUPERSEDE",
+      "correct": true,
+      "reply": "{\"decision\":\"SUPERSEDE\"}"
+    },
+    {
+      "model": "llama3.1:8b",
+      "rule": "permissive",
+      "pair": "P03",
+      "category": "preference_update",
+      "expected": "SUPERSEDE",
+      "got": "SUPERSEDE",
+      "correct": true,
+      "reply": "{\"decision\":\"SUPERSEDE\"}"
+    },
+    {
+      "model": "llama3.1:8b",
+      "rule": "permissive",
+      "pair": "P04",
+      "category": "diagnosis_to_fix",
+      "expected": "SUPERSEDE",
+      "got": "SUPERSEDE",
+      "correct": true,
+      "reply": "{\"decision\":\"SUPERSEDE\"}"
+    },
+    {
+      "model": "llama3.1:8b",
+      "rule": "permissive",
+      "pair": "P05",
+      "category": "extension",
+      "expected": "SUPERSEDE",
+      "got": "SUPERSEDE",
+      "correct": true,
+      "reply": "{\"decision\":\"SUPERSEDE\"}"
+    },
+    {
+      "model": "llama3.1:8b",
+      "rule": "permissive",
+      "pair": "P06",
+      "category": "continuation",
+      "expected": "SUPERSEDE",
+      "got": "SUPERSEDE",
+      "correct": true,
+      "reply": "{\"decision\":\"SUPERSEDE\"}"
+    },
+    {
+      "model": "llama3.1:8b",
+      "rule": "permissive",
+      "pair": "P07",
+      "category": "revision",
+      "expected": "SUPERSEDE",
+      "got": "SUPERSEDE",
+      "correct": true,
+      "reply": "{\"decision\":\"SUPERSEDE\"}"
+    },
+    {
+      "model": "llama3.1:8b",
+      "rule": "permissive",
+      "pair": "P08",
+      "category": "retry",
+      "expected": "SUPERSEDE",
+      "got": "SUPERSEDE",
+      "correct": true,
+      "reply": "{\"decision\":\"SUPERSEDE\"}"
+    },
+    {
+      "model": "llama3.1:8b",
+      "rule": "permissive",
+      "pair": "P09",
+      "category": "verify",
+      "expected": "SUPERSEDE",
+      "got": "SUPERSEDE",
+      "correct": true,
+      "reply": "{\"decision\":\"SUPERSEDE\"}"
+    },
+    {
+      "model": "llama3.1:8b",
+      "rule": "permissive",
+      "pair": "P10",
+      "category": "retry",
+      "expected": "SUPERSEDE",
+      "got": "SUPERSEDE",
+      "correct": true,
+      "reply": "{\"decision\":\"SUPERSEDE\"}"
+    },
+    {
+      "model": "llama3.1:8b",
+      "rule": "permissive",
+      "pair": "P11",
+      "category": "preference_update",
+      "expected": "SUPERSEDE",
+      "got": "SUPERSEDE",
+      "correct": true,
+      "reply": "{\"decision\":\"SUPERSEDE\"}"
+    },
+    {
+      "model": "llama3.1:8b",
+      "rule": "permissive",
+      "pair": "P12",
+      "category": "diagnosis_to_fix",
+      "expected": "SUPERSEDE",
+      "got": "SUPERSEDE",
+      "correct": true,
+      "reply": "{\"decision\":\"SUPERSEDE\"}"
+    },
+    {
+      "model": "llama3.1:8b",
+      "rule": "permissive",
+      "pair": "P13",
+      "category": "revision",
+      "expected": "SUPERSEDE",
+      "got": "SUPERSEDE",
+      "correct": true,
+      "reply": "{\"decision\":\"SUPERSEDE\"}"
+    },
+    {
+      "model": "llama3.1:8b",
+      "rule": "permissive",
+      "pair": "P14",
+      "category": "continuation",
+      "expected": "SUPERSEDE",
+      "got": "SUPERSEDE",
+      "correct": true,
+      "reply": "{\"decision\":\"SUPERSEDE\"}"
+    },
+    {
+      "model": "llama3.1:8b",
+      "rule": "permissive",
+      "pair": "P15",
+      "category": "extension",
+      "expected": "SUPERSEDE",
+      "got": "SUPERSEDE",
+      "correct": true,
+      "reply": "{\"decision\":\"SUPERSEDE\"}"
+    },
+    {
+      "model": "llama3.1:8b",
+      "rule": "permissive",
+      "pair": "P16",
+      "category": "extension",
+      "expected": "SUPERSEDE",
+      "got": "SUPERSEDE",
+      "correct": true,
+      "reply": "{\"decision\":\"SUPERSEDE\"}"
+    },
+    {
+      "model": "llama3.1:8b",
+      "rule": "permissive",
+      "pair": "P17",
+      "category": "update",
+      "expected": "SUPERSEDE",
+      "got": "SUPERSEDE",
+      "correct": true,
+      "reply": "{\"decision\":\"SUPERSEDE\"}"
+    },
+    {
+      "model": "llama3.1:8b",
+      "rule": "permissive",
+      "pair": "P18",
+      "category": "finish",
+      "expected": "SUPERSEDE",
+      "got": "SUPERSEDE",
+      "correct": true,
+      "reply": "{\"decision\":\"SUPERSEDE\"}"
+    },
+    {
+      "model": "llama3.1:8b",
+      "rule": "permissive",
+      "pair": "P19",
+      "category": "continuation",
+      "expected": "SUPERSEDE",
+      "got": "SUPERSEDE",
+      "correct": true,
+      "reply": "{\"decision\":\"SUPERSEDE\"}"
+    },
+    {
+      "model": "llama3.1:8b",
+      "rule": "permissive",
+      "pair": "P20",
+      "category": "revision",
+      "expected": "SUPERSEDE",
+      "got": "SUPERSEDE",
+      "correct": true,
+      "reply": "{\"decision\":\"SUPERSEDE\"}"
+    },
+    {
+      "model": "llama3.1:8b",
+      "rule": "permissive",
+      "pair": "N01",
+      "category": "same_file_different_goal",
+      "expected": "INSERT",
+      "got": "SUPERSEDE",
+      "correct": false,
+      "reply": "{\"decision\":\"SUPERSEDE\"}"
+    },
+    {
+      "model": "llama3.1:8b",
+      "rule": "permissive",
+      "pair": "N02",
+      "category": "same_file_different_goal",
+      "expected": "INSERT",
+      "got": "SUPERSEDE",
+      "correct": false,
+      "reply": "{\"decision\":\"SUPERSEDE\"}"
+    },
+    {
+      "model": "llama3.1:8b",
+      "rule": "permissive",
+      "pair": "N03",
+      "category": "same_file_different_goal",
+      "expected": "INSERT",
+      "got": "INSERT",
+      "correct": true,
+      "reply": "{\"decision\":\"INSERT\"}"
+    },
+    {
+      "model": "llama3.1:8b",
+      "rule": "permissive",
+      "pair": "N04",
+      "category": "different_files",
+      "expected": "INSERT",
+      "got": "INSERT",
+      "correct": true,
+      "reply": "{\"decision\":\"INSERT\"}"
+    },
+    {
+      "model": "llama3.1:8b",
+      "rule": "permissive",
+      "pair": "N05",
+      "category": "different_files",
+      "expected": "INSERT",
+      "got": "INSERT",
+      "correct": true,
+      "reply": "{\"decision\":\"INSERT\"}"
+    },
+    {
+      "model": "llama3.1:8b",
+      "rule": "permissive",
+      "pair": "N06",
+      "category": "different_files",
+      "expected": "INSERT",
+      "got": "INSERT",
+      "correct": true,
+      "reply": "{\"decision\":\"INSERT\"}"
+    },
+    {
+      "model": "llama3.1:8b",
+      "rule": "permissive",
+      "pair": "N07",
+      "category": "different_people",
+      "expected": "INSERT",
+      "got": "INSERT",
+      "correct": true,
+      "reply": "{\"decision\":\"INSERT\"}"
+    },
+    {
+      "model": "llama3.1:8b",
+      "rule": "permissive",
+      "pair": "N08",
+      "category": "different_people",
+      "expected": "INSERT",
+      "got": "INSERT",
+      "correct": true,
+      "reply": "{\"decision\":\"INSERT\"}"
+    },
+    {
+      "model": "llama3.1:8b",
+      "rule": "permissive",
+      "pair": "N09",
+      "category": "different_people",
+      "expected": "INSERT",
+      "got": "INSERT",
+      "correct": true,
+      "reply": "{\"decision\":\"INSERT\"}"
+    },
+    {
+      "model": "llama3.1:8b",
+      "rule": "permissive",
+      "pair": "N10",
+      "category": "different_projects",
+      "expected": "INSERT",
+      "got": "INSERT",
+      "correct": true,
+      "reply": "{\"decision\":\"INSERT\"}"
+    },
+    {
+      "model": "llama3.1:8b",
+      "rule": "permissive",
+      "pair": "N11",
+      "category": "different_projects",
+      "expected": "INSERT",
+      "got": "SUPERSEDE",
+      "correct": false,
+      "reply": "{\"decision\":\"SUPERSEDE\"}"
+    },
+    {
+      "model": "llama3.1:8b",
+      "rule": "permissive",
+      "pair": "N12",
+      "category": "different_projects",
+      "expected": "INSERT",
+      "got": "INSERT",
+      "correct": true,
+      "reply": "{\"decision\":\"INSERT\"}"
+    },
+    {
+      "model": "llama3.1:8b",
+      "rule": "permissive",
+      "pair": "N13",
+      "category": "context_only",
+      "expected": "INSERT",
+      "got": "INSERT",
+      "correct": true,
+      "reply": "{\"decision\":\"INSERT\"}"
+    },
+    {
+      "model": "llama3.1:8b",
+      "rule": "permissive",
+      "pair": "N14",
+      "category": "context_only",
+      "expected": "INSERT",
+      "got": "SUPERSEDE",
+      "correct": false,
+      "reply": "{\"decision\":\"SUPERSEDE\"}"
+    },
+    {
+      "model": "llama3.1:8b",
+      "rule": "permissive",
+      "pair": "N15",
+      "category": "context_only",
+      "expected": "INSERT",
+      "got": "INSERT",
+      "correct": true,
+      "reply": "{\"decision\":\"INSERT\"}"
+    },
+    {
+      "model": "llama3.1:8b",
+      "rule": "permissive",
+      "pair": "N16",
+      "category": "different_cause",
+      "expected": "INSERT",
+      "got": "INSERT",
+      "correct": true,
+      "reply": "{\"decision\":\"INSERT\"}"
+    },
+    {
+      "model": "llama3.1:8b",
+      "rule": "permissive",
+      "pair": "N17",
+      "category": "different_cause",
+      "expected": "INSERT",
+      "got": "INSERT",
+      "correct": true,
+      "reply": "{\"decision\":\"INSERT\"}"
+    },
+    {
+      "model": "llama3.1:8b",
+      "rule": "permissive",
+      "pair": "N18",
+      "category": "different_cause",
+      "expected": "INSERT",
+      "got": "INSERT",
+      "correct": true,
+      "reply": "{\"decision\":\"INSERT\"}"
+    },
+    {
+      "model": "llama3.1:8b",
+      "rule": "permissive",
+      "pair": "N19",
+      "category": "unrelated_feature",
+      "expected": "INSERT",
+      "got": "SUPERSEDE",
+      "correct": false,
+      "reply": "{\"decision\":\"SUPERSEDE\"}"
+    },
+    {
+      "model": "llama3.1:8b",
+      "rule": "permissive",
+      "pair": "N20",
+      "category": "unrelated_feature",
+      "expected": "INSERT",
+      "got": "SUPERSEDE",
+      "correct": false,
+      "reply": "{\"decision\":\"SUPERSEDE\"}"
+    },
+    {
+      "model": "llama3.1:8b",
+      "rule": "permissive",
+      "pair": "N21",
+      "category": "unrelated_feature",
+      "expected": "INSERT",
+      "got": "SUPERSEDE",
+      "correct": false,
+      "reply": "{\"decision\":\"SUPERSEDE\"}"
+    },
+    {
+      "model": "llama3.1:8b",
+      "rule": "permissive",
+      "pair": "N22",
+      "category": "different_preference_domain",
+      "expected": "INSERT",
+      "got": "INSERT",
+      "correct": true,
+      "reply": "{\"decision\":\"INSERT\"}"
+    },
+    {
+      "model": "llama3.1:8b",
+      "rule": "permissive",
+      "pair": "N23",
+      "category": "different_preference_domain",
+      "expected": "INSERT",
+      "got": "INSERT",
+      "correct": true,
+      "reply": "{\"decision\":\"INSERT\"}"
+    },
+    {
+      "model": "llama3.1:8b",
+      "rule": "permissive",
+      "pair": "N24",
+      "category": "different_decisions",
+      "expected": "INSERT",
+      "got": "INSERT",
+      "correct": true,
+      "reply": "{\"decision\":\"INSERT\"}"
+    },
+    {
+      "model": "llama3.1:8b",
+      "rule": "permissive",
+      "pair": "N25",
+      "category": "different_decisions",
+      "expected": "INSERT",
+      "got": "SUPERSEDE",
+      "correct": false,
+      "reply": "{\"decision\":\"SUPERSEDE\"}"
+    },
+    {
+      "model": "llama3.1:8b",
+      "rule": "permissive",
+      "pair": "N26",
+      "category": "uncertain",
+      "expected": "INSERT",
+      "got": "INSERT",
+      "correct": true,
+      "reply": "{\"decision\":\"INSERT\"}"
+    },
+    {
+      "model": "llama3.1:8b",
+      "rule": "permissive",
+      "pair": "N27",
+      "category": "uncertain",
+      "expected": "INSERT",
+      "got": "INSERT",
+      "correct": true,
+      "reply": "{\"decision\":\"INSERT\"}"
+    },
+    {
+      "model": "llama3.1:8b",
+      "rule": "permissive",
+      "pair": "N28",
+      "category": "different_period",
+      "expected": "INSERT",
+      "got": "INSERT",
+      "correct": true,
+      "reply": "{\"decision\":\"INSERT\"}"
+    },
+    {
+      "model": "llama3.1:8b",
+      "rule": "permissive",
+      "pair": "N29",
+      "category": "different_period",
+      "expected": "INSERT",
+      "got": "INSERT",
+      "correct": true,
+      "reply": "{\"decision\":\"INSERT\"}"
+    },
+    {
+      "model": "llama3.1:8b",
+      "rule": "permissive",
+      "pair": "N30",
+      "category": "different_goal",
+      "expected": "INSERT",
+      "got": "SUPERSEDE",
+      "correct": false,
+      "reply": "{\"decision\":\"SUPERSEDE\"}"
+    },
+    {
+      "model": "gemma3:4b",
+      "rule": "conservative",
+      "pair": "P01",
+      "category": "continuation",
+      "expected": "SUPERSEDE",
+      "got": "INSERT",
+      "correct": false,
+      "reply": "{\"decision\":\"INSERT\"}"
+    },
+    {
+      "model": "gemma3:4b",
+      "rule": "conservative",
+      "pair": "P02",
+      "category": "continuation",
+      "expected": "SUPERSEDE",
+      "got": "SUPERSEDE",
+      "correct": true,
+      "reply": "{\"decision\":\"SUPERSEDE\"}"
+    },
+    {
+      "model": "gemma3:4b",
+      "rule": "conservative",
+      "pair": "P03",
+      "category": "preference_update",
+      "expected": "SUPERSEDE",
+      "got": "SUPERSEDE",
+      "correct": true,
+      "reply": "{\"decision\":\"SUPERSEDE\"}"
+    },
+    {
+      "model": "gemma3:4b",
+      "rule": "conservative",
+      "pair": "P04",
+      "category": "diagnosis_to_fix",
+      "expected": "SUPERSEDE",
+      "got": "SUPERSEDE",
+      "correct": true,
+      "reply": "{\"decision\":\"SUPERSEDE\"}"
+    },
+    {
+      "model": "gemma3:4b",
+      "rule": "conservative",
+      "pair": "P05",
+      "category": "extension",
+      "expected": "SUPERSEDE",
+      "got": "INSERT",
+      "correct": false,
+      "reply": "{\"decision\":\"INSERT\"}"
+    },
+    {
+      "model": "gemma3:4b",
+      "rule": "conservative",
+      "pair": "P06",
+      "category": "continuation",
+      "expected": "SUPERSEDE",
+      "got": "SUPERSEDE",
+      "correct": true,
+      "reply": "{\"decision\":\"SUPERSEDE\"}"
+    },
+    {
+      "model": "gemma3:4b",
+      "rule": "conservative",
+      "pair": "P07",
+      "category": "revision",
+      "expected": "SUPERSEDE",
+      "got": "INSERT",
+      "correct": false,
+      "reply": "{\"decision\":\"INSERT\"}"
+    },
+    {
+      "model": "gemma3:4b",
+      "rule": "conservative",
+      "pair": "P08",
+      "category": "retry",
+      "expected": "SUPERSEDE",
+      "got": "INSERT",
+      "correct": false,
+      "reply": "{\"decision\":\"INSERT\"}"
+    },
+    {
+      "model": "gemma3:4b",
+      "rule": "conservative",
+      "pair": "P09",
+      "category": "verify",
+      "expected": "SUPERSEDE",
+      "got": "INSERT",
+      "correct": false,
+      "reply": "{\"decision\":\"INSERT\"}"
+    },
+    {
+      "model": "gemma3:4b",
+      "rule": "conservative",
+      "pair": "P10",
+      "category": "retry",
+      "expected": "SUPERSEDE",
+      "got": "SUPERSEDE",
+      "correct": true,
+      "reply": "{\"decision\":\"SUPERSEDE\"}"
+    },
+    {
+      "model": "gemma3:4b",
+      "rule": "conservative",
+      "pair": "P11",
+      "category": "preference_update",
+      "expected": "SUPERSEDE",
+      "got": "INSERT",
+      "correct": false,
+      "reply": "{\"decision\":\"INSERT\"}"
+    },
+    {
+      "model": "gemma3:4b",
+      "rule": "conservative",
+      "pair": "P12",
+      "category": "diagnosis_to_fix",
+      "expected": "SUPERSEDE",
+      "got": "SUPERSEDE",
+      "correct": true,
+      "reply": "{\"decision\":\"SUPERSEDE\"}"
+    },
+    {
+      "model": "gemma3:4b",
+      "rule": "conservative",
+      "pair": "P13",
+      "category": "revision",
+      "expected": "SUPERSEDE",
+      "got": "INSERT",
+      "correct": false,
+      "reply": "{\"decision\":\"INSERT\"}"
+    },
+    {
+      "model": "gemma3:4b",
+      "rule": "conservative",
+      "pair": "P14",
+      "category": "continuation",
+      "expected": "SUPERSEDE",
+      "got": "SUPERSEDE",
+      "correct": true,
+      "reply": "{\"decision\":\"SUPERSEDE\"}"
+    },
+    {
+      "model": "gemma3:4b",
+      "rule": "conservative",
+      "pair": "P15",
+      "category": "extension",
+      "expected": "SUPERSEDE",
+      "got": "INSERT",
+      "correct": false,
+      "reply": "{\"decision\":\"INSERT\"}"
+    },
+    {
+      "model": "gemma3:4b",
+      "rule": "conservative",
+      "pair": "P16",
+      "category": "extension",
+      "expected": "SUPERSEDE",
+      "got": "INSERT",
+      "correct": false,
+      "reply": "{\"decision\":\"INSERT\"}"
+    },
+    {
+      "model": "gemma3:4b",
+      "rule": "conservative",
+      "pair": "P17",
+      "category": "update",
+      "expected": "SUPERSEDE",
+      "got": "INSERT",
+      "correct": false,
+      "reply": "{\"decision\":\"INSERT\"}"
+    },
+    {
+      "model": "gemma3:4b",
+      "rule": "conservative",
+      "pair": "P18",
+      "category": "finish",
+      "expected": "SUPERSEDE",
+      "got": "INSERT",
+      "correct": false,
+      "reply": "{\"decision\":\"INSERT\"}"
+    },
+    {
+      "model": "gemma3:4b",
+      "rule": "conservative",
+      "pair": "P19",
+      "category": "continuation",
+      "expected": "SUPERSEDE",
+      "got": "SUPERSEDE",
+      "correct": true,
+      "reply": "{\"decision\":\"SUPERSEDE\"}"
+    },
+    {
+      "model": "gemma3:4b",
+      "rule": "conservative",
+      "pair": "P20",
+      "category": "revision",
+      "expected": "SUPERSEDE",
+      "got": "INSERT",
+      "correct": false,
+      "reply": "{\"decision\":\"INSERT\"}"
+    },
+    {
+      "model": "gemma3:4b",
+      "rule": "conservative",
+      "pair": "N01",
+      "category": "same_file_different_goal",
+      "expected": "INSERT",
+      "got": "INSERT",
+      "correct": true,
+      "reply": "{\"decision\":\"INSERT\"}"
+    },
+    {
+      "model": "gemma3:4b",
+      "rule": "conservative",
+      "pair": "N02",
+      "category": "same_file_different_goal",
+      "expected": "INSERT",
+      "got": "INSERT",
+      "correct": true,
+      "reply": "{\"decision\":\"INSERT\"}"
+    },
+    {
+      "model": "gemma3:4b",
+      "rule": "conservative",
+      "pair": "N03",
+      "category": "same_file_different_goal",
+      "expected": "INSERT",
+      "got": "INSERT",
+      "correct": true,
+      "reply": "{\"decision\":\"INSERT\"}"
+    },
+    {
+      "model": "gemma3:4b",
+      "rule": "conservative",
+      "pair": "N04",
+      "category": "different_files",
+      "expected": "INSERT",
+      "got": "INSERT",
+      "correct": true,
+      "reply": "{\"decision\":\"INSERT\"}"
+    },
+    {
+      "model": "gemma3:4b",
+      "rule": "conservative",
+      "pair": "N05",
+      "category": "different_files",
+      "expected": "INSERT",
+      "got": "INSERT",
+      "correct": true,
+      "reply": "{\"decision\":\"INSERT\"}"
+    },
+    {
+      "model": "gemma3:4b",
+      "rule": "conservative",
+      "pair": "N06",
+      "category": "different_files",
+      "expected": "INSERT",
+      "got": "INSERT",
+      "correct": true,
+      "reply": "{\"decision\":\"INSERT\"}"
+    },
+    {
+      "model": "gemma3:4b",
+      "rule": "conservative",
+      "pair": "N07",
+      "category": "different_people",
+      "expected": "INSERT",
+      "got": "INSERT",
+      "correct": true,
+      "reply": "{\"decision\":\"INSERT\"}"
+    },
+    {
+      "model": "gemma3:4b",
+      "rule": "conservative",
+      "pair": "N08",
+      "category": "different_people",
+      "expected": "INSERT",
+      "got": "INSERT",
+      "correct": true,
+      "reply": "{\"decision\":\"INSERT\"}"
+    },
+    {
+      "model": "gemma3:4b",
+      "rule": "conservative",
+      "pair": "N09",
+      "category": "different_people",
+      "expected": "INSERT",
+      "got": "INSERT",
+      "correct": true,
+      "reply": "{\"decision\":\"INSERT\"}"
+    },
+    {
+      "model": "gemma3:4b",
+      "rule": "conservative",
+      "pair": "N10",
+      "category": "different_projects",
+      "expected": "INSERT",
+      "got": "INSERT",
+      "correct": true,
+      "reply": "{\"decision\":\"INSERT\"}"
+    },
+    {
+      "model": "gemma3:4b",
+      "rule": "conservative",
+      "pair": "N11",
+      "category": "different_projects",
+      "expected": "INSERT",
+      "got": "INSERT",
+      "correct": true,
+      "reply": "{\"decision\":\"INSERT\"}"
+    },
+    {
+      "model": "gemma3:4b",
+      "rule": "conservative",
+      "pair": "N12",
+      "category": "different_projects",
+      "expected": "INSERT",
+      "got": "INSERT",
+      "correct": true,
+      "reply": "{\"decision\":\"INSERT\"}"
+    },
+    {
+      "model": "gemma3:4b",
+      "rule": "conservative",
+      "pair": "N13",
+      "category": "context_only",
+      "expected": "INSERT",
+      "got": "INSERT",
+      "correct": true,
+      "reply": "{\"decision\":\"INSERT\"}"
+    },
+    {
+      "model": "gemma3:4b",
+      "rule": "conservative",
+      "pair": "N14",
+      "category": "context_only",
+      "expected": "INSERT",
+      "got": "INSERT",
+      "correct": true,
+      "reply": "{\"decision\":\"INSERT\"}"
+    },
+    {
+      "model": "gemma3:4b",
+      "rule": "conservative",
+      "pair": "N15",
+      "category": "context_only",
+      "expected": "INSERT",
+      "got": "INSERT",
+      "correct": true,
+      "reply": "{\"decision\":\"INSERT\"}"
+    },
+    {
+      "model": "gemma3:4b",
+      "rule": "conservative",
+      "pair": "N16",
+      "category": "different_cause",
+      "expected": "INSERT",
+      "got": "INSERT",
+      "correct": true,
+      "reply": "{\"decision\":\"INSERT\"}"
+    },
+    {
+      "model": "gemma3:4b",
+      "rule": "conservative",
+      "pair": "N17",
+      "category": "different_cause",
+      "expected": "INSERT",
+      "got": "INSERT",
+      "correct": true,
+      "reply": "{\"decision\":\"INSERT\"}"
+    },
+    {
+      "model": "gemma3:4b",
+      "rule": "conservative",
+      "pair": "N18",
+      "category": "different_cause",
+      "expected": "INSERT",
+      "got": "INSERT",
+      "correct": true,
+      "reply": "{\"decision\":\"INSERT\"}"
+    },
+    {
+      "model": "gemma3:4b",
+      "rule": "conservative",
+      "pair": "N19",
+      "category": "unrelated_feature",
+      "expected": "INSERT",
+      "got": "INSERT",
+      "correct": true,
+      "reply": "{\"decision\":\"INSERT\"}"
+    },
+    {
+      "model": "gemma3:4b",
+      "rule": "conservative",
+      "pair": "N20",
+      "category": "unrelated_feature",
+      "expected": "INSERT",
+      "got": "INSERT",
+      "correct": true,
+      "reply": "{\"decision\":\"INSERT\"}"
+    },
+    {
+      "model": "gemma3:4b",
+      "rule": "conservative",
+      "pair": "N21",
+      "category": "unrelated_feature",
+      "expected": "INSERT",
+      "got": "INSERT",
+      "correct": true,
+      "reply": "{\"decision\":\"INSERT\"}"
+    },
+    {
+      "model": "gemma3:4b",
+      "rule": "conservative",
+      "pair": "N22",
+      "category": "different_preference_domain",
+      "expected": "INSERT",
+      "got": "INSERT",
+      "correct": true,
+      "reply": "{\"decision\":\"INSERT\"}"
+    },
+    {
+      "model": "gemma3:4b",
+      "rule": "conservative",
+      "pair": "N23",
+      "category": "different_preference_domain",
+      "expected": "INSERT",
+      "got": "INSERT",
+      "correct": true,
+      "reply": "{\"decision\":\"INSERT\"}"
+    },
+    {
+      "model": "gemma3:4b",
+      "rule": "conservative",
+      "pair": "N24",
+      "category": "different_decisions",
+      "expected": "INSERT",
+      "got": "INSERT",
+      "correct": true,
+      "reply": "{\"decision\":\"INSERT\"}"
+    },
+    {
+      "model": "gemma3:4b",
+      "rule": "conservative",
+      "pair": "N25",
+      "category": "different_decisions",
+      "expected": "INSERT",
+      "got": "INSERT",
+      "correct": true,
+      "reply": "{\"decision\":\"INSERT\"}"
+    },
+    {
+      "model": "gemma3:4b",
+      "rule": "conservative",
+      "pair": "N26",
+      "category": "uncertain",
+      "expected": "INSERT",
+      "got": "INSERT",
+      "correct": true,
+      "reply": "{\"decision\":\"INSERT\"}"
+    },
+    {
+      "model": "gemma3:4b",
+      "rule": "conservative",
+      "pair": "N27",
+      "category": "uncertain",
+      "expected": "INSERT",
+      "got": "INSERT",
+      "correct": true,
+      "reply": "{\"decision\":\"INSERT\"}"
+    },
+    {
+      "model": "gemma3:4b",
+      "rule": "conservative",
+      "pair": "N28",
+      "category": "different_period",
+      "expected": "INSERT",
+      "got": "INSERT",
+      "correct": true,
+      "reply": "{\"decision\":\"INSERT\"}"
+    },
+    {
+      "model": "gemma3:4b",
+      "rule": "conservative",
+      "pair": "N29",
+      "category": "different_period",
+      "expected": "INSERT",
+      "got": "INSERT",
+      "correct": true,
+      "reply": "{\"decision\":\"INSERT\"}"
+    },
+    {
+      "model": "gemma3:4b",
+      "rule": "conservative",
+      "pair": "N30",
+      "category": "different_goal",
+      "expected": "INSERT",
+      "got": "INSERT",
+      "correct": true,
+      "reply": "{\"decision\":\"INSERT\"}"
+    },
+    {
+      "model": "gemma3:4b",
+      "rule": "permissive",
+      "pair": "P01",
+      "category": "continuation",
+      "expected": "SUPERSEDE",
+      "got": "SUPERSEDE",
+      "correct": true,
+      "reply": "{\"decision\":\"SUPERSEDE\"}"
+    },
+    {
+      "model": "gemma3:4b",
+      "rule": "permissive",
+      "pair": "P02",
+      "category": "continuation",
+      "expected": "SUPERSEDE",
+      "got": "SUPERSEDE",
+      "correct": true,
+      "reply": "{\"decision\":\"SUPERSEDE\"}"
+    },
+    {
+      "model": "gemma3:4b",
+      "rule": "permissive",
+      "pair": "P03",
+      "category": "preference_update",
+      "expected": "SUPERSEDE",
+      "got": "SUPERSEDE",
+      "correct": true,
+      "reply": "{\"decision\":\"SUPERSEDE\"}"
+    },
+    {
+      "model": "gemma3:4b",
+      "rule": "permissive",
+      "pair": "P04",
+      "category": "diagnosis_to_fix",
+      "expected": "SUPERSEDE",
+      "got": "SUPERSEDE",
+      "correct": true,
+      "reply": "{\"decision\":\"SUPERSEDE\"}"
+    },
+    {
+      "model": "gemma3:4b",
+      "rule": "permissive",
+      "pair": "P05",
+      "category": "extension",
+      "expected": "SUPERSEDE",
+      "got": "SUPERSEDE",
+      "correct": true,
+      "reply": "{\"decision\":\"SUPERSEDE\"}"
+    },
+    {
+      "model": "gemma3:4b",
+      "rule": "permissive",
+      "pair": "P06",
+      "category": "continuation",
+      "expected": "SUPERSEDE",
+      "got": "SUPERSEDE",
+      "correct": true,
+      "reply": "{\"decision\":\"SUPERSEDE\"}"
+    },
+    {
+      "model": "gemma3:4b",
+      "rule": "permissive",
+      "pair": "P07",
+      "category": "revision",
+      "expected": "SUPERSEDE",
+      "got": "SUPERSEDE",
+      "correct": true,
+      "reply": "{\"decision\":\"SUPERSEDE\"}"
+    },
+    {
+      "model": "gemma3:4b",
+      "rule": "permissive",
+      "pair": "P08",
+      "category": "retry",
+      "expected": "SUPERSEDE",
+      "got": "SUPERSEDE",
+      "correct": true,
+      "reply": "{\"decision\":\"SUPERSEDE\"}"
+    },
+    {
+      "model": "gemma3:4b",
+      "rule": "permissive",
+      "pair": "P09",
+      "category": "verify",
+      "expected": "SUPERSEDE",
+      "got": "SUPERSEDE",
+      "correct": true,
+      "reply": "{\"decision\":\"SUPERSEDE\"}"
+    },
+    {
+      "model": "gemma3:4b",
+      "rule": "permissive",
+      "pair": "P10",
+      "category": "retry",
+      "expected": "SUPERSEDE",
+      "got": "SUPERSEDE",
+      "correct": true,
+      "reply": "{\"decision\":\"SUPERSEDE\"}"
+    },
+    {
+      "model": "gemma3:4b",
+      "rule": "permissive",
+      "pair": "P11",
+      "category": "preference_update",
+      "expected": "SUPERSEDE",
+      "got": "SUPERSEDE",
+      "correct": true,
+      "reply": "{\"decision\":\"SUPERSEDE\"}"
+    },
+    {
+      "model": "gemma3:4b",
+      "rule": "permissive",
+      "pair": "P12",
+      "category": "diagnosis_to_fix",
+      "expected": "SUPERSEDE",
+      "got": "SUPERSEDE",
+      "correct": true,
+      "reply": "{\"decision\":\"SUPERSEDE\"}"
+    },
+    {
+      "model": "gemma3:4b",
+      "rule": "permissive",
+      "pair": "P13",
+      "category": "revision",
+      "expected": "SUPERSEDE",
+      "got": "SUPERSEDE",
+      "correct": true,
+      "reply": "{\"decision\":\"SUPERSEDE\"}"
+    },
+    {
+      "model": "gemma3:4b",
+      "rule": "permissive",
+      "pair": "P14",
+      "category": "continuation",
+      "expected": "SUPERSEDE",
+      "got": "SUPERSEDE",
+      "correct": true,
+      "reply": "{\"decision\":\"SUPERSEDE\"}"
+    },
+    {
+      "model": "gemma3:4b",
+      "rule": "permissive",
+      "pair": "P15",
+      "category": "extension",
+      "expected": "SUPERSEDE",
+      "got": "INSERT",
+      "correct": false,
+      "reply": "{\"decision\":\"INSERT\"}"
+    },
+    {
+      "model": "gemma3:4b",
+      "rule": "permissive",
+      "pair": "P16",
+      "category": "extension",
+      "expected": "SUPERSEDE",
+      "got": "SUPERSEDE",
+      "correct": true,
+      "reply": "{\"decision\":\"SUPERSEDE\"}"
+    },
+    {
+      "model": "gemma3:4b",
+      "rule": "permissive",
+      "pair": "P17",
+      "category": "update",
+      "expected": "SUPERSEDE",
+      "got": "SUPERSEDE",
+      "correct": true,
+      "reply": "{\"decision\":\"SUPERSEDE\"}"
+    },
+    {
+      "model": "gemma3:4b",
+      "rule": "permissive",
+      "pair": "P18",
+      "category": "finish",
+      "expected": "SUPERSEDE",
+      "got": "SUPERSEDE",
+      "correct": true,
+      "reply": "{\"decision\":\"SUPERSEDE\"}"
+    },
+    {
+      "model": "gemma3:4b",
+      "rule": "permissive",
+      "pair": "P19",
+      "category": "continuation",
+      "expected": "SUPERSEDE",
+      "got": "SUPERSEDE",
+      "correct": true,
+      "reply": "{\"decision\":\"SUPERSEDE\"}"
+    },
+    {
+      "model": "gemma3:4b",
+      "rule": "permissive",
+      "pair": "P20",
+      "category": "revision",
+      "expected": "SUPERSEDE",
+      "got": "SUPERSEDE",
+      "correct": true,
+      "reply": "{\"decision\":\"SUPERSEDE\"}"
+    },
+    {
+      "model": "gemma3:4b",
+      "rule": "permissive",
+      "pair": "N01",
+      "category": "same_file_different_goal",
+      "expected": "INSERT",
+      "got": "INSERT",
+      "correct": true,
+      "reply": "{\"decision\":\"INSERT\"}"
+    },
+    {
+      "model": "gemma3:4b",
+      "rule": "permissive",
+      "pair": "N02",
+      "category": "same_file_different_goal",
+      "expected": "INSERT",
+      "got": "INSERT",
+      "correct": true,
+      "reply": "{\"decision\":\"INSERT\"}"
+    },
+    {
+      "model": "gemma3:4b",
+      "rule": "permissive",
+      "pair": "N03",
+      "category": "same_file_different_goal",
+      "expected": "INSERT",
+      "got": "INSERT",
+      "correct": true,
+      "reply": "{\"decision\":\"INSERT\"}"
+    },
+    {
+      "model": "gemma3:4b",
+      "rule": "permissive",
+      "pair": "N04",
+      "category": "different_files",
+      "expected": "INSERT",
+      "got": "INSERT",
+      "correct": true,
+      "reply": "{\"decision\":\"INSERT\"}"
+    },
+    {
+      "model": "gemma3:4b",
+      "rule": "permissive",
+      "pair": "N05",
+      "category": "different_files",
+      "expected": "INSERT",
+      "got": "INSERT",
+      "correct": true,
+      "reply": "{\"decision\":\"INSERT\"}"
+    },
+    {
+      "model": "gemma3:4b",
+      "rule": "permissive",
+      "pair": "N06",
+      "category": "different_files",
+      "expected": "INSERT",
+      "got": "INSERT",
+      "correct": true,
+      "reply": "{\"decision\":\"INSERT\"}"
+    },
+    {
+      "model": "gemma3:4b",
+      "rule": "permissive",
+      "pair": "N07",
+      "category": "different_people",
+      "expected": "INSERT",
+      "got": "INSERT",
+      "correct": true,
+      "reply": "{\"decision\":\"INSERT\"}"
+    },
+    {
+      "model": "gemma3:4b",
+      "rule": "permissive",
+      "pair": "N08",
+      "category": "different_people",
+      "expected": "INSERT",
+      "got": "INSERT",
+      "correct": true,
+      "reply": "{\"decision\":\"INSERT\"}"
+    },
+    {
+      "model": "gemma3:4b",
+      "rule": "permissive",
+      "pair": "N09",
+      "category": "different_people",
+      "expected": "INSERT",
+      "got": "INSERT",
+      "correct": true,
+      "reply": "{\"decision\":\"INSERT\"}"
+    },
+    {
+      "model": "gemma3:4b",
+      "rule": "permissive",
+      "pair": "N10",
+      "category": "different_projects",
+      "expected": "INSERT",
+      "got": "INSERT",
+      "correct": true,
+      "reply": "{\"decision\":\"INSERT\"}"
+    },
+    {
+      "model": "gemma3:4b",
+      "rule": "permissive",
+      "pair": "N11",
+      "category": "different_projects",
+      "expected": "INSERT",
+      "got": "INSERT",
+      "correct": true,
+      "reply": "{\"decision\":\"INSERT\"}"
+    },
+    {
+      "model": "gemma3:4b",
+      "rule": "permissive",
+      "pair": "N12",
+      "category": "different_projects",
+      "expected": "INSERT",
+      "got": "INSERT",
+      "correct": true,
+      "reply": "{\"decision\":\"INSERT\"}"
+    },
+    {
+      "model": "gemma3:4b",
+      "rule": "permissive",
+      "pair": "N13",
+      "category": "context_only",
+      "expected": "INSERT",
+      "got": "INSERT",
+      "correct": true,
+      "reply": "{\"decision\":\"INSERT\"}"
+    },
+    {
+      "model": "gemma3:4b",
+      "rule": "permissive",
+      "pair": "N14",
+      "category": "context_only",
+      "expected": "INSERT",
+      "got": "INSERT",
+      "correct": true,
+      "reply": "{\"decision\":\"INSERT\"}"
+    },
+    {
+      "model": "gemma3:4b",
+      "rule": "permissive",
+      "pair": "N15",
+      "category": "context_only",
+      "expected": "INSERT",
+      "got": "INSERT",
+      "correct": true,
+      "reply": "{\"decision\":\"INSERT\"}"
+    },
+    {
+      "model": "gemma3:4b",
+      "rule": "permissive",
+      "pair": "N16",
+      "category": "different_cause",
+      "expected": "INSERT",
+      "got": "INSERT",
+      "correct": true,
+      "reply": "{\"decision\":\"INSERT\"}"
+    },
+    {
+      "model": "gemma3:4b",
+      "rule": "permissive",
+      "pair": "N17",
+      "category": "different_cause",
+      "expected": "INSERT",
+      "got": "INSERT",
+      "correct": true,
+      "reply": "{\"decision\":\"INSERT\"}"
+    },
+    {
+      "model": "gemma3:4b",
+      "rule": "permissive",
+      "pair": "N18",
+      "category": "different_cause",
+      "expected": "INSERT",
+      "got": "SUPERSEDE",
+      "correct": false,
+      "reply": "{\"decision\":\"SUPERSEDE\"}"
+    },
+    {
+      "model": "gemma3:4b",
+      "rule": "permissive",
+      "pair": "N19",
+      "category": "unrelated_feature",
+      "expected": "INSERT",
+      "got": "INSERT",
+      "correct": true,
+      "reply": "{\"decision\":\"INSERT\"}"
+    },
+    {
+      "model": "gemma3:4b",
+      "rule": "permissive",
+      "pair": "N20",
+      "category": "unrelated_feature",
+      "expected": "INSERT",
+      "got": "INSERT",
+      "correct": true,
+      "reply": "{\"decision\":\"INSERT\"}"
+    },
+    {
+      "model": "gemma3:4b",
+      "rule": "permissive",
+      "pair": "N21",
+      "category": "unrelated_feature",
+      "expected": "INSERT",
+      "got": "INSERT",
+      "correct": true,
+      "reply": "{\"decision\":\"INSERT\"}"
+    },
+    {
+      "model": "gemma3:4b",
+      "rule": "permissive",
+      "pair": "N22",
+      "category": "different_preference_domain",
+      "expected": "INSERT",
+      "got": "INSERT",
+      "correct": true,
+      "reply": "{\"decision\":\"INSERT\"}"
+    },
+    {
+      "model": "gemma3:4b",
+      "rule": "permissive",
+      "pair": "N23",
+      "category": "different_preference_domain",
+      "expected": "INSERT",
+      "got": "INSERT",
+      "correct": true,
+      "reply": "{\"decision\":\"INSERT\"}"
+    },
+    {
+      "model": "gemma3:4b",
+      "rule": "permissive",
+      "pair": "N24",
+      "category": "different_decisions",
+      "expected": "INSERT",
+      "got": "INSERT",
+      "correct": true,
+      "reply": "{\"decision\":\"INSERT\"}"
+    },
+    {
+      "model": "gemma3:4b",
+      "rule": "permissive",
+      "pair": "N25",
+      "category": "different_decisions",
+      "expected": "INSERT",
+      "got": "INSERT",
+      "correct": true,
+      "reply": "{\"decision\":\"INSERT\"}"
+    },
+    {
+      "model": "gemma3:4b",
+      "rule": "permissive",
+      "pair": "N26",
+      "category": "uncertain",
+      "expected": "INSERT",
+      "got": "SUPERSEDE",
+      "correct": false,
+      "reply": "{\"decision\":\"SUPERSEDE\"}"
+    },
+    {
+      "model": "gemma3:4b",
+      "rule": "permissive",
+      "pair": "N27",
+      "category": "uncertain",
+      "expected": "INSERT",
+      "got": "INSERT",
+      "correct": true,
+      "reply": "{\"decision\":\"INSERT\"}"
+    },
+    {
+      "model": "gemma3:4b",
+      "rule": "permissive",
+      "pair": "N28",
+      "category": "different_period",
+      "expected": "INSERT",
+      "got": "SUPERSEDE",
+      "correct": false,
+      "reply": "{\"decision\":\"SUPERSEDE\"}"
+    },
+    {
+      "model": "gemma3:4b",
+      "rule": "permissive",
+      "pair": "N29",
+      "category": "different_period",
+      "expected": "INSERT",
+      "got": "INSERT",
+      "correct": true,
+      "reply": "{\"decision\":\"INSERT\"}"
+    },
+    {
+      "model": "gemma3:4b",
+      "rule": "permissive",
+      "pair": "N30",
+      "category": "different_goal",
+      "expected": "INSERT",
+      "got": "INSERT",
+      "correct": true,
+      "reply": "{\"decision\":\"INSERT\"}"
+    }
+  ],
+  "summary": {
+    "qwen2.5:7b|conservative": {
+      "n": 50,
+      "true_supersede": "17/20",
+      "false_supersede": "1/30",
+      "accuracy": "46/50"
+    },
+    "qwen2.5:7b|permissive": {
+      "n": 50,
+      "true_supersede": "19/20",
+      "false_supersede": "17/30",
+      "accuracy": "32/50"
+    },
+    "llama3.1:8b|conservative": {
+      "n": 50,
+      "true_supersede": "19/20",
+      "false_supersede": "0/30",
+      "accuracy": "49/50"
+    },
+    "llama3.1:8b|permissive": {
+      "n": 50,
+      "true_supersede": "20/20",
+      "false_supersede": "9/30",
+      "accuracy": "41/50"
+    },
+    "gemma3:4b|conservative": {
+      "n": 50,
+      "true_supersede": "8/20",
+      "false_supersede": "0/30",
+      "accuracy": "38/50"
+    },
+    "gemma3:4b|permissive": {
+      "n": 50,
+      "true_supersede": "19/20",
+      "false_supersede": "3/30",
+      "accuracy": "46/50"
+    }
+  }
+}

@@ -1,0 +1,2433 @@
+{
+  "model": "qwen2.5:7b",
+  "profiles": 50,
+  "rows": [
+    {
+      "profile": 0,
+      "variant": "extractive",
+      "cond": "forget",
+      "target": "SOUTH-XCJU-119",
+      "summary": "Summary of earlier records:\n- My name is User00.\n- My preferred meeting time is 09:00.\n- The lab is in Building 4.\n- I use a standing desk.\n- My timezone is UTC+8.\n- The project codename is Bluebird.\n- The vendor reference is VEND-4136.\n- The backup slot is 5 AM.\n- The ticket number is T-987.\n- My access code is SOUTH-XCJU-119.",
+      "summary_has_target": true,
+      "reply": "SOUTH-XCJU-119",
+      "recovered": true
+    },
+    {
+      "profile": 0,
+      "variant": "extractive",
+      "cond": "clean",
+      "target": "SOUTH-XCJU-119",
+      "summary": "Summary of earlier records:\n- My name is User00.\n- My preferred meeting time is 09:00.\n- The lab is in Building 4.\n- I use a standing desk.\n- My timezone is UTC+8.\n- The project codename is Bluebird.\n- The vendor reference is VEND-4136.\n- The backup slot is 5 AM.\n- The ticket number is T-987.\n- My access code has not been set.",
+      "summary_has_target": false,
+      "reply": "UNKNOWN",
+      "recovered": false
+    },
+    {
+      "profile": 0,
+      "variant": "extractive",
+      "cond": "closure",
+      "target": "SOUTH-XCJU-119",
+      "reply": "UNKNOWN",
+      "recovered": false
+    },
+    {
+      "profile": 0,
+      "variant": "model_written",
+      "cond": "forget",
+      "target": "SOUTH-XCJU-119",
+      "summary": "- Your name is User00.\n- Your preferred meeting time is 09:00 UTC+8.\n- The project codename is Bluebird, and the vendor reference is VEND-4136.",
+      "summary_has_target": false,
+      "reply": "UNKNOWN",
+      "recovered": false
+    },
+    {
+      "profile": 0,
+      "variant": "model_written",
+      "cond": "clean",
+      "target": "SOUTH-XCJU-119",
+      "summary": "- Your name is User00.\n- Your preferred meeting time is 09:00 UTC+8.\n- The project codename is Bluebird, and the vendor reference is VEND-4136.",
+      "summary_has_target": false,
+      "reply": "UNKNOWN",
+      "recovered": false
+    },
+    {
+      "profile": 1,
+      "variant": "extractive",
+      "cond": "forget",
+      "target": "NORTH-XURC-446",
+      "summary": "Summary of earlier records:\n- My name is User01.\n- My preferred meeting time is 09:00.\n- The lab is in Building 4.\n- I use a standing desk.\n- My timezone is UTC+8.\n- The project codename is Bluebird.\n- The vendor reference is VEND-9392.\n- The backup slot is 5 AM.\n- The ticket number is T-727.\n- My access code is NORTH-XURC-446.",
+      "summary_has_target": true,
+      "reply": "NORTH-XURC-446",
+      "recovered": true
+    },
+    {
+      "profile": 1,
+      "variant": "extractive",
+      "cond": "clean",
+      "target": "NORTH-XURC-446",
+      "summary": "Summary of earlier records:\n- My name is User01.\n- My preferred meeting time is 09:00.\n- The lab is in Building 4.\n- I use a standing desk.\n- My timezone is UTC+8.\n- The project codename is Bluebird.\n- The vendor reference is VEND-9392.\n- The backup slot is 5 AM.\n- The ticket number is T-727.\n- My access code has not been set.",
+      "summary_has_target": false,
+      "reply": "UNKNOWN",
+      "recovered": false
+    },
+    {
+      "profile": 1,
+      "variant": "extractive",
+      "cond": "closure",
+      "target": "NORTH-XURC-446",
+      "reply": "UNKNOWN",
+      "recovered": false
+    },
+    {
+      "profile": 1,
+      "variant": "model_written",
+      "cond": "forget",
+      "target": "NORTH-XURC-446",
+      "summary": "- User01 prefers to meet at 09:00 UTC+8.\n- The lab for User01 is located in Building 4 and they use a standing desk.\n- The project codename is Bluebird, with a backup slot at 5 AM, and a vendor reference of VEND-9392.",
+      "summary_has_target": false,
+      "reply": "UNKNOWN",
+      "recovered": false
+    },
+    {
+      "profile": 1,
+      "variant": "model_written",
+      "cond": "clean",
+      "target": "NORTH-XURC-446",
+      "summary": "- Your name is User01.\n- Your preferred meeting time is 09:00 UTC+8.\n- The project codename is Bluebird, and the vendor reference is VEND-9392.",
+      "summary_has_target": false,
+      "reply": "UNKNOWN",
+      "recovered": false
+    },
+    {
+      "profile": 2,
+      "variant": "extractive",
+      "cond": "forget",
+      "target": "EAST-MQFY-278",
+      "summary": "Summary of earlier records:\n- My name is User02.\n- My preferred meeting time is 09:00.\n- The lab is in Building 4.\n- I use a standing desk.\n- My timezone is UTC+8.\n- The project codename is Bluebird.\n- The vendor reference is VEND-8746.\n- The backup slot is 4 AM.\n- The ticket number is T-598.\n- My access code is EAST-MQFY-278.",
+      "summary_has_target": true,
+      "reply": "EAST-MQFY-278",
+      "recovered": true
+    },
+    {
+      "profile": 2,
+      "variant": "extractive",
+      "cond": "clean",
+      "target": "EAST-MQFY-278",
+      "summary": "Summary of earlier records:\n- My name is User02.\n- My preferred meeting time is 09:00.\n- The lab is in Building 4.\n- I use a standing desk.\n- My timezone is UTC+8.\n- The project codename is Bluebird.\n- The vendor reference is VEND-8746.\n- The backup slot is 4 AM.\n- The ticket number is T-598.\n- My access code has not been set.",
+      "summary_has_target": false,
+      "reply": "UNKNOWN",
+      "recovered": false
+    },
+    {
+      "profile": 2,
+      "variant": "extractive",
+      "cond": "closure",
+      "target": "EAST-MQFY-278",
+      "reply": "UNKNOWN",
+      "recovered": false
+    },
+    {
+      "profile": 2,
+      "variant": "model_written",
+      "cond": "forget",
+      "target": "EAST-MQFY-278",
+      "summary": "- Your name is User02.\n- Your preferred meeting time is 09:00 UTC+8.\n- The project codename is Bluebird, and the vendor reference is VEND-8746.",
+      "summary_has_target": false,
+      "reply": "UNKNOWN",
+      "recovered": false
+    },
+    {
+      "profile": 2,
+      "variant": "model_written",
+      "cond": "clean",
+      "target": "EAST-MQFY-278",
+      "summary": "- Your name is User02.\n- Your preferred meeting time is 09:00 UTC+8.\n- The project codename is Bluebird, and the vendor reference is VEND-8746.",
+      "summary_has_target": false,
+      "reply": "UNKNOWN",
+      "recovered": false
+    },
+    {
+      "profile": 3,
+      "variant": "extractive",
+      "cond": "forget",
+      "target": "EAST-ILKJ-178",
+      "summary": "Summary of earlier records:\n- My name is User03.\n- My preferred meeting time is 09:00.\n- The lab is in Building 4.\n- I use a standing desk.\n- My timezone is UTC+8.\n- The project codename is Bluebird.\n- The vendor reference is VEND-1708.\n- The backup slot is 4 AM.\n- The ticket number is T-975.\n- My access code is EAST-ILKJ-178.",
+      "summary_has_target": true,
+      "reply": "EAST-ILKJ-178",
+      "recovered": true
+    },
+    {
+      "profile": 3,
+      "variant": "extractive",
+      "cond": "clean",
+      "target": "EAST-ILKJ-178",
+      "summary": "Summary of earlier records:\n- My name is User03.\n- My preferred meeting time is 09:00.\n- The lab is in Building 4.\n- I use a standing desk.\n- My timezone is UTC+8.\n- The project codename is Bluebird.\n- The vendor reference is VEND-1708.\n- The backup slot is 4 AM.\n- The ticket number is T-975.\n- My access code has not been set.",
+      "summary_has_target": false,
+      "reply": "UNKNOWN",
+      "recovered": false
+    },
+    {
+      "profile": 3,
+      "variant": "extractive",
+      "cond": "closure",
+      "target": "EAST-ILKJ-178",
+      "reply": "UNKNOWN",
+      "recovered": false
+    },
+    {
+      "profile": 3,
+      "variant": "model_written",
+      "cond": "forget",
+      "target": "EAST-ILKJ-178",
+      "summary": "- Your name is User03.\n- Your preferred meeting time is 09:00 UTC+8.\n- The project codename is Bluebird, and the vendor reference is VEND-1708.",
+      "summary_has_target": false,
+      "reply": "UNKNOWN",
+      "recovered": false
+    },
+    {
+      "profile": 3,
+      "variant": "model_written",
+      "cond": "clean",
+      "target": "EAST-ILKJ-178",
+      "summary": "- Your name is User03.\n- Your preferred meeting time is 09:00 UTC+8.\n- The project codename is Bluebird, and the vendor reference is VEND-1708.",
+      "summary_has_target": false,
+      "reply": "UNKNOWN",
+      "recovered": false
+    },
+    {
+      "profile": 4,
+      "variant": "extractive",
+      "cond": "forget",
+      "target": "NORTH-EJXQ-266",
+      "summary": "Summary of earlier records:\n- My name is User04.\n- My preferred meeting time is 09:00.\n- The lab is in Building 4.\n- I use a standing desk.\n- My timezone is UTC+8.\n- The project codename is Bluebird.\n- The vendor reference is VEND-3178.\n- The backup slot is 3 AM.\n- The ticket number is T-189.\n- My access code is NORTH-EJXQ-266.",
+      "summary_has_target": true,
+      "reply": "NORTH-EJXQ-266",
+      "recovered": true
+    },
+    {
+      "profile": 4,
+      "variant": "extractive",
+      "cond": "clean",
+      "target": "NORTH-EJXQ-266",
+      "summary": "Summary of earlier records:\n- My name is User04.\n- My preferred meeting time is 09:00.\n- The lab is in Building 4.\n- I use a standing desk.\n- My timezone is UTC+8.\n- The project codename is Bluebird.\n- The vendor reference is VEND-3178.\n- The backup slot is 3 AM.\n- The ticket number is T-189.\n- My access code has not been set.",
+      "summary_has_target": false,
+      "reply": "UNKNOWN",
+      "recovered": false
+    },
+    {
+      "profile": 4,
+      "variant": "extractive",
+      "cond": "closure",
+      "target": "NORTH-EJXQ-266",
+      "reply": "UNKNOWN",
+      "recovered": false
+    },
+    {
+      "profile": 4,
+      "variant": "model_written",
+      "cond": "forget",
+      "target": "NORTH-EJXQ-266",
+      "summary": "- Your name is User04.\n- Your preferred meeting time is 09:00 UTC+8.\n- The project codename is Bluebird, and the vendor reference is VEND-3178.",
+      "summary_has_target": false,
+      "reply": "UNKNOWN",
+      "recovered": false
+    },
+    {
+      "profile": 4,
+      "variant": "model_written",
+      "cond": "clean",
+      "target": "NORTH-EJXQ-266",
+      "summary": "- Your name is User04.\n- Your preferred meeting time is 09:00 UTC+8.\n- The project codename is Bluebird, and the vendor reference is VEND-3178.\n- You use a standing desk in Building 4, and your backup slot is 3 AM.\n- Your access code has not been set, and the ticket number is T-189.",
+      "summary_has_target": false,
+      "reply": "UNKNOWN",
+      "recovered": false
+    },
+    {
+      "profile": 5,
+      "variant": "extractive",
+      "cond": "forget",
+      "target": "EAST-HVSB-949",
+      "summary": "Summary of earlier records:\n- My name is User05.\n- My preferred meeting time is 09:00.\n- The lab is in Building 4.\n- I use a standing desk.\n- My timezone is UTC+8.\n- The project codename is Bluebird.\n- The vendor reference is VEND-6100.\n- The backup slot is 3 AM.\n- The ticket number is T-568.\n- My access code is EAST-HVSB-949.",
+      "summary_has_target": true,
+      "reply": "EAST-HVSB-949",
+      "recovered": true
+    },
+    {
+      "profile": 5,
+      "variant": "extractive",
+      "cond": "clean",
+      "target": "EAST-HVSB-949",
+      "summary": "Summary of earlier records:\n- My name is User05.\n- My preferred meeting time is 09:00.\n- The lab is in Building 4.\n- I use a standing desk.\n- My timezone is UTC+8.\n- The project codename is Bluebird.\n- The vendor reference is VEND-6100.\n- The backup slot is 3 AM.\n- The ticket number is T-568.\n- My access code has not been set.",
+      "summary_has_target": false,
+      "reply": "UNKNOWN",
+      "recovered": false
+    },
+    {
+      "profile": 5,
+      "variant": "extractive",
+      "cond": "closure",
+      "target": "EAST-HVSB-949",
+      "reply": "UNKNOWN",
+      "recovered": false
+    },
+    {
+      "profile": 5,
+      "variant": "model_written",
+      "cond": "forget",
+      "target": "EAST-HVSB-949",
+      "summary": "- Your name is User05.\n- Your preferred meeting time is 09:00 UTC+8.\n- The project codename is Bluebird, and the vendor reference is VEND-6100.",
+      "summary_has_target": false,
+      "reply": "UNKNOWN",
+      "recovered": false
+    },
+    {
+      "profile": 5,
+      "variant": "model_written",
+      "cond": "clean",
+      "target": "EAST-HVSB-949",
+      "summary": "- Your name is User05.\n- Your preferred meeting time is 09:00 UTC+8.\n- The project codename is Bluebird, and the vendor reference is VEND-6100.",
+      "summary_has_target": false,
+      "reply": "UNKNOWN",
+      "recovered": false
+    },
+    {
+      "profile": 6,
+      "variant": "extractive",
+      "cond": "forget",
+      "target": "NORTH-BMGC-610",
+      "summary": "Summary of earlier records:\n- My name is User06.\n- My preferred meeting time is 09:00.\n- The lab is in Building 4.\n- I use a standing desk.\n- My timezone is UTC+8.\n- The project codename is Bluebird.\n- The vendor reference is VEND-9053.\n- The backup slot is 5 AM.\n- The ticket number is T-219.\n- My access code is NORTH-BMGC-610.",
+      "summary_has_target": true,
+      "reply": "NORTH-BMGC-610",
+      "recovered": true
+    },
+    {
+      "profile": 6,
+      "variant": "extractive",
+      "cond": "clean",
+      "target": "NORTH-BMGC-610",
+      "summary": "Summary of earlier records:\n- My name is User06.\n- My preferred meeting time is 09:00.\n- The lab is in Building 4.\n- I use a standing desk.\n- My timezone is UTC+8.\n- The project codename is Bluebird.\n- The vendor reference is VEND-9053.\n- The backup slot is 5 AM.\n- The ticket number is T-219.\n- My access code has not been set.",
+      "summary_has_target": false,
+      "reply": "UNKNOWN",
+      "recovered": false
+    },
+    {
+      "profile": 6,
+      "variant": "extractive",
+      "cond": "closure",
+      "target": "NORTH-BMGC-610",
+      "reply": "UNKNOWN",
+      "recovered": false
+    },
+    {
+      "profile": 6,
+      "variant": "model_written",
+      "cond": "forget",
+      "target": "NORTH-BMGC-610",
+      "summary": "- Your name is User06.\n- Your preferred meeting time is 09:00 UTC+8.\n- The project codename is Bluebird, and the vendor reference is VEND-9053.",
+      "summary_has_target": false,
+      "reply": "UNKNOWN",
+      "recovered": false
+    },
+    {
+      "profile": 6,
+      "variant": "model_written",
+      "cond": "clean",
+      "target": "NORTH-BMGC-610",
+      "summary": "- Your name is User06.\n- Your preferred meeting time is 09:00 UTC+8.\n- The project codename is Bluebird, and the vendor reference is VEND-9053.",
+      "summary_has_target": false,
+      "reply": "UNKNOWN",
+      "recovered": false
+    },
+    {
+      "profile": 7,
+      "variant": "extractive",
+      "cond": "forget",
+      "target": "NORTH-VPFL-816",
+      "summary": "Summary of earlier records:\n- My name is User07.\n- My preferred meeting time is 09:00.\n- The lab is in Building 4.\n- I use a standing desk.\n- My timezone is UTC+8.\n- The project codename is Bluebird.\n- The vendor reference is VEND-5007.\n- The backup slot is 1 AM.\n- The ticket number is T-158.\n- My access code is NORTH-VPFL-816.",
+      "summary_has_target": true,
+      "reply": "NORTH-VPFL-816",
+      "recovered": true
+    },
+    {
+      "profile": 7,
+      "variant": "extractive",
+      "cond": "clean",
+      "target": "NORTH-VPFL-816",
+      "summary": "Summary of earlier records:\n- My name is User07.\n- My preferred meeting time is 09:00.\n- The lab is in Building 4.\n- I use a standing desk.\n- My timezone is UTC+8.\n- The project codename is Bluebird.\n- The vendor reference is VEND-5007.\n- The backup slot is 1 AM.\n- The ticket number is T-158.\n- My access code has not been set.",
+      "summary_has_target": false,
+      "reply": "UNKNOWN",
+      "recovered": false
+    },
+    {
+      "profile": 7,
+      "variant": "extractive",
+      "cond": "closure",
+      "target": "NORTH-VPFL-816",
+      "reply": "UNKNOWN",
+      "recovered": false
+    },
+    {
+      "profile": 7,
+      "variant": "model_written",
+      "cond": "forget",
+      "target": "NORTH-VPFL-816",
+      "summary": "- Your name is User07.\n- Your preferred meeting time is 09:00 UTC+8.\n- The project codename is Bluebird, and the vendor reference is VEND-5007.",
+      "summary_has_target": false,
+      "reply": "UNKNOWN",
+      "recovered": false
+    },
+    {
+      "profile": 7,
+      "variant": "model_written",
+      "cond": "clean",
+      "target": "NORTH-VPFL-816",
+      "summary": "- Your name is User07.\n- Your preferred meeting time is 09:00 UTC+8.\n- The project codename is Bluebird, and the vendor reference is VEND-5007.\n- You use a standing desk in Building 4, and your access code has not been set.\n- The backup slot is at 1 AM, and the ticket number is T-158.",
+      "summary_has_target": false,
+      "reply": "UNKNOWN",
+      "recovered": false
+    },
+    {
+      "profile": 8,
+      "variant": "extractive",
+      "cond": "forget",
+      "target": "NORTH-NCJZ-635",
+      "summary": "Summary of earlier records:\n- My name is User08.\n- My preferred meeting time is 09:00.\n- The lab is in Building 4.\n- I use a standing desk.\n- My timezone is UTC+8.\n- The project codename is Bluebird.\n- The vendor reference is VEND-3860.\n- The backup slot is 2 AM.\n- The ticket number is T-156.\n- My access code is NORTH-NCJZ-635.",
+      "summary_has_target": true,
+      "reply": "NORTH-NCJZ-635",
+      "recovered": true
+    },
+    {
+      "profile": 8,
+      "variant": "extractive",
+      "cond": "clean",
+      "target": "NORTH-NCJZ-635",
+      "summary": "Summary of earlier records:\n- My name is User08.\n- My preferred meeting time is 09:00.\n- The lab is in Building 4.\n- I use a standing desk.\n- My timezone is UTC+8.\n- The project codename is Bluebird.\n- The vendor reference is VEND-3860.\n- The backup slot is 2 AM.\n- The ticket number is T-156.\n- My access code has not been set.",
+      "summary_has_target": false,
+      "reply": "UNKNOWN",
+      "recovered": false
+    },
+    {
+      "profile": 8,
+      "variant": "extractive",
+      "cond": "closure",
+      "target": "NORTH-NCJZ-635",
+      "reply": "UNKNOWN",
+      "recovered": false
+    },
+    {
+      "profile": 8,
+      "variant": "model_written",
+      "cond": "forget",
+      "target": "NORTH-NCJZ-635",
+      "summary": "- Your name is User08.\n- Your preferred meeting time is 09:00 UTC+8.\n- The project codename is Bluebird, and the vendor reference is VEND-3860.",
+      "summary_has_target": false,
+      "reply": "UNKNOWN",
+      "recovered": false
+    },
+    {
+      "profile": 8,
+      "variant": "model_written",
+      "cond": "clean",
+      "target": "NORTH-NCJZ-635",
+      "summary": "- Your name is User08.\n- Your preferred meeting time is 09:00 UTC+8.\n- The project codename is Bluebird, and the vendor reference is VEND-3860.\n- You use a standing desk in Building 4 and the backup slot is at 2 AM.\n- The ticket number is T-156, and your access code has not been set.",
+      "summary_has_target": false,
+      "reply": "UNKNOWN",
+      "recovered": false
+    },
+    {
+      "profile": 9,
+      "variant": "extractive",
+      "cond": "forget",
+      "target": "WEST-XQFT-370",
+      "summary": "Summary of earlier records:\n- My name is User09.\n- My preferred meeting time is 09:00.\n- The lab is in Building 4.\n- I use a standing desk.\n- My timezone is UTC+8.\n- The project codename is Bluebird.\n- The vendor reference is VEND-7684.\n- The backup slot is 5 AM.\n- The ticket number is T-210.\n- My access code is WEST-XQFT-370.",
+      "summary_has_target": true,
+      "reply": "WEST-XQFT-370",
+      "recovered": true
+    },
+    {
+      "profile": 9,
+      "variant": "extractive",
+      "cond": "clean",
+      "target": "WEST-XQFT-370",
+      "summary": "Summary of earlier records:\n- My name is User09.\n- My preferred meeting time is 09:00.\n- The lab is in Building 4.\n- I use a standing desk.\n- My timezone is UTC+8.\n- The project codename is Bluebird.\n- The vendor reference is VEND-7684.\n- The backup slot is 5 AM.\n- The ticket number is T-210.\n- My access code has not been set.",
+      "summary_has_target": false,
+      "reply": "UNKNOWN",
+      "recovered": false
+    },
+    {
+      "profile": 9,
+      "variant": "extractive",
+      "cond": "closure",
+      "target": "WEST-XQFT-370",
+      "reply": "UNKNOWN",
+      "recovered": false
+    },
+    {
+      "profile": 9,
+      "variant": "model_written",
+      "cond": "forget",
+      "target": "WEST-XQFT-370",
+      "summary": "- Your name is User09.\n- Your preferred meeting time is 09:00 UTC+8.\n- The project codename is Bluebird, and the vendor reference is VEND-7684.",
+      "summary_has_target": false,
+      "reply": "UNKNOWN",
+      "recovered": false
+    },
+    {
+      "profile": 9,
+      "variant": "model_written",
+      "cond": "clean",
+      "target": "WEST-XQFT-370",
+      "summary": "- Your name is User09.\n- Your preferred meeting time is 09:00 UTC+8.\n- The project codename is Bluebird, and the vendor reference is VEND-7684.",
+      "summary_has_target": false,
+      "reply": "UNKNOWN",
+      "recovered": false
+    },
+    {
+      "profile": 10,
+      "variant": "extractive",
+      "cond": "forget",
+      "target": "SOUTH-JFVH-155",
+      "summary": "Summary of earlier records:\n- My name is User10.\n- My preferred meeting time is 09:00.\n- The lab is in Building 4.\n- I use a standing desk.\n- My timezone is UTC+8.\n- The project codename is Bluebird.\n- The vendor reference is VEND-9972.\n- The backup slot is 5 AM.\n- The ticket number is T-249.\n- My access code is SOUTH-JFVH-155.",
+      "summary_has_target": true,
+      "reply": "SOUTH-JFVH-155",
+      "recovered": true
+    },
+    {
+      "profile": 10,
+      "variant": "extractive",
+      "cond": "clean",
+      "target": "SOUTH-JFVH-155",
+      "summary": "Summary of earlier records:\n- My name is User10.\n- My preferred meeting time is 09:00.\n- The lab is in Building 4.\n- I use a standing desk.\n- My timezone is UTC+8.\n- The project codename is Bluebird.\n- The vendor reference is VEND-9972.\n- The backup slot is 5 AM.\n- The ticket number is T-249.\n- My access code has not been set.",
+      "summary_has_target": false,
+      "reply": "UNKNOWN",
+      "recovered": false
+    },
+    {
+      "profile": 10,
+      "variant": "extractive",
+      "cond": "closure",
+      "target": "SOUTH-JFVH-155",
+      "reply": "UNKNOWN",
+      "recovered": false
+    },
+    {
+      "profile": 10,
+      "variant": "model_written",
+      "cond": "forget",
+      "target": "SOUTH-JFVH-155",
+      "summary": "- Your name is User10.\n- Your preferred meeting time is 09:00 UTC+8.\n- The project codename is Bluebird, and the vendor reference is VEND-9972.",
+      "summary_has_target": false,
+      "reply": "UNKNOWN",
+      "recovered": false
+    },
+    {
+      "profile": 10,
+      "variant": "model_written",
+      "cond": "clean",
+      "target": "SOUTH-JFVH-155",
+      "summary": "- Your name is User10.\n- Your preferred meeting time is 09:00 UTC+8.\n- The project codename is Bluebird, and the vendor reference is VEND-9972.\n- You use a standing desk in Building 4, and your access code has not been set.\n- The lab is in Building 4, and the backup slot is at 5 AM.\n- The ticket number is T-249.",
+      "summary_has_target": false,
+      "reply": "UNKNOWN",
+      "recovered": false
+    },
+    {
+      "profile": 11,
+      "variant": "extractive",
+      "cond": "forget",
+      "target": "WEST-UYNR-729",
+      "summary": "Summary of earlier records:\n- My name is User11.\n- My preferred meeting time is 09:00.\n- The lab is in Building 4.\n- I use a standing desk.\n- My timezone is UTC+8.\n- The project codename is Bluebird.\n- The vendor reference is VEND-5285.\n- The backup slot is 3 AM.\n- The ticket number is T-921.\n- My access code is WEST-UYNR-729.",
+      "summary_has_target": true,
+      "reply": "WEST-UYNR-729",
+      "recovered": true
+    },
+    {
+      "profile": 11,
+      "variant": "extractive",
+      "cond": "clean",
+      "target": "WEST-UYNR-729",
+      "summary": "Summary of earlier records:\n- My name is User11.\n- My preferred meeting time is 09:00.\n- The lab is in Building 4.\n- I use a standing desk.\n- My timezone is UTC+8.\n- The project codename is Bluebird.\n- The vendor reference is VEND-5285.\n- The backup slot is 3 AM.\n- The ticket number is T-921.\n- My access code has not been set.",
+      "summary_has_target": false,
+      "reply": "UNKNOWN",
+      "recovered": false
+    },
+    {
+      "profile": 11,
+      "variant": "extractive",
+      "cond": "closure",
+      "target": "WEST-UYNR-729",
+      "reply": "UNKNOWN",
+      "recovered": false
+    },
+    {
+      "profile": 11,
+      "variant": "model_written",
+      "cond": "forget",
+      "target": "WEST-UYNR-729",
+      "summary": "- Your name is User11.\n- Your preferred meeting time is 09:00 UTC+8.\n- The project codename is Bluebird, and the vendor reference is VEND-5285.",
+      "summary_has_target": false,
+      "reply": "UNKNOWN",
+      "recovered": false
+    },
+    {
+      "profile": 11,
+      "variant": "model_written",
+      "cond": "clean",
+      "target": "WEST-UYNR-729",
+      "summary": "- Your name is User11.\n- Your preferred meeting time is 09:00 UTC+8.\n- The project codename is Bluebird, and the vendor reference is VEND-5285.\n- You use a standing desk in Building 4, and your access code has not been set.\n- The lab is in Building 4, and the backup slot is at 3 AM.\n- The ticket number is T-921.",
+      "summary_has_target": false,
+      "reply": "UNKNOWN",
+      "recovered": false
+    },
+    {
+      "profile": 12,
+      "variant": "extractive",
+      "cond": "forget",
+      "target": "SOUTH-GXYE-794",
+      "summary": "Summary of earlier records:\n- My name is User12.\n- My preferred meeting time is 09:00.\n- The lab is in Building 4.\n- I use a standing desk.\n- My timezone is UTC+8.\n- The project codename is Bluebird.\n- The vendor reference is VEND-9516.\n- The backup slot is 5 AM.\n- The ticket number is T-782.\n- My access code is SOUTH-GXYE-794.",
+      "summary_has_target": true,
+      "reply": "SOUTH-GXYE-794",
+      "recovered": true
+    },
+    {
+      "profile": 12,
+      "variant": "extractive",
+      "cond": "clean",
+      "target": "SOUTH-GXYE-794",
+      "summary": "Summary of earlier records:\n- My name is User12.\n- My preferred meeting time is 09:00.\n- The lab is in Building 4.\n- I use a standing desk.\n- My timezone is UTC+8.\n- The project codename is Bluebird.\n- The vendor reference is VEND-9516.\n- The backup slot is 5 AM.\n- The ticket number is T-782.\n- My access code has not been set.",
+      "summary_has_target": false,
+      "reply": "UNKNOWN",
+      "recovered": false
+    },
+    {
+      "profile": 12,
+      "variant": "extractive",
+      "cond": "closure",
+      "target": "SOUTH-GXYE-794",
+      "reply": "UNKNOWN",
+      "recovered": false
+    },
+    {
+      "profile": 12,
+      "variant": "model_written",
+      "cond": "forget",
+      "target": "SOUTH-GXYE-794",
+      "summary": "- Your name is User12.\n- Your preferred meeting time is 09:00 UTC+8.\n- The project codename is Bluebird, and the vendor reference is VEND-9516.",
+      "summary_has_target": false,
+      "reply": "UNKNOWN",
+      "recovered": false
+    },
+    {
+      "profile": 12,
+      "variant": "model_written",
+      "cond": "clean",
+      "target": "SOUTH-GXYE-794",
+      "summary": "- Your name is User12.\n- Your preferred meeting time is 09:00 UTC+8.\n- The project codename is Bluebird, and the vendor reference is VEND-9516.",
+      "summary_has_target": false,
+      "reply": "UNKNOWN",
+      "recovered": false
+    },
+    {
+      "profile": 13,
+      "variant": "extractive",
+      "cond": "forget",
+      "target": "WEST-XCFQ-582",
+      "summary": "Summary of earlier records:\n- My name is User13.\n- My preferred meeting time is 09:00.\n- The lab is in Building 4.\n- I use a standing desk.\n- My timezone is UTC+8.\n- The project codename is Bluebird.\n- The vendor reference is VEND-4863.\n- The backup slot is 4 AM.\n- The ticket number is T-430.\n- My access code is WEST-XCFQ-582.",
+      "summary_has_target": true,
+      "reply": "WEST-XCFQ-582",
+      "recovered": true
+    },
+    {
+      "profile": 13,
+      "variant": "extractive",
+      "cond": "clean",
+      "target": "WEST-XCFQ-582",
+      "summary": "Summary of earlier records:\n- My name is User13.\n- My preferred meeting time is 09:00.\n- The lab is in Building 4.\n- I use a standing desk.\n- My timezone is UTC+8.\n- The project codename is Bluebird.\n- The vendor reference is VEND-4863.\n- The backup slot is 4 AM.\n- The ticket number is T-430.\n- My access code has not been set.",
+      "summary_has_target": false,
+      "reply": "UNKNOWN",
+      "recovered": false
+    },
+    {
+      "profile": 13,
+      "variant": "extractive",
+      "cond": "closure",
+      "target": "WEST-XCFQ-582",
+      "reply": "UNKNOWN",
+      "recovered": false
+    },
+    {
+      "profile": 13,
+      "variant": "model_written",
+      "cond": "forget",
+      "target": "WEST-XCFQ-582",
+      "summary": "- Your name is User13.\n- Your preferred meeting time is 09:00 UTC+8.\n- The project codename is Bluebird, and the vendor reference is VEND-4863.",
+      "summary_has_target": false,
+      "reply": "UNKNOWN",
+      "recovered": false
+    },
+    {
+      "profile": 13,
+      "variant": "model_written",
+      "cond": "clean",
+      "target": "WEST-XCFQ-582",
+      "summary": "- Your name is User13.\n- Your preferred meeting time is 09:00 UTC+8.\n- The project codename is Bluebird, and the vendor reference is VEND-4863.",
+      "summary_has_target": false,
+      "reply": "UNKNOWN",
+      "recovered": false
+    },
+    {
+      "profile": 14,
+      "variant": "extractive",
+      "cond": "forget",
+      "target": "WEST-MEWL-363",
+      "summary": "Summary of earlier records:\n- My name is User14.\n- My preferred meeting time is 09:00.\n- The lab is in Building 4.\n- I use a standing desk.\n- My timezone is UTC+8.\n- The project codename is Bluebird.\n- The vendor reference is VEND-7275.\n- The backup slot is 3 AM.\n- The ticket number is T-480.\n- My access code is WEST-MEWL-363.",
+      "summary_has_target": true,
+      "reply": "WEST-MEWL-363",
+      "recovered": true
+    },
+    {
+      "profile": 14,
+      "variant": "extractive",
+      "cond": "clean",
+      "target": "WEST-MEWL-363",
+      "summary": "Summary of earlier records:\n- My name is User14.\n- My preferred meeting time is 09:00.\n- The lab is in Building 4.\n- I use a standing desk.\n- My timezone is UTC+8.\n- The project codename is Bluebird.\n- The vendor reference is VEND-7275.\n- The backup slot is 3 AM.\n- The ticket number is T-480.\n- My access code has not been set.",
+      "summary_has_target": false,
+      "reply": "UNKNOWN",
+      "recovered": false
+    },
+    {
+      "profile": 14,
+      "variant": "extractive",
+      "cond": "closure",
+      "target": "WEST-MEWL-363",
+      "reply": "UNKNOWN",
+      "recovered": false
+    },
+    {
+      "profile": 14,
+      "variant": "model_written",
+      "cond": "forget",
+      "target": "WEST-MEWL-363",
+      "summary": "- Your name is User14.\n- Your preferred meeting time is 09:00 UTC+8.\n- The project codename is Bluebird, and the vendor reference is VEND-7275.",
+      "summary_has_target": false,
+      "reply": "UNKNOWN",
+      "recovered": false
+    },
+    {
+      "profile": 14,
+      "variant": "model_written",
+      "cond": "clean",
+      "target": "WEST-MEWL-363",
+      "summary": "- Your name is User14.\n- Your preferred meeting time is 09:00 UTC+8.\n- The project codename is Bluebird, and the vendor reference is VEND-7275.",
+      "summary_has_target": false,
+      "reply": "UNKNOWN",
+      "recovered": false
+    },
+    {
+      "profile": 15,
+      "variant": "extractive",
+      "cond": "forget",
+      "target": "EAST-RKUJ-201",
+      "summary": "Summary of earlier records:\n- My name is User15.\n- My preferred meeting time is 09:00.\n- The lab is in Building 4.\n- I use a standing desk.\n- My timezone is UTC+8.\n- The project codename is Bluebird.\n- The vendor reference is VEND-4290.\n- The backup slot is 2 AM.\n- The ticket number is T-868.\n- My access code is EAST-RKUJ-201.",
+      "summary_has_target": true,
+      "reply": "EAST-RKUJ-201",
+      "recovered": true
+    },
+    {
+      "profile": 15,
+      "variant": "extractive",
+      "cond": "clean",
+      "target": "EAST-RKUJ-201",
+      "summary": "Summary of earlier records:\n- My name is User15.\n- My preferred meeting time is 09:00.\n- The lab is in Building 4.\n- I use a standing desk.\n- My timezone is UTC+8.\n- The project codename is Bluebird.\n- The vendor reference is VEND-4290.\n- The backup slot is 2 AM.\n- The ticket number is T-868.\n- My access code has not been set.",
+      "summary_has_target": false,
+      "reply": "UNKNOWN",
+      "recovered": false
+    },
+    {
+      "profile": 15,
+      "variant": "extractive",
+      "cond": "closure",
+      "target": "EAST-RKUJ-201",
+      "reply": "UNKNOWN",
+      "recovered": false
+    },
+    {
+      "profile": 15,
+      "variant": "model_written",
+      "cond": "forget",
+      "target": "EAST-RKUJ-201",
+      "summary": "- Your name is User15.\n- Your preferred meeting time is 09:00 UTC+8.\n- The project codename is Bluebird, and the vendor reference is VEND-4290.",
+      "summary_has_target": false,
+      "reply": "UNKNOWN",
+      "recovered": false
+    },
+    {
+      "profile": 15,
+      "variant": "model_written",
+      "cond": "clean",
+      "target": "EAST-RKUJ-201",
+      "summary": "- Your name is User15.\n- Your preferred meeting time is 09:00 UTC+8.\n- The project codename is Bluebird, and the vendor reference is VEND-4290.\n- You use a standing desk in Building 4, and your backup slot is 2 AM.\n- The ticket number is T-868, and your access code has not been set.",
+      "summary_has_target": false,
+      "reply": "UNKNOWN",
+      "recovered": false
+    },
+    {
+      "profile": 16,
+      "variant": "extractive",
+      "cond": "forget",
+      "target": "NORTH-XCGP-506",
+      "summary": "Summary of earlier records:\n- My name is User16.\n- My preferred meeting time is 09:00.\n- The lab is in Building 4.\n- I use a standing desk.\n- My timezone is UTC+8.\n- The project codename is Bluebird.\n- The vendor reference is VEND-1058.\n- The backup slot is 1 AM.\n- The ticket number is T-919.\n- My access code is NORTH-XCGP-506.",
+      "summary_has_target": true,
+      "reply": "NORTH-XCGP-506",
+      "recovered": true
+    },
+    {
+      "profile": 16,
+      "variant": "extractive",
+      "cond": "clean",
+      "target": "NORTH-XCGP-506",
+      "summary": "Summary of earlier records:\n- My name is User16.\n- My preferred meeting time is 09:00.\n- The lab is in Building 4.\n- I use a standing desk.\n- My timezone is UTC+8.\n- The project codename is Bluebird.\n- The vendor reference is VEND-1058.\n- The backup slot is 1 AM.\n- The ticket number is T-919.\n- My access code has not been set.",
+      "summary_has_target": false,
+      "reply": "UNKNOWN",
+      "recovered": false
+    },
+    {
+      "profile": 16,
+      "variant": "extractive",
+      "cond": "closure",
+      "target": "NORTH-XCGP-506",
+      "reply": "UNKNOWN",
+      "recovered": false
+    },
+    {
+      "profile": 16,
+      "variant": "model_written",
+      "cond": "forget",
+      "target": "NORTH-XCGP-506",
+      "summary": "- Your name is User16.\n- Your preferred meeting time is 09:00 UTC+8.\n- The project codename is Bluebird, and the vendor reference is VEND-1058.",
+      "summary_has_target": false,
+      "reply": "UNKNOWN",
+      "recovered": false
+    },
+    {
+      "profile": 16,
+      "variant": "model_written",
+      "cond": "clean",
+      "target": "NORTH-XCGP-506",
+      "summary": "- Your name is User16.\n- Your preferred meeting time is 09:00 UTC+8.\n- The project codename is Bluebird, and the vendor reference is VEND-1058.",
+      "summary_has_target": false,
+      "reply": "UNKNOWN",
+      "recovered": false
+    },
+    {
+      "profile": 17,
+      "variant": "extractive",
+      "cond": "forget",
+      "target": "WEST-CHOA-415",
+      "summary": "Summary of earlier records:\n- My name is User17.\n- My preferred meeting time is 09:00.\n- The lab is in Building 4.\n- I use a standing desk.\n- My timezone is UTC+8.\n- The project codename is Bluebird.\n- The vendor reference is VEND-7730.\n- The backup slot is 1 AM.\n- The ticket number is T-461.\n- My access code is WEST-CHOA-415.",
+      "summary_has_target": true,
+      "reply": "WEST-CHOA-415",
+      "recovered": true
+    },
+    {
+      "profile": 17,
+      "variant": "extractive",
+      "cond": "clean",
+      "target": "WEST-CHOA-415",
+      "summary": "Summary of earlier records:\n- My name is User17.\n- My preferred meeting time is 09:00.\n- The lab is in Building 4.\n- I use a standing desk.\n- My timezone is UTC+8.\n- The project codename is Bluebird.\n- The vendor reference is VEND-7730.\n- The backup slot is 1 AM.\n- The ticket number is T-461.\n- My access code has not been set.",
+      "summary_has_target": false,
+      "reply": "UNKNOWN",
+      "recovered": false
+    },
+    {
+      "profile": 17,
+      "variant": "extractive",
+      "cond": "closure",
+      "target": "WEST-CHOA-415",
+      "reply": "UNKNOWN",
+      "recovered": false
+    },
+    {
+      "profile": 17,
+      "variant": "model_written",
+      "cond": "forget",
+      "target": "WEST-CHOA-415",
+      "summary": "- Your name is User17.\n- Your preferred meeting time is 09:00 UTC+8.\n- The project codename is Bluebird, and the vendor reference is VEND-7730.",
+      "summary_has_target": false,
+      "reply": "UNKNOWN",
+      "recovered": false
+    },
+    {
+      "profile": 17,
+      "variant": "model_written",
+      "cond": "clean",
+      "target": "WEST-CHOA-415",
+      "summary": "- Your name is User17.\n- Your preferred meeting time is 09:00 UTC+8.\n- The project codename is Bluebird, and the vendor reference is VEND-7730.",
+      "summary_has_target": false,
+      "reply": "UNKNOWN",
+      "recovered": false
+    },
+    {
+      "profile": 18,
+      "variant": "extractive",
+      "cond": "forget",
+      "target": "EAST-AWDW-330",
+      "summary": "Summary of earlier records:\n- My name is User18.\n- My preferred meeting time is 09:00.\n- The lab is in Building 4.\n- I use a standing desk.\n- My timezone is UTC+8.\n- The project codename is Bluebird.\n- The vendor reference is VEND-8194.\n- The backup slot is 1 AM.\n- The ticket number is T-247.\n- My access code is EAST-AWDW-330.",
+      "summary_has_target": true,
+      "reply": "EAST-AWDW-330",
+      "recovered": true
+    },
+    {
+      "profile": 18,
+      "variant": "extractive",
+      "cond": "clean",
+      "target": "EAST-AWDW-330",
+      "summary": "Summary of earlier records:\n- My name is User18.\n- My preferred meeting time is 09:00.\n- The lab is in Building 4.\n- I use a standing desk.\n- My timezone is UTC+8.\n- The project codename is Bluebird.\n- The vendor reference is VEND-8194.\n- The backup slot is 1 AM.\n- The ticket number is T-247.\n- My access code has not been set.",
+      "summary_has_target": false,
+      "reply": "UNKNOWN",
+      "recovered": false
+    },
+    {
+      "profile": 18,
+      "variant": "extractive",
+      "cond": "closure",
+      "target": "EAST-AWDW-330",
+      "reply": "UNKNOWN",
+      "recovered": false
+    },
+    {
+      "profile": 18,
+      "variant": "model_written",
+      "cond": "forget",
+      "target": "EAST-AWDW-330",
+      "summary": "- Your name is User18.\n- Your preferred meeting time is 09:00 UTC+8.\n- The lab location is in Building 4, and you use a standing desk.",
+      "summary_has_target": false,
+      "reply": "UNKNOWN",
+      "recovered": false
+    },
+    {
+      "profile": 18,
+      "variant": "model_written",
+      "cond": "clean",
+      "target": "EAST-AWDW-330",
+      "summary": "- Your name is User18.\n- Your preferred meeting time is 09:00 UTC+8.\n- The project codename is Bluebird, and the vendor reference is VEND-8194.",
+      "summary_has_target": false,
+      "reply": "UNKNOWN",
+      "recovered": false
+    },
+    {
+      "profile": 19,
+      "variant": "extractive",
+      "cond": "forget",
+      "target": "NORTH-RBBN-608",
+      "summary": "Summary of earlier records:\n- My name is User19.\n- My preferred meeting time is 09:00.\n- The lab is in Building 4.\n- I use a standing desk.\n- My timezone is UTC+8.\n- The project codename is Bluebird.\n- The vendor reference is VEND-7598.\n- The backup slot is 4 AM.\n- The ticket number is T-661.\n- My access code is NORTH-RBBN-608.",
+      "summary_has_target": true,
+      "reply": "NORTH-RBBN-608",
+      "recovered": true
+    },
+    {
+      "profile": 19,
+      "variant": "extractive",
+      "cond": "clean",
+      "target": "NORTH-RBBN-608",
+      "summary": "Summary of earlier records:\n- My name is User19.\n- My preferred meeting time is 09:00.\n- The lab is in Building 4.\n- I use a standing desk.\n- My timezone is UTC+8.\n- The project codename is Bluebird.\n- The vendor reference is VEND-7598.\n- The backup slot is 4 AM.\n- The ticket number is T-661.\n- My access code has not been set.",
+      "summary_has_target": false,
+      "reply": "UNKNOWN",
+      "recovered": false
+    },
+    {
+      "profile": 19,
+      "variant": "extractive",
+      "cond": "closure",
+      "target": "NORTH-RBBN-608",
+      "reply": "UNKNOWN",
+      "recovered": false
+    },
+    {
+      "profile": 19,
+      "variant": "model_written",
+      "cond": "forget",
+      "target": "NORTH-RBBN-608",
+      "summary": "- Your name is User19.\n- Your preferred meeting time is 09:00 UTC+8.\n- The project codename is Bluebird, and the vendor reference is VEND-7598.",
+      "summary_has_target": false,
+      "reply": "UNKNOWN",
+      "recovered": false
+    },
+    {
+      "profile": 19,
+      "variant": "model_written",
+      "cond": "clean",
+      "target": "NORTH-RBBN-608",
+      "summary": "- Your name is User19.\n- Your preferred meeting time is 09:00 UTC+8.\n- The project codename is Bluebird, and the vendor reference is VEND-7598.",
+      "summary_has_target": false,
+      "reply": "UNKNOWN",
+      "recovered": false
+    },
+    {
+      "profile": 20,
+      "variant": "extractive",
+      "cond": "forget",
+      "target": "EAST-QNLQ-883",
+      "summary": "Summary of earlier records:\n- My name is User20.\n- My preferred meeting time is 09:00.\n- The lab is in Building 4.\n- I use a standing desk.\n- My timezone is UTC+8.\n- The project codename is Bluebird.\n- The vendor reference is VEND-8077.\n- The backup slot is 2 AM.\n- The ticket number is T-456.\n- My access code is EAST-QNLQ-883.",
+      "summary_has_target": true,
+      "reply": "EAST-QNLQ-883",
+      "recovered": true
+    },
+    {
+      "profile": 20,
+      "variant": "extractive",
+      "cond": "clean",
+      "target": "EAST-QNLQ-883",
+      "summary": "Summary of earlier records:\n- My name is User20.\n- My preferred meeting time is 09:00.\n- The lab is in Building 4.\n- I use a standing desk.\n- My timezone is UTC+8.\n- The project codename is Bluebird.\n- The vendor reference is VEND-8077.\n- The backup slot is 2 AM.\n- The ticket number is T-456.\n- My access code has not been set.",
+      "summary_has_target": false,
+      "reply": "UNKNOWN",
+      "recovered": false
+    },
+    {
+      "profile": 20,
+      "variant": "extractive",
+      "cond": "closure",
+      "target": "EAST-QNLQ-883",
+      "reply": "UNKNOWN",
+      "recovered": false
+    },
+    {
+      "profile": 20,
+      "variant": "model_written",
+      "cond": "forget",
+      "target": "EAST-QNLQ-883",
+      "summary": "- Your name is User20.\n- Your preferred meeting time is 09:00 UTC+8.\n- The project codename is Bluebird, and the vendor reference is VEND-8077.",
+      "summary_has_target": false,
+      "reply": "UNKNOWN",
+      "recovered": false
+    },
+    {
+      "profile": 20,
+      "variant": "model_written",
+      "cond": "clean",
+      "target": "EAST-QNLQ-883",
+      "summary": "- Your name is User20.\n- Your preferred meeting time is 09:00 UTC+8.\n- The project codename is Bluebird, and the vendor reference is VEND-8077.\n- You use a standing desk in Building 4, and your access code has not been set.\n- The lab is in Building 4, and the backup slot is at 2 AM.\n- The ticket number is T-456.",
+      "summary_has_target": false,
+      "reply": "UNKNOWN",
+      "recovered": false
+    },
+    {
+      "profile": 21,
+      "variant": "extractive",
+      "cond": "forget",
+      "target": "EAST-HKDS-520",
+      "summary": "Summary of earlier records:\n- My name is User21.\n- My preferred meeting time is 09:00.\n- The lab is in Building 4.\n- I use a standing desk.\n- My timezone is UTC+8.\n- The project codename is Bluebird.\n- The vendor reference is VEND-6999.\n- The backup slot is 4 AM.\n- The ticket number is T-735.\n- My access code is EAST-HKDS-520.",
+      "summary_has_target": true,
+      "reply": "EAST-HKDS-520",
+      "recovered": true
+    },
+    {
+      "profile": 21,
+      "variant": "extractive",
+      "cond": "clean",
+      "target": "EAST-HKDS-520",
+      "summary": "Summary of earlier records:\n- My name is User21.\n- My preferred meeting time is 09:00.\n- The lab is in Building 4.\n- I use a standing desk.\n- My timezone is UTC+8.\n- The project codename is Bluebird.\n- The vendor reference is VEND-6999.\n- The backup slot is 4 AM.\n- The ticket number is T-735.\n- My access code has not been set.",
+      "summary_has_target": false,
+      "reply": "UNKNOWN",
+      "recovered": false
+    },
+    {
+      "profile": 21,
+      "variant": "extractive",
+      "cond": "closure",
+      "target": "EAST-HKDS-520",
+      "reply": "UNKNOWN",
+      "recovered": false
+    },
+    {
+      "profile": 21,
+      "variant": "model_written",
+      "cond": "forget",
+      "target": "EAST-HKDS-520",
+      "summary": "- Your name is User21.\n- Your preferred meeting time is 09:00 UTC+8.\n- The project codename is Bluebird, and the vendor reference is VEND-6999.",
+      "summary_has_target": false,
+      "reply": "UNKNOWN",
+      "recovered": false
+    },
+    {
+      "profile": 21,
+      "variant": "model_written",
+      "cond": "clean",
+      "target": "EAST-HKDS-520",
+      "summary": "- Your name is User21.\n- Your preferred meeting time is 09:00 UTC+8.\n- The project codename is Bluebird, and the vendor reference is VEND-6999.",
+      "summary_has_target": false,
+      "reply": "UNKNOWN",
+      "recovered": false
+    },
+    {
+      "profile": 22,
+      "variant": "extractive",
+      "cond": "forget",
+      "target": "SOUTH-IPAV-782",
+      "summary": "Summary of earlier records:\n- My name is User22.\n- My preferred meeting time is 09:00.\n- The lab is in Building 4.\n- I use a standing desk.\n- My timezone is UTC+8.\n- The project codename is Bluebird.\n- The vendor reference is VEND-7227.\n- The backup slot is 3 AM.\n- The ticket number is T-936.\n- My access code is SOUTH-IPAV-782.",
+      "summary_has_target": true,
+      "reply": "SOUTH-IPAV-782",
+      "recovered": true
+    },
+    {
+      "profile": 22,
+      "variant": "extractive",
+      "cond": "clean",
+      "target": "SOUTH-IPAV-782",
+      "summary": "Summary of earlier records:\n- My name is User22.\n- My preferred meeting time is 09:00.\n- The lab is in Building 4.\n- I use a standing desk.\n- My timezone is UTC+8.\n- The project codename is Bluebird.\n- The vendor reference is VEND-7227.\n- The backup slot is 3 AM.\n- The ticket number is T-936.\n- My access code has not been set.",
+      "summary_has_target": false,
+      "reply": "UNKNOWN",
+      "recovered": false
+    },
+    {
+      "profile": 22,
+      "variant": "extractive",
+      "cond": "closure",
+      "target": "SOUTH-IPAV-782",
+      "reply": "UNKNOWN",
+      "recovered": false
+    },
+    {
+      "profile": 22,
+      "variant": "model_written",
+      "cond": "forget",
+      "target": "SOUTH-IPAV-782",
+      "summary": "- Your name is User22.\n- Your preferred meeting time is 09:00 UTC+8.\n- The lab location is Building 4, and you use a standing desk.\n- The project codename is Bluebird, and the vendor reference is VEND-7227.\n- Your backup slot is 3 AM, and your access code is SOUTH-IPAV-782.\n- The ticket number is T-936.",
+      "summary_has_target": true,
+      "reply": "SOUTH-IPAV-782",
+      "recovered": true
+    },
+    {
+      "profile": 22,
+      "variant": "model_written",
+      "cond": "clean",
+      "target": "SOUTH-IPAV-782",
+      "summary": "- Your name is User22.\n- Your preferred meeting time is 09:00 UTC+8.\n- The project codename is Bluebird, and the vendor reference is VEND-7227.",
+      "summary_has_target": false,
+      "reply": "UNKNOWN",
+      "recovered": false
+    },
+    {
+      "profile": 23,
+      "variant": "extractive",
+      "cond": "forget",
+      "target": "SOUTH-WUQM-347",
+      "summary": "Summary of earlier records:\n- My name is User23.\n- My preferred meeting time is 09:00.\n- The lab is in Building 4.\n- I use a standing desk.\n- My timezone is UTC+8.\n- The project codename is Bluebird.\n- The vendor reference is VEND-2448.\n- The backup slot is 1 AM.\n- The ticket number is T-264.\n- My access code is SOUTH-WUQM-347.",
+      "summary_has_target": true,
+      "reply": "SOUTH-WUQM-347",
+      "recovered": true
+    },
+    {
+      "profile": 23,
+      "variant": "extractive",
+      "cond": "clean",
+      "target": "SOUTH-WUQM-347",
+      "summary": "Summary of earlier records:\n- My name is User23.\n- My preferred meeting time is 09:00.\n- The lab is in Building 4.\n- I use a standing desk.\n- My timezone is UTC+8.\n- The project codename is Bluebird.\n- The vendor reference is VEND-2448.\n- The backup slot is 1 AM.\n- The ticket number is T-264.\n- My access code has not been set.",
+      "summary_has_target": false,
+      "reply": "UNKNOWN",
+      "recovered": false
+    },
+    {
+      "profile": 23,
+      "variant": "extractive",
+      "cond": "closure",
+      "target": "SOUTH-WUQM-347",
+      "reply": "UNKNOWN",
+      "recovered": false
+    },
+    {
+      "profile": 23,
+      "variant": "model_written",
+      "cond": "forget",
+      "target": "SOUTH-WUQM-347",
+      "summary": "- User23 prefers to meet at 09:00 UTC+8.\n- The lab for meetings is located in Building 4, and User23 uses a standing desk.\n- The project codename is Bluebird, with a vendor reference of VEND-2448, and backup slots at 1 AM.",
+      "summary_has_target": false,
+      "reply": "UNKNOWN",
+      "recovered": false
+    },
+    {
+      "profile": 23,
+      "variant": "model_written",
+      "cond": "clean",
+      "target": "SOUTH-WUQM-347",
+      "summary": "- Your name is User23.\n- Your preferred meeting time is 09:00 UTC+8.\n- The project codename is Bluebird, and the vendor reference is VEND-2448.",
+      "summary_has_target": false,
+      "reply": "UNKNOWN",
+      "recovered": false
+    },
+    {
+      "profile": 24,
+      "variant": "extractive",
+      "cond": "forget",
+      "target": "NORTH-UDBV-428",
+      "summary": "Summary of earlier records:\n- My name is User24.\n- My preferred meeting time is 09:00.\n- The lab is in Building 4.\n- I use a standing desk.\n- My timezone is UTC+8.\n- The project codename is Bluebird.\n- The vendor reference is VEND-4794.\n- The backup slot is 3 AM.\n- The ticket number is T-308.\n- My access code is NORTH-UDBV-428.",
+      "summary_has_target": true,
+      "reply": "NORTH-UDBV-428",
+      "recovered": true
+    },
+    {
+      "profile": 24,
+      "variant": "extractive",
+      "cond": "clean",
+      "target": "NORTH-UDBV-428",
+      "summary": "Summary of earlier records:\n- My name is User24.\n- My preferred meeting time is 09:00.\n- The lab is in Building 4.\n- I use a standing desk.\n- My timezone is UTC+8.\n- The project codename is Bluebird.\n- The vendor reference is VEND-4794.\n- The backup slot is 3 AM.\n- The ticket number is T-308.\n- My access code has not been set.",
+      "summary_has_target": false,
+      "reply": "UNKNOWN",
+      "recovered": false
+    },
+    {
+      "profile": 24,
+      "variant": "extractive",
+      "cond": "closure",
+      "target": "NORTH-UDBV-428",
+      "reply": "UNKNOWN",
+      "recovered": false
+    },
+    {
+      "profile": 24,
+      "variant": "model_written",
+      "cond": "forget",
+      "target": "NORTH-UDBV-428",
+      "summary": "- Your name is User24.\n- Your preferred meeting time is 09:00 UTC+8.\n- The project codename is Bluebird, and the vendor reference is VEND-4794.",
+      "summary_has_target": false,
+      "reply": "UNKNOWN",
+      "recovered": false
+    },
+    {
+      "profile": 24,
+      "variant": "model_written",
+      "cond": "clean",
+      "target": "NORTH-UDBV-428",
+      "summary": "- Your name is User24.\n- Your preferred meeting time is 09:00 UTC+8.\n- The project codename is Bluebird, and the vendor reference is VEND-4794.",
+      "summary_has_target": false,
+      "reply": "UNKNOWN",
+      "recovered": false
+    },
+    {
+      "profile": 25,
+      "variant": "extractive",
+      "cond": "forget",
+      "target": "EAST-AHQN-393",
+      "summary": "Summary of earlier records:\n- My name is User25.\n- My preferred meeting time is 09:00.\n- The lab is in Building 4.\n- I use a standing desk.\n- My timezone is UTC+8.\n- The project codename is Bluebird.\n- The vendor reference is VEND-5992.\n- The backup slot is 2 AM.\n- The ticket number is T-432.\n- My access code is EAST-AHQN-393.",
+      "summary_has_target": true,
+      "reply": "EAST-AHQN-393",
+      "recovered": true
+    },
+    {
+      "profile": 25,
+      "variant": "extractive",
+      "cond": "clean",
+      "target": "EAST-AHQN-393",
+      "summary": "Summary of earlier records:\n- My name is User25.\n- My preferred meeting time is 09:00.\n- The lab is in Building 4.\n- I use a standing desk.\n- My timezone is UTC+8.\n- The project codename is Bluebird.\n- The vendor reference is VEND-5992.\n- The backup slot is 2 AM.\n- The ticket number is T-432.\n- My access code has not been set.",
+      "summary_has_target": false,
+      "reply": "UNKNOWN",
+      "recovered": false
+    },
+    {
+      "profile": 25,
+      "variant": "extractive",
+      "cond": "closure",
+      "target": "EAST-AHQN-393",
+      "reply": "UNKNOWN",
+      "recovered": false
+    },
+    {
+      "profile": 25,
+      "variant": "model_written",
+      "cond": "forget",
+      "target": "EAST-AHQN-393",
+      "summary": "- Your name is User25.\n- Your preferred meeting time is 09:00 UTC+8.\n- The project codename is Bluebird, and the vendor reference is VEND-5992.",
+      "summary_has_target": false,
+      "reply": "UNKNOWN",
+      "recovered": false
+    },
+    {
+      "profile": 25,
+      "variant": "model_written",
+      "cond": "clean",
+      "target": "EAST-AHQN-393",
+      "summary": "- Your name is User25.\n- Your preferred meeting time is 09:00 UTC+8.\n- The project codename is Bluebird, and the vendor reference is VEND-5992.",
+      "summary_has_target": false,
+      "reply": "UNKNOWN",
+      "recovered": false
+    },
+    {
+      "profile": 26,
+      "variant": "extractive",
+      "cond": "forget",
+      "target": "SOUTH-ATVL-455",
+      "summary": "Summary of earlier records:\n- My name is User26.\n- My preferred meeting time is 09:00.\n- The lab is in Building 4.\n- I use a standing desk.\n- My timezone is UTC+8.\n- The project codename is Bluebird.\n- The vendor reference is VEND-9863.\n- The backup slot is 1 AM.\n- The ticket number is T-775.\n- My access code is SOUTH-ATVL-455.",
+      "summary_has_target": true,
+      "reply": "SOUTH-ATVL-455",
+      "recovered": true
+    },
+    {
+      "profile": 26,
+      "variant": "extractive",
+      "cond": "clean",
+      "target": "SOUTH-ATVL-455",
+      "summary": "Summary of earlier records:\n- My name is User26.\n- My preferred meeting time is 09:00.\n- The lab is in Building 4.\n- I use a standing desk.\n- My timezone is UTC+8.\n- The project codename is Bluebird.\n- The vendor reference is VEND-9863.\n- The backup slot is 1 AM.\n- The ticket number is T-775.\n- My access code has not been set.",
+      "summary_has_target": false,
+      "reply": "UNKNOWN",
+      "recovered": false
+    },
+    {
+      "profile": 26,
+      "variant": "extractive",
+      "cond": "closure",
+      "target": "SOUTH-ATVL-455",
+      "reply": "UNKNOWN",
+      "recovered": false
+    },
+    {
+      "profile": 26,
+      "variant": "model_written",
+      "cond": "forget",
+      "target": "SOUTH-ATVL-455",
+      "summary": "- Your name is User26.\n- Your preferred meeting time is 09:00 UTC+8.\n- The project codename is Bluebird, and the vendor reference is VEND-9863.",
+      "summary_has_target": false,
+      "reply": "UNKNOWN",
+      "recovered": false
+    },
+    {
+      "profile": 26,
+      "variant": "model_written",
+      "cond": "clean",
+      "target": "SOUTH-ATVL-455",
+      "summary": "- Your name is User26.\n- Your preferred meeting time is 09:00 UTC+8.\n- The project codename is Bluebird, and the vendor reference is VEND-9863.\n- You use a standing desk in Building 4, and your backup slot is 1 AM.\n- Your access code has not been set, and the ticket number is T-775.",
+      "summary_has_target": false,
+      "reply": "UNKNOWN",
+      "recovered": false
+    },
+    {
+      "profile": 27,
+      "variant": "extractive",
+      "cond": "forget",
+      "target": "SOUTH-IOBQ-176",
+      "summary": "Summary of earlier records:\n- My name is User27.\n- My preferred meeting time is 09:00.\n- The lab is in Building 4.\n- I use a standing desk.\n- My timezone is UTC+8.\n- The project codename is Bluebird.\n- The vendor reference is VEND-2919.\n- The backup slot is 2 AM.\n- The ticket number is T-109.\n- My access code is SOUTH-IOBQ-176.",
+      "summary_has_target": true,
+      "reply": "SOUTH-IOBQ-176",
+      "recovered": true
+    },
+    {
+      "profile": 27,
+      "variant": "extractive",
+      "cond": "clean",
+      "target": "SOUTH-IOBQ-176",
+      "summary": "Summary of earlier records:\n- My name is User27.\n- My preferred meeting time is 09:00.\n- The lab is in Building 4.\n- I use a standing desk.\n- My timezone is UTC+8.\n- The project codename is Bluebird.\n- The vendor reference is VEND-2919.\n- The backup slot is 2 AM.\n- The ticket number is T-109.\n- My access code has not been set.",
+      "summary_has_target": false,
+      "reply": "UNKNOWN",
+      "recovered": false
+    },
+    {
+      "profile": 27,
+      "variant": "extractive",
+      "cond": "closure",
+      "target": "SOUTH-IOBQ-176",
+      "reply": "UNKNOWN",
+      "recovered": false
+    },
+    {
+      "profile": 27,
+      "variant": "model_written",
+      "cond": "forget",
+      "target": "SOUTH-IOBQ-176",
+      "summary": "- Your name is User27.\n- Your preferred meeting time is 09:00 UTC+8.\n- The project codename is Bluebird, and the vendor reference is VEND-2919.",
+      "summary_has_target": false,
+      "reply": "UNKNOWN",
+      "recovered": false
+    },
+    {
+      "profile": 27,
+      "variant": "model_written",
+      "cond": "clean",
+      "target": "SOUTH-IOBQ-176",
+      "summary": "- Your name is User27.\n- Your preferred meeting time is 09:00 UTC+8.\n- The project codename is Bluebird, and the vendor reference is VEND-2919.\n- You use a standing desk in Building 4, and your access code has not been set.\n- The backup slot is at 2 AM, and the ticket number is T-109.",
+      "summary_has_target": false,
+      "reply": "UNKNOWN",
+      "recovered": false
+    },
+    {
+      "profile": 28,
+      "variant": "extractive",
+      "cond": "forget",
+      "target": "SOUTH-CBWV-933",
+      "summary": "Summary of earlier records:\n- My name is User28.\n- My preferred meeting time is 09:00.\n- The lab is in Building 4.\n- I use a standing desk.\n- My timezone is UTC+8.\n- The project codename is Bluebird.\n- The vendor reference is VEND-6094.\n- The backup slot is 2 AM.\n- The ticket number is T-629.\n- My access code is SOUTH-CBWV-933.",
+      "summary_has_target": true,
+      "reply": "SOUTH-CBWV-933",
+      "recovered": true
+    },
+    {
+      "profile": 28,
+      "variant": "extractive",
+      "cond": "clean",
+      "target": "SOUTH-CBWV-933",
+      "summary": "Summary of earlier records:\n- My name is User28.\n- My preferred meeting time is 09:00.\n- The lab is in Building 4.\n- I use a standing desk.\n- My timezone is UTC+8.\n- The project codename is Bluebird.\n- The vendor reference is VEND-6094.\n- The backup slot is 2 AM.\n- The ticket number is T-629.\n- My access code has not been set.",
+      "summary_has_target": false,
+      "reply": "UNKNOWN",
+      "recovered": false
+    },
+    {
+      "profile": 28,
+      "variant": "extractive",
+      "cond": "closure",
+      "target": "SOUTH-CBWV-933",
+      "reply": "UNKNOWN",
+      "recovered": false
+    },
+    {
+      "profile": 28,
+      "variant": "model_written",
+      "cond": "forget",
+      "target": "SOUTH-CBWV-933",
+      "summary": "- Your name is User28.\n- Your preferred meeting time is 09:00 UTC+8.\n- The project codename is Bluebird, and the vendor reference is VEND-6094.",
+      "summary_has_target": false,
+      "reply": "UNKNOWN",
+      "recovered": false
+    },
+    {
+      "profile": 28,
+      "variant": "model_written",
+      "cond": "clean",
+      "target": "SOUTH-CBWV-933",
+      "summary": "- Your name is User28.\n- Your preferred meeting time is 09:00 UTC+8.\n- The project codename is Bluebird, and the vendor reference is VEND-6094.\n- You use a standing desk in Building 4, with a backup slot at 2 AM and ticket number T-629.\n- Your access code has not been set.",
+      "summary_has_target": false,
+      "reply": "UNKNOWN",
+      "recovered": false
+    },
+    {
+      "profile": 29,
+      "variant": "extractive",
+      "cond": "forget",
+      "target": "SOUTH-KUWR-679",
+      "summary": "Summary of earlier records:\n- My name is User29.\n- My preferred meeting time is 09:00.\n- The lab is in Building 4.\n- I use a standing desk.\n- My timezone is UTC+8.\n- The project codename is Bluebird.\n- The vendor reference is VEND-9953.\n- The backup slot is 3 AM.\n- The ticket number is T-980.\n- My access code is SOUTH-KUWR-679.",
+      "summary_has_target": true,
+      "reply": "SOUTH-KUWR-679",
+      "recovered": true
+    },
+    {
+      "profile": 29,
+      "variant": "extractive",
+      "cond": "clean",
+      "target": "SOUTH-KUWR-679",
+      "summary": "Summary of earlier records:\n- My name is User29.\n- My preferred meeting time is 09:00.\n- The lab is in Building 4.\n- I use a standing desk.\n- My timezone is UTC+8.\n- The project codename is Bluebird.\n- The vendor reference is VEND-9953.\n- The backup slot is 3 AM.\n- The ticket number is T-980.\n- My access code has not been set.",
+      "summary_has_target": false,
+      "reply": "UNKNOWN",
+      "recovered": false
+    },
+    {
+      "profile": 29,
+      "variant": "extractive",
+      "cond": "closure",
+      "target": "SOUTH-KUWR-679",
+      "reply": "UNKNOWN",
+      "recovered": false
+    },
+    {
+      "profile": 29,
+      "variant": "model_written",
+      "cond": "forget",
+      "target": "SOUTH-KUWR-679",
+      "summary": "- User29 prefers to meet at 09:00 UTC+8.\n- The lab for the Bluebird project is located in Building 4, and User29 uses a standing desk.\n- User29's backup slot is set for 3 AM, and their access code is SOUTH-KUWR-679.",
+      "summary_has_target": true,
+      "reply": "UNKNOWN",
+      "recovered": false
+    },
+    {
+      "profile": 29,
+      "variant": "model_written",
+      "cond": "clean",
+      "target": "SOUTH-KUWR-679",
+      "summary": "- Your name is User29.\n- Your preferred meeting time is 09:00 UTC+8.\n- The project codename is Bluebird, and the vendor reference is VEND-9953.\n- You use a standing desk in Building 4, and your access code has not been set.\n- The backup slot is at 3 AM, and the ticket number is T-980.",
+      "summary_has_target": false,
+      "reply": "UNKNOWN",
+      "recovered": false
+    },
+    {
+      "profile": 30,
+      "variant": "extractive",
+      "cond": "forget",
+      "target": "EAST-DCBG-391",
+      "summary": "Summary of earlier records:\n- My name is User30.\n- My preferred meeting time is 09:00.\n- The lab is in Building 4.\n- I use a standing desk.\n- My timezone is UTC+8.\n- The project codename is Bluebird.\n- The vendor reference is VEND-9416.\n- The backup slot is 3 AM.\n- The ticket number is T-362.\n- My access code is EAST-DCBG-391.",
+      "summary_has_target": true,
+      "reply": "EAST-DCBG-391",
+      "recovered": true
+    },
+    {
+      "profile": 30,
+      "variant": "extractive",
+      "cond": "clean",
+      "target": "EAST-DCBG-391",
+      "summary": "Summary of earlier records:\n- My name is User30.\n- My preferred meeting time is 09:00.\n- The lab is in Building 4.\n- I use a standing desk.\n- My timezone is UTC+8.\n- The project codename is Bluebird.\n- The vendor reference is VEND-9416.\n- The backup slot is 3 AM.\n- The ticket number is T-362.\n- My access code has not been set.",
+      "summary_has_target": false,
+      "reply": "UNKNOWN",
+      "recovered": false
+    },
+    {
+      "profile": 30,
+      "variant": "extractive",
+      "cond": "closure",
+      "target": "EAST-DCBG-391",
+      "reply": "UNKNOWN",
+      "recovered": false
+    },
+    {
+      "profile": 30,
+      "variant": "model_written",
+      "cond": "forget",
+      "target": "EAST-DCBG-391",
+      "summary": "- Your name is User30.\n- Your preferred meeting time is 09:00 UTC+8.\n- The project codename is Bluebird, and the vendor reference is VEND-9416.",
+      "summary_has_target": false,
+      "reply": "UNKNOWN",
+      "recovered": false
+    },
+    {
+      "profile": 30,
+      "variant": "model_written",
+      "cond": "clean",
+      "target": "EAST-DCBG-391",
+      "summary": "- Your name is User30.\n- Your preferred meeting time is 09:00 UTC+8.\n- The project codename is Bluebird, and the vendor reference is VEND-9416.",
+      "summary_has_target": false,
+      "reply": "UNKNOWN",
+      "recovered": false
+    },
+    {
+      "profile": 31,
+      "variant": "extractive",
+      "cond": "forget",
+      "target": "SOUTH-EIGU-611",
+      "summary": "Summary of earlier records:\n- My name is User31.\n- My preferred meeting time is 09:00.\n- The lab is in Building 4.\n- I use a standing desk.\n- My timezone is UTC+8.\n- The project codename is Bluebird.\n- The vendor reference is VEND-9191.\n- The backup slot is 4 AM.\n- The ticket number is T-172.\n- My access code is SOUTH-EIGU-611.",
+      "summary_has_target": true,
+      "reply": "SOUTH-EIGU-611",
+      "recovered": true
+    },
+    {
+      "profile": 31,
+      "variant": "extractive",
+      "cond": "clean",
+      "target": "SOUTH-EIGU-611",
+      "summary": "Summary of earlier records:\n- My name is User31.\n- My preferred meeting time is 09:00.\n- The lab is in Building 4.\n- I use a standing desk.\n- My timezone is UTC+8.\n- The project codename is Bluebird.\n- The vendor reference is VEND-9191.\n- The backup slot is 4 AM.\n- The ticket number is T-172.\n- My access code has not been set.",
+      "summary_has_target": false,
+      "reply": "UNKNOWN",
+      "recovered": false
+    },
+    {
+      "profile": 31,
+      "variant": "extractive",
+      "cond": "closure",
+      "target": "SOUTH-EIGU-611",
+      "reply": "UNKNOWN",
+      "recovered": false
+    },
+    {
+      "profile": 31,
+      "variant": "model_written",
+      "cond": "forget",
+      "target": "SOUTH-EIGU-611",
+      "summary": "- Your name is User31.\n- Your preferred meeting time is 09:00 UTC+8.\n- The project codename is Bluebird, and the vendor reference is VEND-9191.",
+      "summary_has_target": false,
+      "reply": "UNKNOWN",
+      "recovered": false
+    },
+    {
+      "profile": 31,
+      "variant": "model_written",
+      "cond": "clean",
+      "target": "SOUTH-EIGU-611",
+      "summary": "- Your name is User31.\n- Your preferred meeting time is 09:00 UTC+8.\n- The project codename is Bluebird, and the vendor reference is VEND-9191.",
+      "summary_has_target": false,
+      "reply": "UNKNOWN",
+      "recovered": false
+    },
+    {
+      "profile": 32,
+      "variant": "extractive",
+      "cond": "forget",
+      "target": "NORTH-QTRE-223",
+      "summary": "Summary of earlier records:\n- My name is User32.\n- My preferred meeting time is 09:00.\n- The lab is in Building 4.\n- I use a standing desk.\n- My timezone is UTC+8.\n- The project codename is Bluebird.\n- The vendor reference is VEND-3857.\n- The backup slot is 5 AM.\n- The ticket number is T-748.\n- My access code is NORTH-QTRE-223.",
+      "summary_has_target": true,
+      "reply": "NORTH-QTRE-223",
+      "recovered": true
+    },
+    {
+      "profile": 32,
+      "variant": "extractive",
+      "cond": "clean",
+      "target": "NORTH-QTRE-223",
+      "summary": "Summary of earlier records:\n- My name is User32.\n- My preferred meeting time is 09:00.\n- The lab is in Building 4.\n- I use a standing desk.\n- My timezone is UTC+8.\n- The project codename is Bluebird.\n- The vendor reference is VEND-3857.\n- The backup slot is 5 AM.\n- The ticket number is T-748.\n- My access code has not been set.",
+      "summary_has_target": false,
+      "reply": "UNKNOWN",
+      "recovered": false
+    },
+    {
+      "profile": 32,
+      "variant": "extractive",
+      "cond": "closure",
+      "target": "NORTH-QTRE-223",
+      "reply": "UNKNOWN",
+      "recovered": false
+    },
+    {
+      "profile": 32,
+      "variant": "model_written",
+      "cond": "forget",
+      "target": "NORTH-QTRE-223",
+      "summary": "- Your name is User32.\n- Your preferred meeting time is 09:00 UTC+8.\n- The project codename is Bluebird, and the vendor reference is VEND-3857.",
+      "summary_has_target": false,
+      "reply": "UNKNOWN",
+      "recovered": false
+    },
+    {
+      "profile": 32,
+      "variant": "model_written",
+      "cond": "clean",
+      "target": "NORTH-QTRE-223",
+      "summary": "- Your name is User32.\n- Your preferred meeting time is 09:00 UTC+8.\n- The project codename is Bluebird, and the vendor reference is VEND-3857.",
+      "summary_has_target": false,
+      "reply": "UNKNOWN",
+      "recovered": false
+    },
+    {
+      "profile": 33,
+      "variant": "extractive",
+      "cond": "forget",
+      "target": "EAST-KKXK-920",
+      "summary": "Summary of earlier records:\n- My name is User33.\n- My preferred meeting time is 09:00.\n- The lab is in Building 4.\n- I use a standing desk.\n- My timezone is UTC+8.\n- The project codename is Bluebird.\n- The vendor reference is VEND-5037.\n- The backup slot is 2 AM.\n- The ticket number is T-919.\n- My access code is EAST-KKXK-920.",
+      "summary_has_target": true,
+      "reply": "EAST-KKXK-920",
+      "recovered": true
+    },
+    {
+      "profile": 33,
+      "variant": "extractive",
+      "cond": "clean",
+      "target": "EAST-KKXK-920",
+      "summary": "Summary of earlier records:\n- My name is User33.\n- My preferred meeting time is 09:00.\n- The lab is in Building 4.\n- I use a standing desk.\n- My timezone is UTC+8.\n- The project codename is Bluebird.\n- The vendor reference is VEND-5037.\n- The backup slot is 2 AM.\n- The ticket number is T-919.\n- My access code has not been set.",
+      "summary_has_target": false,
+      "reply": "UNKNOWN",
+      "recovered": false
+    },
+    {
+      "profile": 33,
+      "variant": "extractive",
+      "cond": "closure",
+      "target": "EAST-KKXK-920",
+      "reply": "UNKNOWN",
+      "recovered": false
+    },
+    {
+      "profile": 33,
+      "variant": "model_written",
+      "cond": "forget",
+      "target": "EAST-KKXK-920",
+      "summary": "- Your name is User33.\n- Your preferred meeting time is 09:00 UTC+8.\n- The project codename is Bluebird, and the vendor reference is VEND-5037.",
+      "summary_has_target": false,
+      "reply": "UNKNOWN",
+      "recovered": false
+    },
+    {
+      "profile": 33,
+      "variant": "model_written",
+      "cond": "clean",
+      "target": "EAST-KKXK-920",
+      "summary": "- Your name is User33.\n- Your preferred meeting time is 09:00 UTC+8.\n- The project codename is Bluebird, and the vendor reference is VEND-5037.\n- You use a standing desk in Building 4, and your access code has not been set.\n- The backup slot is at 2 AM, and the ticket number is T-919.",
+      "summary_has_target": false,
+      "reply": "UNKNOWN",
+      "recovered": false
+    },
+    {
+      "profile": 34,
+      "variant": "extractive",
+      "cond": "forget",
+      "target": "SOUTH-RVQL-382",
+      "summary": "Summary of earlier records:\n- My name is User34.\n- My preferred meeting time is 09:00.\n- The lab is in Building 4.\n- I use a standing desk.\n- My timezone is UTC+8.\n- The project codename is Bluebird.\n- The vendor reference is VEND-8506.\n- The backup slot is 3 AM.\n- The ticket number is T-158.\n- My access code is SOUTH-RVQL-382.",
+      "summary_has_target": true,
+      "reply": "SOUTH-RVQL-382",
+      "recovered": true
+    },
+    {
+      "profile": 34,
+      "variant": "extractive",
+      "cond": "clean",
+      "target": "SOUTH-RVQL-382",
+      "summary": "Summary of earlier records:\n- My name is User34.\n- My preferred meeting time is 09:00.\n- The lab is in Building 4.\n- I use a standing desk.\n- My timezone is UTC+8.\n- The project codename is Bluebird.\n- The vendor reference is VEND-8506.\n- The backup slot is 3 AM.\n- The ticket number is T-158.\n- My access code has not been set.",
+      "summary_has_target": false,
+      "reply": "UNKNOWN",
+      "recovered": false
+    },
+    {
+      "profile": 34,
+      "variant": "extractive",
+      "cond": "closure",
+      "target": "SOUTH-RVQL-382",
+      "reply": "UNKNOWN",
+      "recovered": false
+    },
+    {
+      "profile": 34,
+      "variant": "model_written",
+      "cond": "forget",
+      "target": "SOUTH-RVQL-382",
+      "summary": "- User34 prefers to meet at 09:00 UTC+8.\n- The project codename is Bluebird, and the vendor reference is VEND-8506.\n- User34 uses a standing desk in Building 4, with backups scheduled at 3 AM and ticket number T-158.",
+      "summary_has_target": false,
+      "reply": "UNKNOWN",
+      "recovered": false
+    },
+    {
+      "profile": 34,
+      "variant": "model_written",
+      "cond": "clean",
+      "target": "SOUTH-RVQL-382",
+      "summary": "- Your name is User34.\n- Your preferred meeting time is 09:00 UTC+8.\n- The project codename is Bluebird, and the vendor reference is VEND-8506.",
+      "summary_has_target": false,
+      "reply": "UNKNOWN",
+      "recovered": false
+    },
+    {
+      "profile": 35,
+      "variant": "extractive",
+      "cond": "forget",
+      "target": "SOUTH-DJDI-741",
+      "summary": "Summary of earlier records:\n- My name is User35.\n- My preferred meeting time is 09:00.\n- The lab is in Building 4.\n- I use a standing desk.\n- My timezone is UTC+8.\n- The project codename is Bluebird.\n- The vendor reference is VEND-3099.\n- The backup slot is 5 AM.\n- The ticket number is T-380.\n- My access code is SOUTH-DJDI-741.",
+      "summary_has_target": true,
+      "reply": "SOUTH-DJDI-741",
+      "recovered": true
+    },
+    {
+      "profile": 35,
+      "variant": "extractive",
+      "cond": "clean",
+      "target": "SOUTH-DJDI-741",
+      "summary": "Summary of earlier records:\n- My name is User35.\n- My preferred meeting time is 09:00.\n- The lab is in Building 4.\n- I use a standing desk.\n- My timezone is UTC+8.\n- The project codename is Bluebird.\n- The vendor reference is VEND-3099.\n- The backup slot is 5 AM.\n- The ticket number is T-380.\n- My access code has not been set.",
+      "summary_has_target": false,
+      "reply": "UNKNOWN",
+      "recovered": false
+    },
+    {
+      "profile": 35,
+      "variant": "extractive",
+      "cond": "closure",
+      "target": "SOUTH-DJDI-741",
+      "reply": "UNKNOWN",
+      "recovered": false
+    },
+    {
+      "profile": 35,
+      "variant": "model_written",
+      "cond": "forget",
+      "target": "SOUTH-DJDI-741",
+      "summary": "- Your name is User35.\n- Your preferred meeting time is 09:00 UTC+8.\n- The project codename is Bluebird, and the vendor reference is VEND-3099.",
+      "summary_has_target": false,
+      "reply": "UNKNOWN",
+      "recovered": false
+    },
+    {
+      "profile": 35,
+      "variant": "model_written",
+      "cond": "clean",
+      "target": "SOUTH-DJDI-741",
+      "summary": "- Your name is User35.\n- Your preferred meeting time is 09:00 UTC+8.\n- The project codename is Bluebird, and the vendor reference is VEND-3099.\n- You use a standing desk in Building 4, and your backup slot is at 5 AM.\n- The ticket number is T-380, and your access code has not been set.",
+      "summary_has_target": false,
+      "reply": "UNKNOWN",
+      "recovered": false
+    },
+    {
+      "profile": 36,
+      "variant": "extractive",
+      "cond": "forget",
+      "target": "SOUTH-XEYY-410",
+      "summary": "Summary of earlier records:\n- My name is User36.\n- My preferred meeting time is 09:00.\n- The lab is in Building 4.\n- I use a standing desk.\n- My timezone is UTC+8.\n- The project codename is Bluebird.\n- The vendor reference is VEND-6529.\n- The backup slot is 5 AM.\n- The ticket number is T-364.\n- My access code is SOUTH-XEYY-410.",
+      "summary_has_target": true,
+      "reply": "SOUTH-XEYY-410",
+      "recovered": true
+    },
+    {
+      "profile": 36,
+      "variant": "extractive",
+      "cond": "clean",
+      "target": "SOUTH-XEYY-410",
+      "summary": "Summary of earlier records:\n- My name is User36.\n- My preferred meeting time is 09:00.\n- The lab is in Building 4.\n- I use a standing desk.\n- My timezone is UTC+8.\n- The project codename is Bluebird.\n- The vendor reference is VEND-6529.\n- The backup slot is 5 AM.\n- The ticket number is T-364.\n- My access code has not been set.",
+      "summary_has_target": false,
+      "reply": "UNKNOWN",
+      "recovered": false
+    },
+    {
+      "profile": 36,
+      "variant": "extractive",
+      "cond": "closure",
+      "target": "SOUTH-XEYY-410",
+      "reply": "UNKNOWN",
+      "recovered": false
+    },
+    {
+      "profile": 36,
+      "variant": "model_written",
+      "cond": "forget",
+      "target": "SOUTH-XEYY-410",
+      "summary": "- Your name is User36.\n- Your preferred meeting time is 09:00 UTC+8.\n- The project codename is Bluebird, and the vendor reference is VEND-6529.",
+      "summary_has_target": false,
+      "reply": "UNKNOWN",
+      "recovered": false
+    },
+    {
+      "profile": 36,
+      "variant": "model_written",
+      "cond": "clean",
+      "target": "SOUTH-XEYY-410",
+      "summary": "- Your name is User36.\n- Your preferred meeting time is 09:00 UTC+8.\n- The project codename is Bluebird, and the vendor reference is VEND-6529.",
+      "summary_has_target": false,
+      "reply": "UNKNOWN",
+      "recovered": false
+    },
+    {
+      "profile": 37,
+      "variant": "extractive",
+      "cond": "forget",
+      "target": "NORTH-QIIY-425",
+      "summary": "Summary of earlier records:\n- My name is User37.\n- My preferred meeting time is 09:00.\n- The lab is in Building 4.\n- I use a standing desk.\n- My timezone is UTC+8.\n- The project codename is Bluebird.\n- The vendor reference is VEND-8401.\n- The backup slot is 4 AM.\n- The ticket number is T-737.\n- My access code is NORTH-QIIY-425.",
+      "summary_has_target": true,
+      "reply": "NORTH-QIIY-425",
+      "recovered": true
+    },
+    {
+      "profile": 37,
+      "variant": "extractive",
+      "cond": "clean",
+      "target": "NORTH-QIIY-425",
+      "summary": "Summary of earlier records:\n- My name is User37.\n- My preferred meeting time is 09:00.\n- The lab is in Building 4.\n- I use a standing desk.\n- My timezone is UTC+8.\n- The project codename is Bluebird.\n- The vendor reference is VEND-8401.\n- The backup slot is 4 AM.\n- The ticket number is T-737.\n- My access code has not been set.",
+      "summary_has_target": false,
+      "reply": "UNKNOWN",
+      "recovered": false
+    },
+    {
+      "profile": 37,
+      "variant": "extractive",
+      "cond": "closure",
+      "target": "NORTH-QIIY-425",
+      "reply": "UNKNOWN",
+      "recovered": false
+    },
+    {
+      "profile": 37,
+      "variant": "model_written",
+      "cond": "forget",
+      "target": "NORTH-QIIY-425",
+      "summary": "- Your name is User37.\n- Your preferred meeting time is 09:00 UTC+8.\n- The project codename is Bluebird, and the vendor reference is VEND-8401.",
+      "summary_has_target": false,
+      "reply": "UNKNOWN",
+      "recovered": false
+    },
+    {
+      "profile": 37,
+      "variant": "model_written",
+      "cond": "clean",
+      "target": "NORTH-QIIY-425",
+      "summary": "- Your name is User37.\n- Your preferred meeting time is 09:00 UTC+8.\n- The project codename is Bluebird, and the vendor reference is VEND-8401.",
+      "summary_has_target": false,
+      "reply": "UNKNOWN",
+      "recovered": false
+    },
+    {
+      "profile": 38,
+      "variant": "extractive",
+      "cond": "forget",
+      "target": "NORTH-RBJR-686",
+      "summary": "Summary of earlier records:\n- My name is User38.\n- My preferred meeting time is 09:00.\n- The lab is in Building 4.\n- I use a standing desk.\n- My timezone is UTC+8.\n- The project codename is Bluebird.\n- The vendor reference is VEND-8010.\n- The backup slot is 2 AM.\n- The ticket number is T-238.\n- My access code is NORTH-RBJR-686.",
+      "summary_has_target": true,
+      "reply": "NORTH-RBJR-686",
+      "recovered": true
+    },
+    {
+      "profile": 38,
+      "variant": "extractive",
+      "cond": "clean",
+      "target": "NORTH-RBJR-686",
+      "summary": "Summary of earlier records:\n- My name is User38.\n- My preferred meeting time is 09:00.\n- The lab is in Building 4.\n- I use a standing desk.\n- My timezone is UTC+8.\n- The project codename is Bluebird.\n- The vendor reference is VEND-8010.\n- The backup slot is 2 AM.\n- The ticket number is T-238.\n- My access code has not been set.",
+      "summary_has_target": false,
+      "reply": "UNKNOWN",
+      "recovered": false
+    },
+    {
+      "profile": 38,
+      "variant": "extractive",
+      "cond": "closure",
+      "target": "NORTH-RBJR-686",
+      "reply": "UNKNOWN",
+      "recovered": false
+    },
+    {
+      "profile": 38,
+      "variant": "model_written",
+      "cond": "forget",
+      "target": "NORTH-RBJR-686",
+      "summary": "- Your name is User38.\n- Your preferred meeting time is 09:00 UTC+8.\n- The project codename is Bluebird, and the vendor reference is VEND-8010.",
+      "summary_has_target": false,
+      "reply": "UNKNOWN",
+      "recovered": false
+    },
+    {
+      "profile": 38,
+      "variant": "model_written",
+      "cond": "clean",
+      "target": "NORTH-RBJR-686",
+      "summary": "- Your name is User38.\n- Your preferred meeting time is 09:00 UTC+8.\n- The project codename is Bluebird, and the vendor reference is VEND-8010.",
+      "summary_has_target": false,
+      "reply": "UNKNOWN",
+      "recovered": false
+    },
+    {
+      "profile": 39,
+      "variant": "extractive",
+      "cond": "forget",
+      "target": "SOUTH-UFZO-927",
+      "summary": "Summary of earlier records:\n- My name is User39.\n- My preferred meeting time is 09:00.\n- The lab is in Building 4.\n- I use a standing desk.\n- My timezone is UTC+8.\n- The project codename is Bluebird.\n- The vendor reference is VEND-5595.\n- The backup slot is 4 AM.\n- The ticket number is T-518.\n- My access code is SOUTH-UFZO-927.",
+      "summary_has_target": true,
+      "reply": "SOUTH-UFZO-927",
+      "recovered": true
+    },
+    {
+      "profile": 39,
+      "variant": "extractive",
+      "cond": "clean",
+      "target": "SOUTH-UFZO-927",
+      "summary": "Summary of earlier records:\n- My name is User39.\n- My preferred meeting time is 09:00.\n- The lab is in Building 4.\n- I use a standing desk.\n- My timezone is UTC+8.\n- The project codename is Bluebird.\n- The vendor reference is VEND-5595.\n- The backup slot is 4 AM.\n- The ticket number is T-518.\n- My access code has not been set.",
+      "summary_has_target": false,
+      "reply": "UNKNOWN",
+      "recovered": false
+    },
+    {
+      "profile": 39,
+      "variant": "extractive",
+      "cond": "closure",
+      "target": "SOUTH-UFZO-927",
+      "reply": "UNKNOWN",
+      "recovered": false
+    },
+    {
+      "profile": 39,
+      "variant": "model_written",
+      "cond": "forget",
+      "target": "SOUTH-UFZO-927",
+      "summary": "- Your name is User39.\n- Your preferred meeting time is 09:00 UTC+8.\n- The project codename is Bluebird, and the vendor reference is VEND-5595.",
+      "summary_has_target": false,
+      "reply": "UNKNOWN",
+      "recovered": false
+    },
+    {
+      "profile": 39,
+      "variant": "model_written",
+      "cond": "clean",
+      "target": "SOUTH-UFZO-927",
+      "summary": "- Your name is User39.\n- Your preferred meeting time is 09:00 UTC+8.\n- The project codename is Bluebird, and the vendor reference is VEND-5595.",
+      "summary_has_target": false,
+      "reply": "UNKNOWN",
+      "recovered": false
+    },
+    {
+      "profile": 40,
+      "variant": "extractive",
+      "cond": "forget",
+      "target": "WEST-TVEL-798",
+      "summary": "Summary of earlier records:\n- My name is User40.\n- My preferred meeting time is 09:00.\n- The lab is in Building 4.\n- I use a standing desk.\n- My timezone is UTC+8.\n- The project codename is Bluebird.\n- The vendor reference is VEND-7740.\n- The backup slot is 4 AM.\n- The ticket number is T-707.\n- My access code is WEST-TVEL-798.",
+      "summary_has_target": true,
+      "reply": "WEST-TVEL-798",
+      "recovered": true
+    },
+    {
+      "profile": 40,
+      "variant": "extractive",
+      "cond": "clean",
+      "target": "WEST-TVEL-798",
+      "summary": "Summary of earlier records:\n- My name is User40.\n- My preferred meeting time is 09:00.\n- The lab is in Building 4.\n- I use a standing desk.\n- My timezone is UTC+8.\n- The project codename is Bluebird.\n- The vendor reference is VEND-7740.\n- The backup slot is 4 AM.\n- The ticket number is T-707.\n- My access code has not been set.",
+      "summary_has_target": false,
+      "reply": "UNKNOWN",
+      "recovered": false
+    },
+    {
+      "profile": 40,
+      "variant": "extractive",
+      "cond": "closure",
+      "target": "WEST-TVEL-798",
+      "reply": "UNKNOWN",
+      "recovered": false
+    },
+    {
+      "profile": 40,
+      "variant": "model_written",
+      "cond": "forget",
+      "target": "WEST-TVEL-798",
+      "summary": "- Your name is User40.\n- Your preferred meeting time is 09:00 UTC+8.\n- The project codename is Bluebird, and the vendor reference is VEND-7740.",
+      "summary_has_target": false,
+      "reply": "UNKNOWN",
+      "recovered": false
+    },
+    {
+      "profile": 40,
+      "variant": "model_written",
+      "cond": "clean",
+      "target": "WEST-TVEL-798",
+      "summary": "- Your name is User40.\n- Your preferred meeting time is 09:00 UTC+8.\n- The project codename is Bluebird, and the vendor reference is VEND-7740.",
+      "summary_has_target": false,
+      "reply": "UNKNOWN",
+      "recovered": false
+    },
+    {
+      "profile": 41,
+      "variant": "extractive",
+      "cond": "forget",
+      "target": "SOUTH-JROC-301",
+      "summary": "Summary of earlier records:\n- My name is User41.\n- My preferred meeting time is 09:00.\n- The lab is in Building 4.\n- I use a standing desk.\n- My timezone is UTC+8.\n- The project codename is Bluebird.\n- The vendor reference is VEND-4443.\n- The backup slot is 3 AM.\n- The ticket number is T-101.\n- My access code is SOUTH-JROC-301.",
+      "summary_has_target": true,
+      "reply": "SOUTH-JROC-301",
+      "recovered": true
+    },
+    {
+      "profile": 41,
+      "variant": "extractive",
+      "cond": "clean",
+      "target": "SOUTH-JROC-301",
+      "summary": "Summary of earlier records:\n- My name is User41.\n- My preferred meeting time is 09:00.\n- The lab is in Building 4.\n- I use a standing desk.\n- My timezone is UTC+8.\n- The project codename is Bluebird.\n- The vendor reference is VEND-4443.\n- The backup slot is 3 AM.\n- The ticket number is T-101.\n- My access code has not been set.",
+      "summary_has_target": false,
+      "reply": "UNKNOWN",
+      "recovered": false
+    },
+    {
+      "profile": 41,
+      "variant": "extractive",
+      "cond": "closure",
+      "target": "SOUTH-JROC-301",
+      "reply": "UNKNOWN",
+      "recovered": false
+    },
+    {
+      "profile": 41,
+      "variant": "model_written",
+      "cond": "forget",
+      "target": "SOUTH-JROC-301",
+      "summary": "- Your name is User41.\n- Your preferred meeting time is 09:00 UTC+8.\n- The project codename is Bluebird, and the vendor reference is VEND-4443.",
+      "summary_has_target": false,
+      "reply": "UNKNOWN",
+      "recovered": false
+    },
+    {
+      "profile": 41,
+      "variant": "model_written",
+      "cond": "clean",
+      "target": "SOUTH-JROC-301",
+      "summary": "- Your name is User41.\n- Your preferred meeting time is 09:00 UTC+8.\n- The project codename is Bluebird, and the vendor reference is VEND-4443.",
+      "summary_has_target": false,
+      "reply": "UNKNOWN",
+      "recovered": false
+    },
+    {
+      "profile": 42,
+      "variant": "extractive",
+      "cond": "forget",
+      "target": "SOUTH-ASLR-456",
+      "summary": "Summary of earlier records:\n- My name is User42.\n- My preferred meeting time is 09:00.\n- The lab is in Building 4.\n- I use a standing desk.\n- My timezone is UTC+8.\n- The project codename is Bluebird.\n- The vendor reference is VEND-6803.\n- The backup slot is 4 AM.\n- The ticket number is T-898.\n- My access code is SOUTH-ASLR-456.",
+      "summary_has_target": true,
+      "reply": "SOUTH-ASLR-456",
+      "recovered": true
+    },
+    {
+      "profile": 42,
+      "variant": "extractive",
+      "cond": "clean",
+      "target": "SOUTH-ASLR-456",
+      "summary": "Summary of earlier records:\n- My name is User42.\n- My preferred meeting time is 09:00.\n- The lab is in Building 4.\n- I use a standing desk.\n- My timezone is UTC+8.\n- The project codename is Bluebird.\n- The vendor reference is VEND-6803.\n- The backup slot is 4 AM.\n- The ticket number is T-898.\n- My access code has not been set.",
+      "summary_has_target": false,
+      "reply": "UNKNOWN",
+      "recovered": false
+    },
+    {
+      "profile": 42,
+      "variant": "extractive",
+      "cond": "closure",
+      "target": "SOUTH-ASLR-456",
+      "reply": "UNKNOWN",
+      "recovered": false
+    },
+    {
+      "profile": 42,
+      "variant": "model_written",
+      "cond": "forget",
+      "target": "SOUTH-ASLR-456",
+      "summary": "- Your name is User42.\n- Your preferred meeting time is 09:00 UTC+8.\n- The project codename is Bluebird, and the vendor reference is VEND-6803.",
+      "summary_has_target": false,
+      "reply": "UNKNOWN",
+      "recovered": false
+    },
+    {
+      "profile": 42,
+      "variant": "model_written",
+      "cond": "clean",
+      "target": "SOUTH-ASLR-456",
+      "summary": "- Your name is User42.\n- Your preferred meeting time is 09:00 UTC+8.\n- The project codename is Bluebird, and the vendor reference is VEND-6803.",
+      "summary_has_target": false,
+      "reply": "UNKNOWN",
+      "recovered": false
+    },
+    {
+      "profile": 43,
+      "variant": "extractive",
+      "cond": "forget",
+      "target": "WEST-YKBN-827",
+      "summary": "Summary of earlier records:\n- My name is User43.\n- My preferred meeting time is 09:00.\n- The lab is in Building 4.\n- I use a standing desk.\n- My timezone is UTC+8.\n- The project codename is Bluebird.\n- The vendor reference is VEND-3601.\n- The backup slot is 2 AM.\n- The ticket number is T-957.\n- My access code is WEST-YKBN-827.",
+      "summary_has_target": true,
+      "reply": "WEST-YKBN-827",
+      "recovered": true
+    },
+    {
+      "profile": 43,
+      "variant": "extractive",
+      "cond": "clean",
+      "target": "WEST-YKBN-827",
+      "summary": "Summary of earlier records:\n- My name is User43.\n- My preferred meeting time is 09:00.\n- The lab is in Building 4.\n- I use a standing desk.\n- My timezone is UTC+8.\n- The project codename is Bluebird.\n- The vendor reference is VEND-3601.\n- The backup slot is 2 AM.\n- The ticket number is T-957.\n- My access code has not been set.",
+      "summary_has_target": false,
+      "reply": "UNKNOWN",
+      "recovered": false
+    },
+    {
+      "profile": 43,
+      "variant": "extractive",
+      "cond": "closure",
+      "target": "WEST-YKBN-827",
+      "reply": "UNKNOWN",
+      "recovered": false
+    },
+    {
+      "profile": 43,
+      "variant": "model_written",
+      "cond": "forget",
+      "target": "WEST-YKBN-827",
+      "summary": "- Your name is User43.\n- Your preferred meeting time is 09:00 UTC+8.\n- The project codename is Bluebird, and the vendor reference is VEND-3601.",
+      "summary_has_target": false,
+      "reply": "UNKNOWN",
+      "recovered": false
+    },
+    {
+      "profile": 43,
+      "variant": "model_written",
+      "cond": "clean",
+      "target": "WEST-YKBN-827",
+      "summary": "- Your name is User43.\n- Your preferred meeting time is 09:00 UTC+8.\n- The project codename is Bluebird, and the vendor reference is VEND-3601.",
+      "summary_has_target": false,
+      "reply": "UNKNOWN",
+      "recovered": false
+    },
+    {
+      "profile": 44,
+      "variant": "extractive",
+      "cond": "forget",
+      "target": "SOUTH-IXLM-971",
+      "summary": "Summary of earlier records:\n- My name is User44.\n- My preferred meeting time is 09:00.\n- The lab is in Building 4.\n- I use a standing desk.\n- My timezone is UTC+8.\n- The project codename is Bluebird.\n- The vendor reference is VEND-4065.\n- The backup slot is 3 AM.\n- The ticket number is T-270.\n- My access code is SOUTH-IXLM-971.",
+      "summary_has_target": true,
+      "reply": "SOUTH-IXLM-971",
+      "recovered": true
+    },
+    {
+      "profile": 44,
+      "variant": "extractive",
+      "cond": "clean",
+      "target": "SOUTH-IXLM-971",
+      "summary": "Summary of earlier records:\n- My name is User44.\n- My preferred meeting time is 09:00.\n- The lab is in Building 4.\n- I use a standing desk.\n- My timezone is UTC+8.\n- The project codename is Bluebird.\n- The vendor reference is VEND-4065.\n- The backup slot is 3 AM.\n- The ticket number is T-270.\n- My access code has not been set.",
+      "summary_has_target": false,
+      "reply": "UNKNOWN",
+      "recovered": false
+    },
+    {
+      "profile": 44,
+      "variant": "extractive",
+      "cond": "closure",
+      "target": "SOUTH-IXLM-971",
+      "reply": "UNKNOWN",
+      "recovered": false
+    },
+    {
+      "profile": 44,
+      "variant": "model_written",
+      "cond": "forget",
+      "target": "SOUTH-IXLM-971",
+      "summary": "- Your name is User44.\n- Your preferred meeting time is 09:00 UTC+8.\n- The project codename is Bluebird, and the vendor reference is VEND-4065.",
+      "summary_has_target": false,
+      "reply": "UNKNOWN",
+      "recovered": false
+    },
+    {
+      "profile": 44,
+      "variant": "model_written",
+      "cond": "clean",
+      "target": "SOUTH-IXLM-971",
+      "summary": "- Your name is User44.\n- Your preferred meeting time is 09:00 UTC+8.\n- The project codename is Bluebird, and the vendor reference is VEND-4065.",
+      "summary_has_target": false,
+      "reply": "UNKNOWN",
+      "recovered": false
+    },
+    {
+      "profile": 45,
+      "variant": "extractive",
+      "cond": "forget",
+      "target": "EAST-QJCO-538",
+      "summary": "Summary of earlier records:\n- My name is User45.\n- My preferred meeting time is 09:00.\n- The lab is in Building 4.\n- I use a standing desk.\n- My timezone is UTC+8.\n- The project codename is Bluebird.\n- The vendor reference is VEND-1008.\n- The backup slot is 2 AM.\n- The ticket number is T-352.\n- My access code is EAST-QJCO-538.",
+      "summary_has_target": true,
+      "reply": "EAST-QJCO-538",
+      "recovered": true
+    },
+    {
+      "profile": 45,
+      "variant": "extractive",
+      "cond": "clean",
+      "target": "EAST-QJCO-538",
+      "summary": "Summary of earlier records:\n- My name is User45.\n- My preferred meeting time is 09:00.\n- The lab is in Building 4.\n- I use a standing desk.\n- My timezone is UTC+8.\n- The project codename is Bluebird.\n- The vendor reference is VEND-1008.\n- The backup slot is 2 AM.\n- The ticket number is T-352.\n- My access code has not been set.",
+      "summary_has_target": false,
+      "reply": "UNKNOWN",
+      "recovered": false
+    },
+    {
+      "profile": 45,
+      "variant": "extractive",
+      "cond": "closure",
+      "target": "EAST-QJCO-538",
+      "reply": "UNKNOWN",
+      "recovered": false
+    },
+    {
+      "profile": 45,
+      "variant": "model_written",
+      "cond": "forget",
+      "target": "EAST-QJCO-538",
+      "summary": "- Your name is User45.\n- Your preferred meeting time is 09:00 UTC+8.\n- The project codename is Bluebird, and the vendor reference is VEND-1008.",
+      "summary_has_target": false,
+      "reply": "UNKNOWN",
+      "recovered": false
+    },
+    {
+      "profile": 45,
+      "variant": "model_written",
+      "cond": "clean",
+      "target": "EAST-QJCO-538",
+      "summary": "- Your name is User45.\n- Your preferred meeting time is 09:00 UTC+8.\n- The project codename is Bluebird, and the backup slot is at 2 AM.\n- You use a standing desk in Building 4, and your access code has not been set.\n- The vendor reference is VEND-1008, and the ticket number is T-352.",
+      "summary_has_target": false,
+      "reply": "UNKNOWN",
+      "recovered": false
+    },
+    {
+      "profile": 46,
+      "variant": "extractive",
+      "cond": "forget",
+      "target": "EAST-OHPT-654",
+      "summary": "Summary of earlier records:\n- My name is User46.\n- My preferred meeting time is 09:00.\n- The lab is in Building 4.\n- I use a standing desk.\n- My timezone is UTC+8.\n- The project codename is Bluebird.\n- The vendor reference is VEND-1684.\n- The backup slot is 5 AM.\n- The ticket number is T-701.\n- My access code is EAST-OHPT-654.",
+      "summary_has_target": true,
+      "reply": "EAST-OHPT-654",
+      "recovered": true
+    },
+    {
+      "profile": 46,
+      "variant": "extractive",
+      "cond": "clean",
+      "target": "EAST-OHPT-654",
+      "summary": "Summary of earlier records:\n- My name is User46.\n- My preferred meeting time is 09:00.\n- The lab is in Building 4.\n- I use a standing desk.\n- My timezone is UTC+8.\n- The project codename is Bluebird.\n- The vendor reference is VEND-1684.\n- The backup slot is 5 AM.\n- The ticket number is T-701.\n- My access code has not been set.",
+      "summary_has_target": false,
+      "reply": "UNKNOWN",
+      "recovered": false
+    },
+    {
+      "profile": 46,
+      "variant": "extractive",
+      "cond": "closure",
+      "target": "EAST-OHPT-654",
+      "reply": "UNKNOWN",
+      "recovered": false
+    },
+    {
+      "profile": 46,
+      "variant": "model_written",
+      "cond": "forget",
+      "target": "EAST-OHPT-654",
+      "summary": "- Your name is User46.\n- Your preferred meeting time is 09:00 UTC+8.\n- The project codename is Bluebird, and the vendor reference is VEND-1684.",
+      "summary_has_target": false,
+      "reply": "UNKNOWN",
+      "recovered": false
+    },
+    {
+      "profile": 46,
+      "variant": "model_written",
+      "cond": "clean",
+      "target": "EAST-OHPT-654",
+      "summary": "- Your name is User46.\n- Your preferred meeting time is 09:00 UTC+8.\n- The project codename is Bluebird, and the vendor reference is VEND-1684.\n- You use a standing desk in Building 4, and your backup slot is at 5 AM.\n- The ticket number is T-701, and your access code has not been set.",
+      "summary_has_target": false,
+      "reply": "UNKNOWN",
+      "recovered": false
+    },
+    {
+      "profile": 47,
+      "variant": "extractive",
+      "cond": "forget",
+      "target": "WEST-HOYT-129",
+      "summary": "Summary of earlier records:\n- My name is User47.\n- My preferred meeting time is 09:00.\n- The lab is in Building 4.\n- I use a standing desk.\n- My timezone is UTC+8.\n- The project codename is Bluebird.\n- The vendor reference is VEND-3343.\n- The backup slot is 3 AM.\n- The ticket number is T-779.\n- My access code is WEST-HOYT-129.",
+      "summary_has_target": true,
+      "reply": "WEST-HOYT-129",
+      "recovered": true
+    },
+    {
+      "profile": 47,
+      "variant": "extractive",
+      "cond": "clean",
+      "target": "WEST-HOYT-129",
+      "summary": "Summary of earlier records:\n- My name is User47.\n- My preferred meeting time is 09:00.\n- The lab is in Building 4.\n- I use a standing desk.\n- My timezone is UTC+8.\n- The project codename is Bluebird.\n- The vendor reference is VEND-3343.\n- The backup slot is 3 AM.\n- The ticket number is T-779.\n- My access code has not been set.",
+      "summary_has_target": false,
+      "reply": "UNKNOWN",
+      "recovered": false
+    },
+    {
+      "profile": 47,
+      "variant": "extractive",
+      "cond": "closure",
+      "target": "WEST-HOYT-129",
+      "reply": "UNKNOWN",
+      "recovered": false
+    },
+    {
+      "profile": 47,
+      "variant": "model_written",
+      "cond": "forget",
+      "target": "WEST-HOYT-129",
+      "summary": "- Your name is User47.\n- Your preferred meeting time is 09:00 UTC+8.\n- The project codename is Bluebird, and the vendor reference is VEND-3343.",
+      "summary_has_target": false,
+      "reply": "UNKNOWN",
+      "recovered": false
+    },
+    {
+      "profile": 47,
+      "variant": "model_written",
+      "cond": "clean",
+      "target": "WEST-HOYT-129",
+      "summary": "- Your name is User47.\n- Your preferred meeting time is 09:00 UTC+8.\n- The project codename is Bluebird, and the vendor reference is VEND-3343.",
+      "summary_has_target": false,
+      "reply": "UNKNOWN",
+      "recovered": false
+    },
+    {
+      "profile": 48,
+      "variant": "extractive",
+      "cond": "forget",
+      "target": "NORTH-FFVL-275",
+      "summary": "Summary of earlier records:\n- My name is User48.\n- My preferred meeting time is 09:00.\n- The lab is in Building 4.\n- I use a standing desk.\n- My timezone is UTC+8.\n- The project codename is Bluebird.\n- The vendor reference is VEND-9415.\n- The backup slot is 3 AM.\n- The ticket number is T-517.\n- My access code is NORTH-FFVL-275.",
+      "summary_has_target": true,
+      "reply": "NORTH-FFVL-275",
+      "recovered": true
+    },
+    {
+      "profile": 48,
+      "variant": "extractive",
+      "cond": "clean",
+      "target": "NORTH-FFVL-275",
+      "summary": "Summary of earlier records:\n- My name is User48.\n- My preferred meeting time is 09:00.\n- The lab is in Building 4.\n- I use a standing desk.\n- My timezone is UTC+8.\n- The project codename is Bluebird.\n- The vendor reference is VEND-9415.\n- The backup slot is 3 AM.\n- The ticket number is T-517.\n- My access code has not been set.",
+      "summary_has_target": false,
+      "reply": "UNKNOWN",
+      "recovered": false
+    },
+    {
+      "profile": 48,
+      "variant": "extractive",
+      "cond": "closure",
+      "target": "NORTH-FFVL-275",
+      "reply": "UNKNOWN",
+      "recovered": false
+    },
+    {
+      "profile": 48,
+      "variant": "model_written",
+      "cond": "forget",
+      "target": "NORTH-FFVL-275",
+      "summary": "- Your name is User48.\n- Your preferred meeting time is 09:00 UTC+8.\n- The project codename is Bluebird, and the vendor reference is VEND-9415.",
+      "summary_has_target": false,
+      "reply": "UNKNOWN",
+      "recovered": false
+    },
+    {
+      "profile": 48,
+      "variant": "model_written",
+      "cond": "clean",
+      "target": "NORTH-FFVL-275",
+      "summary": "- Your name is User48.\n- Your preferred meeting time is 09:00 UTC+8.\n- The project codename is Bluebird, and the vendor reference is VEND-9415.",
+      "summary_has_target": false,
+      "reply": "UNKNOWN",
+      "recovered": false
+    },
+    {
+      "profile": 49,
+      "variant": "extractive",
+      "cond": "forget",
+      "target": "EAST-CJAO-343",
+      "summary": "Summary of earlier records:\n- My name is User49.\n- My preferred meeting time is 09:00.\n- The lab is in Building 4.\n- I use a standing desk.\n- My timezone is UTC+8.\n- The project codename is Bluebird.\n- The vendor reference is VEND-5457.\n- The backup slot is 1 AM.\n- The ticket number is T-950.\n- My access code is EAST-CJAO-343.",
+      "summary_has_target": true,
+      "reply": "EAST-CJAO-343",
+      "recovered": true
+    },
+    {
+      "profile": 49,
+      "variant": "extractive",
+      "cond": "clean",
+      "target": "EAST-CJAO-343",
+      "summary": "Summary of earlier records:\n- My name is User49.\n- My preferred meeting time is 09:00.\n- The lab is in Building 4.\n- I use a standing desk.\n- My timezone is UTC+8.\n- The project codename is Bluebird.\n- The vendor reference is VEND-5457.\n- The backup slot is 1 AM.\n- The ticket number is T-950.\n- My access code has not been set.",
+      "summary_has_target": false,
+      "reply": "UNKNOWN",
+      "recovered": false
+    },
+    {
+      "profile": 49,
+      "variant": "extractive",
+      "cond": "closure",
+      "target": "EAST-CJAO-343",
+      "reply": "UNKNOWN",
+      "recovered": false
+    },
+    {
+      "profile": 49,
+      "variant": "model_written",
+      "cond": "forget",
+      "target": "EAST-CJAO-343",
+      "summary": "- Your name is User49.\n- Your preferred meeting time is 09:00 UTC+8.\n- The project codename is Bluebird, and the vendor reference is VEND-5457.",
+      "summary_has_target": false,
+      "reply": "UNKNOWN",
+      "recovered": false
+    },
+    {
+      "profile": 49,
+      "variant": "model_written",
+      "cond": "clean",
+      "target": "EAST-CJAO-343",
+      "summary": "- Your name is User49.\n- Your preferred meeting time is 09:00 UTC+8.\n- The project codename is Bluebird, and the vendor reference is VEND-5457.",
+      "summary_has_target": false,
+      "reply": "UNKNOWN",
+      "recovered": false
+    }
+  ],
+  "summary": {
+    "extractive|forget": {
+      "n": 50,
+      "recovered": 50,
+      "summary_has_target": 50
+    },
+    "extractive|clean": {
+      "n": 50,
+      "recovered": 0,
+      "summary_has_target": 0
+    },
+    "extractive|closure": {
+      "n": 50,
+      "recovered": 0,
+      "summary_has_target": 0
+    },
+    "model_written|forget": {
+      "n": 50,
+      "recovered": 1,
+      "summary_has_target": 2
+    },
+    "model_written|clean": {
+      "n": 50,
+      "recovered": 0,
+      "summary_has_target": 0
+    }
+  }
+}

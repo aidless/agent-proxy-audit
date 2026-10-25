@@ -52,41 +52,59 @@ At a fixed age, an old page with three accesses 30 days ago scores **0.3412**
 (kept) while a 180-day-old unused page scores **0.0273** (evicted). The formula
 does what it says; what it does not do is let one access pin a page for years.
 
-### 2. Conservative conflict rules trade recall for precision
+### 2. Conservative conflict rules depend on the model
 
-20 synthetic fact pairs (8 true continuations, 12 negatives), Qwen2.5-7B:
+50 synthetic fact pairs (20 continuations, 30 negatives) across three local
+models, with two prompts:
 
-| Rule | True supersede | False supersede | Accuracy |
-|---|---|---|---|
-| Conservative (Hy-Memory-style) | 6/8 | **0/12** | 18/20 |
-| Permissive (same subject/topic) | 8/8 | 4/12 | 16/20 |
+| Model | Rule | True supersede | False supersede | Accuracy |
+|---|---|---|---|---|
+| qwen2.5:7b | conservative | 17/20 | 1/30 | 46/50 |
+| qwen2.5:7b | permissive | 19/20 | 17/30 | 32/50 |
+| llama3.1:8b | conservative | 19/20 | **0/30** | **49/50** |
+| llama3.1:8b | permissive | 20/20 | 9/30 | 41/50 |
+| gemma3:4b | conservative | **8/20** | 0/30 | 38/50 |
+| gemma3:4b | permissive | 19/20 | 3/30 | 46/50 |
 
-The conservative rule never merged a parallel task, but missed two subtle
-continuations (a preference update and an investigation that turned into a
-fix). The permissive rule caught all continuations and merged four parallel
-tasks. The false-merge cost is asymmetric: merging two sessions destroys their
-separate history, while a missed continuation leaves a redundant fact. This
-supports INSERT as the safe default, with a separate mechanism for preference
-updates.
+Aggregate: conservative **44/60** true and **1/90** false; permissive
+**58/60** true and **29/90** false.
+
+"Conservative" is not a property of the prompt; it is an interaction between
+prompt and model. The same rule missed 1/20 continuations on llama, 3/20 on
+qwen, and 12/20 on gemma (revision, extension, retry, update, verify). Under the
+permissive rule, false merges ranged from 3/30 (gemma) to 17/30 (qwen). The
+best operating point is model-specific; a deployment needs per-model
+calibration, and preference updates need a separate path (the conservative rule
+missed them on all three models). The initial 20-pair pilot
+(6/8 true, 0/12 false on qwen) agreed in direction but its rates did not survive
+the larger set.
 
 ### 3. Deletion residue depends on the summarizer
 
-Extending the AfterDeleteBench pilot to multi-record summaries, 10 profiles:
+Extending the AfterDeleteBench pilot to multi-record summaries, 50 profiles:
 
 | Variant | Condition | Recovered | Target in summary |
 |---|---|---|---|
-| Extractive summary | forget (source deleted, summary kept) | **10/10** | 10/10 |
-| Extractive summary | clean (never exposed) | **0/10** | 0/10 |
-| Extractive summary | closure (summary retired) | **0/10** | 0/10 |
-| Model-written summary | forget | **0/10** | **0/10** |
-| Model-written summary | clean | 0/10 | 0/10 |
+| Extractive summary | forget (source deleted, summary kept) | **50/50** | 50/50 |
+| Extractive summary | clean (never exposed) | **0/50** | 0/50 |
+| Extractive summary | closure (summary retired) | **0/50** | 0/50 |
+| Model-written summary | forget | **1/50** | **2/50** |
+| Model-written summary | clean | 0/50 | 0/50 |
 
 Extractive summaries preserve the deleted secret every time; provenance closure
-removes it every time. Qwen's own three-bullet summary omitted the secret in
-**10/10** cases, so recovery was zero. That is a property of one prompt, not a
-deletion guarantee: the same memory system can leak or not leak depending on how
-its summaries are written. Evaluate deletion at the memory-system level and
-distinguish "the summary happened to drop it" from "the mechanism removes it".
+removes it every time. A model-written three-bullet summary omitted the secret
+in 48/50 cases — but retained it twice and recovered it once. The two cases
+differ in a way that matters: profile 22's summary said "Your access code is
+SOUTH-IPAV-782" and the query recovered it; profile 29's summary said "their
+access code is SOUTH-KUWR-679" and the query returned `UNKNOWN`. Presence in a
+summary is not the same as recoverability; possessive and query wording are part
+of the measurement. The 10-profile pilot saw 0/10 model-written recovery; the
+larger run saw 1/50, a reminder that "zero in a small sample" is not zero.
+
+That is a property of one prompt, not a deletion guarantee: the same memory
+system can leak or not leak depending on how its summaries are written.
+Evaluate deletion at the memory-system level and distinguish "the summary
+happened to drop it" from "the mechanism removes it".
 
 ## Four borrowings for this repository
 

@@ -11,6 +11,7 @@ closure, model-written forget, model-written clean}. Local Qwen2.5-7B.
 """
 from __future__ import annotations
 
+import argparse
 import json
 import random
 import string
@@ -60,10 +61,15 @@ def score(reply: str, target: str) -> bool:
 
 
 def main() -> None:
-    model = "qwen2.5:7b"
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--model", default="qwen2.5:7b")
+    ap.add_argument("--profiles", type=int, default=10)
+    ap.add_argument("--out", default="results/afterdelete_hierarchical.json")
+    args = ap.parse_args()
+    model = args.model
     rng = random.Random(20261024)
     rows = []
-    for i in range(10):
+    for i in range(args.profiles):
         target = secret(rng)
         background = [
             f"My name is User{i:02d}.",
@@ -118,10 +124,9 @@ def main() -> None:
                 "recovered": sum(r["recovered"] for r in sel),
                 "summary_has_target": sum(r.get("summary_has_target", False) for r in sel),
             }
-    out = {"model": model, "profiles": 10, "rows": rows, "summary": summary}
-    Path("results").mkdir(exist_ok=True)
-    Path("results/afterdelete_hierarchical.json").write_text(
-        json.dumps(out, indent=2), encoding="utf-8")
+    out = {"model": model, "profiles": args.profiles, "rows": rows, "summary": summary}
+    Path(args.out).parent.mkdir(parents=True, exist_ok=True)
+    Path(args.out).write_text(json.dumps(out, indent=2), encoding="utf-8")
     print(json.dumps(summary, indent=2))
 
 
