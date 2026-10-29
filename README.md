@@ -66,6 +66,28 @@ python3 scripts/make_descriptive_tables.py
 # see README "What is measured vs assumed"
 ```
 
+## Verification of this repository
+
+This repository aggregates results from linked repos. The committed pilot
+records here can be checked offline:
+
+```bash
+# all replication JSON parses
+python3 - <<'CHECK'
+import json, pathlib
+for path in pathlib.Path("replications").rglob("*.json"):
+    json.loads(path.read_text())
+    print(path)
+CHECK
+
+# every replication script compiles
+python3 -m compileall -q replications
+
+# result-file hashes
+find replications -type f \( -name '*.json' -o -name '*.csv' \) -print0 \
+  | sort -z | xargs -0 sha256sum
+```
+
 ## License
 
 Code: MIT ([`LICENSE`](LICENSE)). Synthetic data and write-ups: CC BY 4.0 ([`DATA_LICENSE.md`](DATA_LICENSE.md)).
