@@ -66,6 +66,30 @@ python3 scripts/make_descriptive_tables.py
 # see README "What is measured vs assumed"
 ```
 
+## Install / Quickstart
+
+This repository has **zero third-party runtime dependencies** — `requirements.txt`
+documents that every import in the 8 (now 9) Python files resolves to the standard
+library or to a module inside this repo. To get a usable copy:
+
+```bash
+# no pip install needed; clone and run offline
+git clone https://github.com/aidless/agent-proxy-audit.git
+cd agent-proxy-audit
+python3 --version   # 3.11+ (README states this requirement)
+
+# verify the committed pilot records re-aggregate offline (no model/network)
+python3 replications/bench_reaggregate.py
+```
+
+Quickstart — the fastest way to see the repo's value is to re-aggregate the
+committed pilot results and confirm the README's headline numbers reproduce:
+
+```bash
+python3 replications/bench_reaggregate.py
+# 结果文件 7 个，共 724 行 → 重新聚合与已提交 summary 一致（0 不一致）
+```
+
 ## Verification of this repository
 
 This repository aggregates results from linked repos. The committed pilot
