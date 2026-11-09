@@ -1,5 +1,7 @@
 # Agent Proxy Audit
 
+[![CI](https://github.com/aidless/agent-proxy-audit/actions/workflows/static-checks.yml/badge.svg)](https://github.com/aidless/agent-proxy-audit/actions/workflows/static-checks.yml)
+
 **Do verification signals agree with what actually happened?**
 
 Three linked studies measure one gap: between *proxy reports* (approval-gate outputs, model self-verification assertions, resource-allocation models) and *persisted local effects*. Every guard studied here can report success while unauthorized effects land anyway — and a model asserting "I verified this" is just another proxy.
