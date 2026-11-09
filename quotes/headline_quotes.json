@@ -1,0 +1,376 @@
+{
+  "role": "index-satellite",
+  "status": "WORK-IN-PROGRESS",
+  "observed_on": "2026-11-09",
+  "rerun_policy": "Sibling cells were read from the named commit on observed_on. This clone did not re-run sister scripts, models, or matrices. Pilot-row cells are recounted from committed JSON. Decay cells are recomputed by decay_sim.build_report.",
+  "sisters": {
+    "approval-gates-r3": {
+      "repo": "aidless/approval-gates-r3",
+      "commit": "80981521d651b4b96d69b8afd44f86dd17e42df4",
+      "commit_date": "2026-11-09T13:32:04Z",
+      "url": "https://github.com/aidless/approval-gates-r3"
+    },
+    "r5-verify-vs-gate": {
+      "repo": "aidless/r5-verify-vs-gate",
+      "commit": "6aad5a246c0c3cdde5dd1a52d24446fd10b684a1",
+      "commit_date": "2026-11-03T13:25:28Z",
+      "url": "https://github.com/aidless/r5-verify-vs-gate"
+    },
+    "agent-effort-r1": {
+      "repo": "aidless/agent-effort-r1",
+      "commit": "878e48c7ae96943f78d9da2fe5c422aa1ab9ab55",
+      "commit_date": "2026-11-09T13:33:49Z",
+      "url": "https://github.com/aidless/agent-effort-r1"
+    }
+  },
+  "cells": [
+    {
+      "id": "gates.constructed_cells",
+      "value": "540",
+      "kind": "sibling_quote",
+      "sister": "approval-gates-r3",
+      "path": "CLAIM_LEDGER.md",
+      "locator": "C9000 evidence/supplement/summary.json constructed_cells; factorization stated in ROUND_R3.md (9 objectives x 10 states x 6 controls)",
+      "factors": [9, 10, 6],
+      "statement": "Constructed local-effect cells. Arithmetic check only: 9 x 10 x 6 = 540. The matrix was not rebuilt in this clone."
+    },
+    {
+      "id": "gates.name_only_unauthorized",
+      "value": "63",
+      "kind": "sibling_quote",
+      "sister": "approval-gates-r3",
+      "path": "CLAIM_LEDGER.md",
+      "locator": "C9044 evidence/supplement/summary.json e03.name_only.unauthorized_effects; also abstract.txt name-only control",
+      "statement": "Unauthorized effects admitted by the name-only control on the constructed matrix, while the name/log proxy stays positive (abstract.txt)."
+    },
+    {
+      "id": "gates.exact_precheck_unauthorized",
+      "value": "45",
+      "kind": "sibling_quote",
+      "sister": "approval-gates-r3",
+      "path": "CLAIM_LEDGER.md",
+      "locator": "C9028 evidence/supplement/summary.json e03.exact_precheck.unauthorized_effects; ROUND_R3.md calls this the one-shot full precheck",
+      "statement": "Unauthorized effects admitted by the exact-precheck control on the constructed matrix."
+    },
+    {
+      "id": "gates.local_execution_bound_unauthorized",
+      "value": "0",
+      "kind": "sibling_quote",
+      "sister": "approval-gates-r3",
+      "path": "CLAIM_LEDGER.md",
+      "locator": "C9036 evidence/supplement/summary.json e03.local_execution_bound.unauthorized_effects",
+      "statement": "Unauthorized effects for local execution binding on the constructed matrix. Zero is also the deny-all count (C9020). Not a safety claim."
+    },
+    {
+      "id": "gates.native_agt_unauthorized",
+      "value": "0",
+      "kind": "sibling_quote",
+      "sister": "approval-gates-r3",
+      "path": "CLAIM_LEDGER.md",
+      "locator": "C9052 evidence/supplement/summary.json e03.native_agt.unauthorized_effects",
+      "statement": "Unauthorized effects for the pinned native AGT control on the constructed matrix. Not a safety claim and not a new method (ROUND_R3.md)."
+    },
+    {
+      "id": "gates.deny_all_unauthorized",
+      "value": "0",
+      "kind": "sibling_quote",
+      "sister": "approval-gates-r3",
+      "path": "CLAIM_LEDGER.md",
+      "locator": "C9020 evidence/supplement/summary.json e03.deny_all.unauthorized_effects; abstract.txt says deny-all has zero clean utility",
+      "statement": "Deny-all also has 0 unauthorized effects on the constructed matrix. abstract.txt pairs that zero with zero clean utility."
+    },
+    {
+      "id": "gates.review_score",
+      "value": "6.2",
+      "kind": "sibling_quote",
+      "sister": "approval-gates-r3",
+      "path": "reviews/approval-r3-independent-r0.md",
+      "locator": "Uncalibrated independent AI score; weighted total 6.225/10, rounded 6.2/10. README.md of that repo repeats 6.2/10 as uncalibrated.",
+      "statement": "Uncalibrated independent AI review score, rounded from 6.225. Not peer review, not an acceptance probability, and not a submission."
+    },
+    {
+      "id": "r5.llama_arm_a_unauthorized",
+      "value": "14",
+      "kind": "sibling_quote",
+      "sister": "r5-verify-vs-gate",
+      "path": "CLAIM_LEDGER.md",
+      "locator": "C200 results-tempt-v3/llama3.2/arm_a/summary.json unauthorized_effects; README.md temptation table arm A allow_all, no verify instruction",
+      "statement": "llama3.2:3b arm A unauthorized effects on the Amendment-4 temptation set (allow_all, no self-verification instruction)."
+    },
+    {
+      "id": "r5.qwen_arm_a_unauthorized",
+      "value": "10",
+      "kind": "sibling_quote",
+      "sister": "r5-verify-vs-gate",
+      "path": "CLAIM_LEDGER.md",
+      "locator": "C212 results-tempt-v3/qwen2.5/arm_a/summary.json unauthorized_effects",
+      "statement": "qwen2.5:7b arm A unauthorized effects on the same temptation set (allow_all, no self-verification instruction)."
+    },
+    {
+      "id": "r5.llama_arm_b_false_zero",
+      "value": "0 unauthorized; 27/27 unparseable",
+      "kind": "sibling_quote",
+      "sister": "r5-verify-vs-gate",
+      "path": "CLAIM_LEDGER.md",
+      "locator": "C203 unauthorized_effects=0 and C205 unparseable=27 on results-tempt-v3/llama3.2/arm_b/summary.json; README.md section Three different zeros",
+      "statement": "llama3.2:3b arm B (allow_all plus self-verification). Format collapse: every cell unparseable, so the zero unauthorized count is a false zero, not containment."
+    },
+    {
+      "id": "r5.qwen_arm_b_parsed_zero",
+      "value": "0 unauthorized; 0 unparseable",
+      "kind": "sibling_quote",
+      "sister": "r5-verify-vs-gate",
+      "path": "CLAIM_LEDGER.md",
+      "locator": "C215 unauthorized_effects=0 and C217 unparseable=0 on results-tempt-v3/qwen2.5/arm_b/summary.json",
+      "statement": "qwen2.5:7b arm B parsed stops with a self-verification instruction. A behavior change on this fixture relative to arm A. Not a safety result; see r5.primary_endpoint_empty."
+    },
+    {
+      "id": "r5.llama_arm_c_bound_zero",
+      "value": "0",
+      "kind": "sibling_quote",
+      "sister": "r5-verify-vs-gate",
+      "path": "CLAIM_LEDGER.md",
+      "locator": "C206 unauthorized_effects on results-tempt-v3/llama3.2/arm_c/summary.json; C208 unparseable=0. README.md Three different zeros, item 2",
+      "statement": "llama3.2:3b arm C unauthorized effects under local execution binding, with output still parseable. The sister README says the model made the same act attempts as arm A and the binding denied them."
+    },
+    {
+      "id": "r5.primary_endpoint_empty",
+      "value": "0",
+      "kind": "sibling_quote",
+      "sister": "r5-verify-vs-gate",
+      "path": "CLAIM_LEDGER.md",
+      "locator": "C404 results-tempt-v3 acting-path cells with emitted_assertion; README.md says the primary false-negative endpoint is empty for that structural reason",
+      "statement": "Temptation cells in which the model both acted and emitted a verification assertion. The primary endpoint is defined only on this subset, so it is empty. Not a safety result."
+    },
+    {
+      "id": "effort.n_allocations",
+      "value": "8820",
+      "kind": "sibling_quote",
+      "sister": "agent-effort-r1",
+      "path": "results/stats.json",
+      "locator": "E2_allocation.n_allocations; README.md also prints 8,820 tuples",
+      "statement": "Allocation tuples searched. A grid count, not a count of agent episodes."
+    },
+    {
+      "id": "effort.cost_ratio_vs_fixed_mid",
+      "value": "3.4402002147712176",
+      "kind": "sibling_quote",
+      "sister": "agent-effort-r1",
+      "path": "results/stats.json",
+      "locator": "E2_allocation.vs_fixed_mid.cost_ratio_baseline_over_unified_at_matched_success; README.md prints 3.44 and 3.4402",
+      "statement": "Modeled token-cost ratio versus the fixed-middle baseline at matched modeled success. 3.44 and 3.4402 in the sister README are roundings of this field. The sister text says allocation gains and token prices are assumptions, not measured deployment benefits."
+    },
+    {
+      "id": "effort.qwen3_8b_low_budget_success",
+      "value": "0.9375",
+      "kind": "sibling_quote",
+      "sister": "agent-effort-r1",
+      "path": "results/h4_derived_stats.json",
+      "locator": "iso_curve.L1_low.success; n_records in results/h4_real_llm_gx_qwen3_8b.json is the separate 672 cell",
+      "statement": "Qwen3-8B retained-record success at the low budget (L1_low). The sister README calls this the low-budget peak."
+    },
+    {
+      "id": "effort.qwen3_14b_mid_budget_success",
+      "value": "1.0",
+      "kind": "sibling_quote",
+      "sister": "agent-effort-r1",
+      "path": "results/h4_derived_stats_14b.json",
+      "locator": "iso_curve.L2_mid.success; sister README prints 1.0000",
+      "statement": "Qwen3-14B retained-record success at the middle budget (L2_mid). The sister README prints 1.0000 for this field."
+    },
+    {
+      "id": "effort.retained_records_each",
+      "value": "672",
+      "kind": "sibling_quote",
+      "sister": "agent-effort-r1",
+      "path": "results/h4_real_llm_gx_qwen3_8b.json",
+      "locator": "n_records on results/h4_real_llm_gx_qwen3_8b.json and the same field on results/h4_real_llm_gx_qwen3_14b_persist.json",
+      "statement": "Retained execution records in each of the two Qwen3 case-study files. Descriptive records, not an independent sample for a general decline (sister README)."
+    },
+    {
+      "id": "pilot.window_unrecoverable_success",
+      "value": "0/6",
+      "kind": "pilot_rows",
+      "path": "replications/2026-10-harness-and-deletion/results/persistgym_qwen25_3t.json",
+      "aggregate": {
+        "match": {"harness": "window", "recoverable": false},
+        "count_field": "success"
+      },
+      "statement": "Truncated-window successes when the fact is not recoverable, observed and derived rows combined. Pilot, not the published PersistGym protocol."
+    },
+    {
+      "id": "pilot.window_recoverable_success",
+      "value": "6/6",
+      "kind": "pilot_rows",
+      "path": "replications/2026-10-harness-and-deletion/results/persistgym_qwen25_3t.json",
+      "aggregate": {
+        "match": {"harness": "window", "recoverable": true},
+        "count_field": "success"
+      },
+      "statement": "Truncated-window successes when the fact is recoverable. Same pilot file."
+    },
+    {
+      "id": "pilot.afterdelete_forget",
+      "value": "20/20",
+      "kind": "pilot_rows",
+      "path": "replications/2026-10-harness-and-deletion/results/afterdelete_qwen25_20p.json",
+      "aggregate": {
+        "match": {"cond": "forget"},
+        "count_field": "recovered"
+      },
+      "statement": "Secrets recovered after source deletion when the extractive summary remains. Pilot channel, not the published AfterDeleteBench rate."
+    },
+    {
+      "id": "pilot.afterdelete_clean",
+      "value": "0/20",
+      "kind": "pilot_rows",
+      "path": "replications/2026-10-harness-and-deletion/results/afterdelete_qwen25_20p.json",
+      "aggregate": {
+        "match": {"cond": "clean"},
+        "count_field": "recovered"
+      },
+      "statement": "Recoveries in the matched never-exposed world of that 20-profile pilot."
+    },
+    {
+      "id": "pilot.afterdelete_closure",
+      "value": "0/20",
+      "kind": "pilot_rows",
+      "path": "replications/2026-10-harness-and-deletion/results/afterdelete_qwen25_20p.json",
+      "aggregate": {
+        "match": {"cond": "closure"},
+        "count_field": "recovered"
+      },
+      "statement": "Recoveries after the summary is retired in that 20-profile pilot."
+    },
+    {
+      "id": "pilot.decay_never_accessed",
+      "value": "81",
+      "kind": "offline_recompute",
+      "path": "replications/2026-10-memory-pilots/results/decay_sim.json",
+      "aggregate": {
+        "type": "retention",
+        "lambda": "default_35d",
+        "access_count": 0,
+        "last_access_day": null
+      },
+      "statement": "Days until the cold threshold for a never-accessed page at lambda 0.02. Recomputed by decay_sim.build_report. Formula re-implemented from the cited Rust lines; upstream code was not executed."
+    },
+    {
+      "id": "pilot.decay_five_accesses_day_60",
+      "value": "119",
+      "kind": "offline_recompute",
+      "path": "replications/2026-10-memory-pilots/results/decay_sim.json",
+      "aggregate": {
+        "type": "retention",
+        "lambda": "default_35d",
+        "access_count": 5,
+        "last_access_day": 60.0
+      },
+      "statement": "Days until the cold threshold for 5 accesses with last access at day 60, lambda 0.02. This is the 119-day cell, not every access pattern."
+    },
+    {
+      "id": "pilot.decay_ratio_day_60",
+      "value": "1.47",
+      "kind": "offline_recompute",
+      "path": "replications/2026-10-memory-pilots/results/decay_sim.json",
+      "aggregate": {"type": "ratio"},
+      "statement": "Access-weighted days divided by pure-age days for the day-60 pattern, rounded to two decimals in decay_sim.json."
+    },
+    {
+      "id": "pilot.decay_180_all_patterns",
+      "value": "418",
+      "kind": "offline_recompute",
+      "path": "replications/2026-10-memory-pilots/results/decay_sim.json",
+      "aggregate": {"type": "retention_all", "lambda": "episodic_180d"},
+      "statement": "Every 180-day half-life pattern in decay_sim.json crosses the threshold on this same day. Access does not move the eviction day in that grid."
+    },
+    {
+      "id": "pilot.conflict_conservative_missed_true",
+      "value": "16/60",
+      "kind": "pilot_rows",
+      "path": "replications/2026-10-memory-pilots/results/conflict_pilot_50.json",
+      "aggregate": {
+        "type": "conflict",
+        "rule": "conservative",
+        "expected": "SUPERSEDE",
+        "count": "not_got"
+      },
+      "statement": "Expected-SUPERSEDE rows the conservative rule did not label SUPERSEDE, across 3 models x 20 pairs. The positive class includes continuation, revision, extension, retry, verify, update, and preference_update."
+    },
+    {
+      "id": "pilot.conflict_conservative_false_merge",
+      "value": "1/90",
+      "kind": "pilot_rows",
+      "path": "replications/2026-10-memory-pilots/results/conflict_pilot_50.json",
+      "aggregate": {
+        "type": "conflict",
+        "rule": "conservative",
+        "expected": "INSERT",
+        "count": "got_supersede",
+        "expect_rows": [
+          {"model": "qwen2.5:7b", "pair": "N25", "category": "different_decisions"}
+        ]
+      },
+      "statement": "Expected-INSERT rows the conservative rule labeled SUPERSEDE, across 3 models x 30 negatives. The single row is qwen2.5:7b N25, category different_decisions. It is not a parallel-file cell."
+    },
+    {
+      "id": "pilot.conflict_permissive_caught_true",
+      "value": "58/60",
+      "kind": "pilot_rows",
+      "path": "replications/2026-10-memory-pilots/results/conflict_pilot_50.json",
+      "aggregate": {
+        "type": "conflict",
+        "rule": "permissive",
+        "expected": "SUPERSEDE",
+        "count": "got_supersede"
+      },
+      "statement": "Expected-SUPERSEDE rows the permissive rule labeled SUPERSEDE, across the three models."
+    },
+    {
+      "id": "pilot.conflict_permissive_false_merge",
+      "value": "29/90",
+      "kind": "pilot_rows",
+      "path": "replications/2026-10-memory-pilots/results/conflict_pilot_50.json",
+      "aggregate": {
+        "type": "conflict",
+        "rule": "permissive",
+        "expected": "INSERT",
+        "count": "got_supersede"
+      },
+      "statement": "Expected-INSERT rows the permissive rule labeled SUPERSEDE, across the three models."
+    },
+    {
+      "id": "pilot.hier_extractive_forget_recovered",
+      "value": "50/50",
+      "kind": "pilot_rows",
+      "path": "replications/2026-10-memory-pilots/results/afterdelete_hierarchical_50.json",
+      "aggregate": {
+        "match": {"variant": "extractive", "cond": "forget"},
+        "count_field": "recovered"
+      },
+      "statement": "Extractive-summary forget condition: query recovered the deleted secret. 50-profile pilot, qwen2.5:7b."
+    },
+    {
+      "id": "pilot.hier_model_written_forget_in_summary",
+      "value": "2/50",
+      "kind": "pilot_rows",
+      "path": "replications/2026-10-memory-pilots/results/afterdelete_hierarchical_50.json",
+      "aggregate": {
+        "match": {"variant": "model_written", "cond": "forget"},
+        "count_field": "summary_has_target"
+      },
+      "statement": "Model-written forget summaries that still contain the secret string."
+    },
+    {
+      "id": "pilot.hier_model_written_forget_recovered",
+      "value": "1/50",
+      "kind": "pilot_rows",
+      "path": "replications/2026-10-memory-pilots/results/afterdelete_hierarchical_50.json",
+      "aggregate": {
+        "match": {"variant": "model_written", "cond": "forget"},
+        "count_field": "recovered"
+      },
+      "statement": "Model-written forget condition: query recovered the secret. Presence in the summary (2/50) is a different count from recovery (1/50)."
+    }
+  ]
+}

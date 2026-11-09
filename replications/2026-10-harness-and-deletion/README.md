@@ -9,6 +9,11 @@ Qwen2.5-7B-Instruct via Ollama, small samples, no pre-registration, and a much
 smaller context window than the papers use. Directional agreement is the claim;
 the published rates are not.
 
+Paper rates in the close readings below are October 2026 notes. They are not
+rows in [`quotes/headline_quotes.json`](../../quotes/headline_quotes.json), and
+`scripts/check_index.py` does not re-read the PDFs. Pilot tables later in this
+file are recounted from the committed JSON when they appear in that ledger.
+
 ## Papers read
 
 ### 1. *When the harness decides success: state that cannot be re-observed* (arXiv:2610.26632, 2026-10-19)

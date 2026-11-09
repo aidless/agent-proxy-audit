@@ -1,5 +1,9 @@
 # Same conservative prompt, three operating points
 
+The counts below repeat the memory-pilot records.
+`scripts/check_index.py` recounts the result JSON and does not parse this note.
+If this note and the JSON disagree, the JSON is the record.
+
 **English TL;DR:** I gave three local models the same "supersede only on task
 continuation" prompt and 50 labeled fact pairs. The operating points did not
 match: Llama3.1-8B scored 19/20 true supersedes with 0/30 false merges,

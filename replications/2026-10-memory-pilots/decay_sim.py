@@ -50,7 +50,8 @@ def days_until_cold(access_count: int, access_day: float | None,
     return None
 
 
-def main() -> None:
+def build_report() -> dict:
+    """Return the decay report. No file writes, so a check can recompute it."""
     lam_default = 0.02          # ~35-day half-life
     lam_180 = math.log(2) / 180  # episodic 180-day half-life (design-decisions.md:140)
     rows = []
@@ -74,7 +75,7 @@ def main() -> None:
         "new_but_unused_10d": round(score(10, 0, None, lam_default), 4),
         "old_and_unused_180d": round(score(180, 0, None, lam_default), 4),
     }
-    out = {
+    return {
         "formula": "salience*exp(-lambda*age)+sigma*ln(1+access)*exp(-mu*days_since_access)",
         "parameters": {"salience": SALIENCE, "sigma": SIGMA, "mu": MU,
                        "threshold": THRESHOLD},
@@ -87,6 +88,10 @@ def main() -> None:
         },
         "comparison_at_fixed_age": comparison,
     }
+
+
+def main() -> None:
+    out = build_report()
     Path("results").mkdir(exist_ok=True)
     Path("results/decay_sim.json").write_text(json.dumps(out, indent=2), encoding="utf-8")
     print(json.dumps(out, indent=2))
