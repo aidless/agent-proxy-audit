@@ -1,5 +1,9 @@
 # Related systems and memory pilots (Oct 2026)
 
+Counts that also appear in [`quotes/headline_quotes.json`](../quotes/headline_quotes.json)
+are pinned there. This page is not parsed by `scripts/check_index.py`. If a
+sentence here disagrees with a result JSON file, the JSON is the record.
+
 Four open-source systems read in October 2026, plus three small pilots that
 test mechanisms they implement. The systems were read, not installed; the pilots
 use a local Qwen2.5-7B and synthetic data. This page is a comparison and a set
@@ -125,8 +129,10 @@ harness-induced success (`arXiv:2610.26632`) and post-deletion residue
 
 ## Limits
 
-- One local model, one prompt per condition, 10–20 synthetic examples; no
-  meaningful confidence intervals.
+- The scaled conflict run is 50 pairs, three local models, and two prompts.
+  The scaled deletion run is 50 profiles on `qwen2.5:7b` only. The earlier
+  20-pair and 10-profile pilots remain in the results directory and are not
+  the headline. This page does not report confidence intervals.
 - No upstream code was installed or executed. The decay formula was
   re-implemented from the Rust source; the conflict prompt is a paraphrase.
 - Upstream benchmark claims (context reduction, harness gains, memory

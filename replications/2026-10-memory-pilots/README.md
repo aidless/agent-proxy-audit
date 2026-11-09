@@ -1,5 +1,11 @@
 # Memory-mechanism pilots (Oct 2026)
 
+Aggregates that appear in the root quoted-cell table are recounted from the
+result JSON by `scripts/check_index.py`. Upstream line citations, and any rate
+that is not in [`quotes/headline_quotes.json`](../../quotes/headline_quotes.json),
+are close readings. That script does not re-audit them. If this note and a
+result file disagree, the JSON is the record.
+
 Three small pilots derived from reading `ai-memory` and `Hy-Memory`, plus an
 extension of the AfterDeleteBench replication. Local models via Ollama;
 synthetic data. These are **directional checks**, not validation of either

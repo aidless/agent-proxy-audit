@@ -1,5 +1,6 @@
 # aidless/agent-proxy-audit — no third-party runtime dependencies
 #
-# Verified by scanning all 8 Python files in this repo: every import resolves to
+# Verified by reading the imports in this repo: every import resolves to
 # the standard library or to a module inside this repository.
+# scripts/check_index.py is the offline check and uses the standard library only.
 # Keep this file: it makes the absence of dependencies explicit instead of implicit.
