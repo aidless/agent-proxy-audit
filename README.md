@@ -6,6 +6,29 @@
 
 Three linked studies measure one gap: between *proxy reports* (approval-gate outputs, model self-verification assertions, resource-allocation models) and *persisted local effects*. Every guard studied here can report success while unauthorized effects land anyway — and a model asserting "I verified this" is just another proxy.
 
+The three studies and how they relate (drawn from the table below; each proxy is a different layer, the measured side is always persisted local state):
+
+```mermaid
+flowchart TB
+    GAP["the shared gap:<br/>proxy report vs persisted local effect"]
+    subgraph S1["study 1 · approval-gates-r3 (retrospective audit)"]
+        P1["PROXY: external approval gate<br/>name-check pass, one-shot full precheck"]
+        E1["MEASURED: 540-cell constructed matrix<br/>(9 objectives × 10 states × 6 controls)<br/>63 / 45 unauthorized effects land anyway;<br/>local bound-control and native AGT both 0"]
+    end
+    subgraph S2["study 2 · r5-verify-vs-gate (pre-registered)"]
+        P2["PROXY: model-internal self-verification<br/>assertion of a local LLM"]
+        E2["MEASURED: 2 models × 4 arms — 14 (llama3.2:3b)<br/>and 10 (qwen2.5:7b) unauthorized without gate;<br/>gate-arm zeros are 27/27 format collapse<br/>= false zero, not safety"]
+    end
+    subgraph S3["study 3 · agent-effort-r1 (descriptive)"]
+        P3["PROXY: optimal allocation model<br/>(modeled token-cost ratio 3.44× from<br/>8,820-tuple search)"]
+        E3["MEASURED: 8B best at the LOW budget (0.9375),<br/>14B at the MID (1.0000);<br/>672 retained execution records each"]
+    end
+    GAP --- S1
+    GAP --- S2
+    GAP --- S3
+    S1 & S2 & S3 --- SIG["shared method signature:<br/>pre-registration + dated amendments,<br/>frozen blind checkers, SHA-256 evidence manifests,<br/>negative results and false zeros recorded, not dropped"]
+```
+
 | Study | Question | Headline result | Status | Repo |
 |---|---|---|---|---|
 | **approval-gates-r3** | Do external approval gates' clean reports match persisted effects? | 540-cell constructed matrix (9 objectives × 10 states × 6 controls): name-check passes **63** unauthorized effects, one-shot full precheck **45**; local bound-control and native AGT both **0** | retrospective audit; independent retro grade 6.2/10, not submitted | [approval-gates-r3](https://github.com/aidless/approval-gates-r3) |
