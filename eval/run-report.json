@@ -1,0 +1,129 @@
+{
+ "total": 20,
+ "passed": 20,
+ "failed": 0,
+ "selftest": false,
+ "failed_by_axis": {},
+ "results": [
+  {
+   "id": "APA-01",
+   "axis": "reagg/conflict50",
+   "ok": true,
+   "detail": "300"
+  },
+  {
+   "id": "APA-02",
+   "axis": "reagg/conflict50",
+   "ok": true,
+   "detail": "6"
+  },
+  {
+   "id": "APA-03",
+   "axis": "reagg/conflict50",
+   "ok": true,
+   "detail": "17/30"
+  },
+  {
+   "id": "APA-04",
+   "axis": "reagg/afterdelete",
+   "ok": true,
+   "detail": "250"
+  },
+  {
+   "id": "APA-05",
+   "axis": "reagg/afterdelete",
+   "ok": true,
+   "detail": "50"
+  },
+  {
+   "id": "APA-06",
+   "axis": "reagg/afterdelete",
+   "ok": true,
+   "detail": "20"
+  },
+  {
+   "id": "APA-07",
+   "axis": "reagg/persistgym",
+   "ok": true,
+   "detail": "24"
+  },
+  {
+   "id": "APA-08",
+   "axis": "reagg/persistgym",
+   "ok": true,
+   "detail": "3"
+  },
+  {
+   "id": "APA-09",
+   "axis": "reagg/persistgym",
+   "ok": true,
+   "detail": "8"
+  },
+  {
+   "id": "APA-10",
+   "axis": "data/conflict-pairs",
+   "ok": true,
+   "detail": "50"
+  },
+  {
+   "id": "APA-11",
+   "axis": "data/conflict-pairs",
+   "ok": true,
+   "detail": "20"
+  },
+  {
+   "id": "APA-12",
+   "axis": "data/conflict-pairs",
+   "ok": true,
+   "detail": "CC BY 4.0"
+  },
+  {
+   "id": "APA-13",
+   "axis": "data/deletion-profiles",
+   "ok": true,
+   "detail": "50"
+  },
+  {
+   "id": "APA-14",
+   "axis": "data/deletion-profiles",
+   "ok": true,
+   "detail": "20261024"
+  },
+  {
+   "id": "APA-15",
+   "axis": "data/deletion-profiles",
+   "ok": true,
+   "detail": "50"
+  },
+  {
+   "id": "APA-16",
+   "axis": "code/decay",
+   "ok": true,
+   "detail": "0.2"
+  },
+  {
+   "id": "APA-17",
+   "axis": "code/decay",
+   "ok": true,
+   "detail": "10"
+  },
+  {
+   "id": "APA-18",
+   "axis": "code/decay",
+   "ok": true,
+   "detail": "418"
+  },
+  {
+   "id": "APA-19",
+   "axis": "runner/aggregate",
+   "ok": true,
+   "detail": "724"
+  },
+  {
+   "id": "APA-20",
+   "axis": "runner/aggregate",
+   "ok": true,
+   "detail": "raised FileNotFoundError"
+  }
+ ]
+}

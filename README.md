@@ -137,6 +137,82 @@ find replications -type f \( -name '*.json' -o -name '*.csv' \) -print0 \
   | sort -z | xargs -0 sha256sum
 ```
 
+## Acceptance criteria, statistics, cost, and failure attribution
+
+**Acceptance criteria (enforced by `make eval`).** A commit is accepted only when
+`python3 eval/run_cases.py` reports **20/20** cases passed — pass_rate must be
+`>= 1.00`, any single failing case rejects the commit (exit 1) — and
+`python3 replications/bench_reaggregate.py` reports **0** files whose re-aggregated
+summary disagrees with the committed summary. The gate itself must be able to fail:
+`python3 eval/run_cases.py --selftest` tampers one expected value and must go red
+(at least 1 of 20 cases failing, exit 0); if it stays green the suite is decoration
+and the commit is rejected.
+
+**Sample size.** n = 724 replayed rows, summed over the 7 committed `results/*.json`
+files (`decay_sim.json` carries no `rows` and contributes 0; 7 files, 6 with rows).
+Per condition: n = 300 rows for `conflict_pilot_50.json` (50 pairs × 3 models × 2
+rules), n = 250 rows for `afterdelete_hierarchical_50.json` (50 profiles × 5
+variants), n = 60 rows for `afterdelete_qwen25_20p.json` (20 profiles × 3
+conditions), n = 24 rows for `persistgym_qwen25_3t.json` (3 templates × 8 cells × 1),
+n = 50 pairs / n = 50 profiles for the two committed datasets. Wilson 95% CI for the
+proportions quoted above: extractive|forget recovered 50/50 → 95% CI [0.929, 1.000];
+model_written|forget recovered 1/50 → 95% CI [0.004, 0.105]; `gemma3:4b|permissive`
+accuracy 46/50 → 95% CI [0.812, 0.968]; `qwen2.5:7b|conservative` true_supersede
+17/20 → 95% CI [0.640, 0.948] (denominator = the 20 SUPERSEDE-expected pairs, not
+all 50). These intervals are computed offline from the committed rows with the
+Wilson score formula, not estimated.
+
+**Cost / latency.** The verification path — everything `make eval` runs — makes no
+network and no model calls, so its measured cost is **$0.00** and no paid API is
+involved. (The pilot scripts that *produced* the committed rows, e.g.
+`replications/2026-10-memory-pilots/conflict_pilot_50.py:14`, do
+`OLLAMA = "http://localhost:11434/api/chat"` — local inference on this machine, no
+per-token price; the figures below cover the verification path only.) Wall clock,
+measured (7 consecutive runs):
+
+```bash
+# re-aggregation of all committed pilot results
+for i in $(seq 1 7); do python3 replications/bench_reaggregate.py --json \
+  | python3 -c 'import json,sys; print(json.load(sys.stdin)["elapsed_seconds"])'; done
+# → 0.006434 / 0.005809 / 0.004562 / 0.004712 / 0.006882 / 0.006283 / 0.006054
+#   min 0.004562 s, median 0.006054 s, max 0.006882 s for 7 files / 724 rows
+#   = 8.4 µs per row (0.006054 s ÷ 724)
+
+# case suite (20 cases, each re-loading the module and re-parsing a committed file)
+for i in $(seq 1 7); do /usr/bin/time -f "%e" python3 eval/run_cases.py >/dev/null; done
+# → 0.08 / 0.07 / 0.06 / 0.06 / 0.06 / 0.08 / 0.12  (median 0.07 s)
+```
+
+**Failure attribution.** Every case carries an `axis`; a failing run prints the
+`failed_by_axis` buckets and `--save` persists them to `eval/run-report.json`, so a
+red gate names the module that broke instead of only reporting a pass rate:
+
+| axis | owning module the failure points at |
+|---|---|
+| `reagg/conflict50`, `reagg/afterdelete`, `reagg/persistgym` | schema branch in `replications/bench_reaggregate.py:reaggregate()` for that pilot |
+| `data/conflict-pairs`, `data/deletion-profiles` | the committed dataset in `replications/2026-10-memory-pilots/data/` |
+| `code/decay` | `replications/2026-10-memory-pilots/decay_sim.py` → `results/decay_sim.json` |
+| `runner/aggregate` | the `eval/run_cases.py` harness itself (path/glob resolution) |
+
+**Recompute.** `python3 eval/run_cases.py --save` writes `eval/run-report.json` with
+per-case readings (id, axis, ok, detail); `python3 replications/bench_reaggregate.py`
+复算 every committed `summary` from its own `rows` and exits non-zero when a number
+drifted. Both paths are the only sources for the numbers above.
+
+**Provenance boundary — what is cited, what is our own.** The three headline results
+in the table at the top (63 / 45 unauthorized effects; 14 / 10 unauthorized effects;
+the 3.44× modeled token-cost ratio) are **quoted from the linked repos**
+(`approval-gates-r3`, `r5-verify-vs-gate`, `agent-effort-r1`) and were **not**
+re-run here — treat them as citations of those repos, with `source:` paths recorded
+there. The pilot numbers in this repository (20/20 recoverable, 0/20 never-exposed,
+50/50 extractive, 1/50 model-written, 46/50 accuracy and 17/20 true_supersede conflict cells) are **our own**
+runs and are backed by the committed `results/*.json` files listed above; the mermaid
+diagram is **author-drawn** for this README and is **not** reproduced from any paper.
+The two arXiv ids (2610.26632, 2610.31366) are the papers whose close readings live
+under `replications/2026-10-harness-and-deletion/`; we did **not** reproduce their
+published protocols at that scale — the folder states the gap, so protocol-level
+agreement is **N/A** here.
+
 ## License
 
 Code: MIT ([`LICENSE`](LICENSE)). Synthetic data and write-ups: CC BY 4.0 ([`DATA_LICENSE.md`](DATA_LICENSE.md)).
